@@ -1560,18 +1560,18 @@ textures/transit/evil6_trims_e6trim_bsrlight_s_nolight
 
 textures/transit/evil6_trims_e6trim_light_s_nolight
 {
-	qer_editorimage textures/transit/evil6_trims_e6trim_light
+	qer_editorimage textures/nexus6/e6trim_light
 	surfaceparm nomarks
 
 	{
-		map textures/transit/evil6_trims_e6trim_light
+		map textures/nexus6/e6trim_light
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/transit/evil6_trims_e6trim_light_blend
+		map textures/nexus6/e6trim_light_blend
 		blendfunc add
 	}
 }
@@ -2834,7 +2834,7 @@ q3map_tcGen ivector ( 2048 0 0 ) ( 0 2048 0 )
 
 // this sky must be compiled with Q3Map2 2.5.11 or later using -skyfix
 
-textures/transit/shaderlab_terrain_sky_s
+env/transit/sky
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
 	
@@ -2848,13 +2848,13 @@ textures/transit/shaderlab_terrain_sky_s
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	
-	skyparms textures/transit/shaderlab_terrain_env/sky 1024 -
+	skyparms env/arachnid2/sky 1024 -
 	
 	nopicmip
 	nomipmaps
 	
 	{
-		map textures/transit/shaderlab_terrain_sky_clouds
+		map textures/arachnid2/sky_clouds
 		tcMod scale 3 3
 		tcMod scroll 0.005 -0.0125
 		rgbGen identityLighting
@@ -3139,14 +3139,14 @@ textures/transit/stannum_transitterrain
 
 textures/transit/evil6_floor_e6grtfloorceil_s
 {
-	qer_editorimage textures/transit/evil6_floor_e6grtfloorceil
+	qer_editorimage textures/transit/evil6_floor_e6grtfloorceil_s
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/transit/evil6_floor_e6grtfloorceil
+		map textures/transit/evil6_floor_e6grtfloorceil_s
 		alphafunc GE128
 		depthwrite
 	}
@@ -3179,18 +3179,18 @@ textures/transit/evil6_floor_e6xgratebasic_b_s
 
 textures/transit/evil6_trims_e6trim_light_s_nolight
 {
-	qer_editorimage textures/transit/evil6_trims_e6trim_light
+	qer_editorimage textures/nexus6/e6trim_light
 	surfaceparm nomarks
 
 	{
-		map textures/transit/evil6_trims_e6trim_light
+		map textures/nexus6/e6trim_light
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/transit/evil6_trims_e6trim_light_blend
+		map textures/nexus6/e6trim_light_blend
 		blendfunc add
 	}
 }

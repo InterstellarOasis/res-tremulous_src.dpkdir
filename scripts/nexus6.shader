@@ -52,7 +52,7 @@ textures/nexus6/ladder
 
 textures/nexus6/proto_lightred_64_300
 {
-	qer_editorimage textures/nexus6/proto_lightred_64
+	qer_editorimage textures/niveus/proto_lightred_64
 	surfaceparm nomarks
 	q3map_surfacelight 300
 //	light 1
@@ -61,12 +61,12 @@ textures/nexus6/proto_lightred_64_300
 		rgbGen identity
 	}
 	{
-		map textures/nexus6/proto_lightred_64
+		map textures/niveus/proto_lightred_64
 		blendFunc filter
 		rgbGen identity
 	}
         {
-		map textures/nexus6/proto_lightred_64
+		map textures/niveus/proto_lightred_64
 		blendFunc add
 	}
 	
@@ -964,7 +964,7 @@ textures/nexus6/white_bulb_s
 
 textures/nexus6/cubelight_32_blue_s_5k
 {
-	qer_editorimage textures/nexus6/cubelight_32_blue
+	qer_editorimage textures/niveus/cubelight_32_blue
 	surfaceparm nomarks
 	q3map_surfacelight 5000
 	q3map_lightRGB .45 .45 1
@@ -973,19 +973,19 @@ textures/nexus6/cubelight_32_blue_s_5k
 		rgbGen identity
 	}
 	{
-		map textures/nexus6/cubelight_32_blue
+		map textures/niveus/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/nexus6/cubelight_32_blue.blend
+		map textures/niveus/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
 textures/nexus6/cubelight_32_blue_s_10k
 {
-	qer_editorimage textures/nexus6/cubelight_32_blue
+	qer_editorimage textures/niveus/cubelight_32_blue
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	q3map_lightRGB .45 .45 1
@@ -994,12 +994,12 @@ textures/nexus6/cubelight_32_blue_s_10k
 		rgbGen identity
 	}
 	{
-		map textures/nexus6/cubelight_32_blue
+		map textures/niveus/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/nexus6/cubelight_32_blue.blend
+		map textures/niveus/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1108,7 +1108,7 @@ textures/nexus6/slime_s
 
 textures/nexus6/e6bsegrtflr256_s
 {
-	qer_editorimage textures/nexus6/e6bsegrtflr256
+	qer_editorimage textures/tremor/e6bsegrtflr256
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nomarks
@@ -1116,7 +1116,7 @@ textures/nexus6/e6bsegrtflr256_s
 	cull none
 	nopicmip
 	{
-		map textures/nexus6/e6bsegrtflr256
+		map textures/tremor/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -1225,11 +1225,11 @@ textures/nexus6/flat_dk_nonsolid_s
 
 textures/nexus6/glass_02_s
 {
-	qer_editorimage textures/nexus6/scratchglass
+	qer_editorimage textures/niveus/scratchglass
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/nexus6/scratchglass
+		map textures/niveus/scratchglass
 		blendfunc add
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
@@ -1269,18 +1269,18 @@ textures/nexus6/glass_03_s
 
 textures/nexus6/glass_04_s
 {
-	qer_editorimage textures/nexus6/scratchglass
+	qer_editorimage textures/niveus/scratchglass
 	surfaceparm nomarks
 	surfaceparm trans
 	cull none
 	{
-		map textures/nexus6/scratchglass
+		map textures/niveus/scratchglass
 		blendfunc filter
 		rgbGen const ( 0.50 0.50 0.50 )
 //		rgbGen const ( 0.90 0.90 0.90 )
 	}
 	{
-		map textures/nexus6/scratchglass
+		map textures/niveus/scratchglass
 		blendfunc add
 		rgbGen const ( 0.4 0.4 0.4 )
 //		rgbGen const ( 0.05 0.05 0.05 )
@@ -1352,7 +1352,7 @@ textures/nexus6/mist_s
 	entityMergable
 	cull none
 	{
-		map textures/nexus6/mist
+		map textures/karith/mist
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		vertex
 		alphaGen	vertex
@@ -1364,7 +1364,7 @@ textures/nexus6/mist_red_s
 	entityMergable
 	cull none
 	{
-		map textures/nexus6/mist
+		map textures/karith/mist
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		const ( 1 0.65 0.65 )
 		alphaGen	vertex

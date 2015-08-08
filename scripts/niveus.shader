@@ -1,27 +1,27 @@
-textures/niveus/snowy_skybox_s
+env/niveus/snowy
 {
-	qer_editorimage env/niveus/snowy_bk
+	qer_editorimage env/karith/snowy_bk
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_surfacelight 50
 	q3map_sun 0.9 0.95 1 75 180 25
-	skyParms env/niveus/snowy - -
+	skyParms env/karith/snowy - -
 }
 
 models/mapobjects/niveus/computer
 {
-	qer_editorimage models/mapobjects/niveus/computer
+	qer_editorimage models/mapobjects/nexus6/computer
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map models/mapobjects/niveus/computer
+		map models/mapobjects/nexus6/computer
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map models/mapobjects/niveus/computer.blend
+		map models/mapobjects/nexus6/computer.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -70,7 +70,7 @@ textures/niveus/light_128x512_s
 
 textures/niveus/e6v_light_2k
 {
-	qer_editorimage textures/niveus/e6v_light
+	qer_editorimage textures/nexus6/e6v_light
 	surfaceparm nomarks
 	q3map_surfacelight 2000
 	{
@@ -78,12 +78,12 @@ textures/niveus/e6v_light_2k
 		rgbGen identity
 	}
 	{
-		map textures/niveus/e6v_light
+		map textures/nexus6/e6v_light
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/niveus/e6v_light.blend
+		map textures/nexus6/e6v_light_blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -153,7 +153,7 @@ textures/niveus/mist_s
 	entityMergable
 	cull none
 	{
-		map textures/niveus/mist
+		map textures/karith/mist
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		vertex
 		alphaGen	vertex
@@ -165,7 +165,7 @@ textures/niveus/mist_red_s
 	entityMergable
 	cull none
 	{
-		map textures/niveus/mist
+		map textures/karith/mist
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		const ( 1 0.65 0.65 )
 		alphaGen	vertex
@@ -174,12 +174,12 @@ textures/niveus/mist_red_s
 
 textures/niveus/fan_s
 {
-	qer_editorimage textures/niveus/fan
+	qer_editorimage textures/nexus6/fan
 	surfaceparm trans
 	surfaceparm slick
 	qer_trans 0.5
 	{
-		clampmap textures/niveus/fan
+		clampmap textures/nexus6/fan
 		tcMod rotate 250
 		depthWrite
 		alphaFunc GE128
@@ -194,11 +194,11 @@ textures/niveus/fan_s
 
 textures/niveus/trembru_s
 {
-	qer_editorimage textures/niveus/trembru
+	qer_editorimage textures/karith/trembru
 	surfaceparm nomarks
 	q3map_surfacelight 1500
 	{
-		map textures/niveus/trembru
+		map textures/karith/trembru
 	}
 	{
 		map $lightmap 
@@ -206,7 +206,7 @@ textures/niveus/trembru_s
 		tcGen lightmap 
 	}
 	{
-		map textures/niveus/trembru
+		map textures/karith/trembru
 		blendfunc add
 	}
 }
@@ -299,21 +299,21 @@ textures/niveus/tin_s
 
 textures/niveus/bulb_white_s
 {
-	qer_editorimage textures/niveus/bulb_white
+	qer_editorimage textures/nexus6/white_bulb
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	{
-		map textures/niveus/bulb_white
+		map textures/nexus6/white_bulb
 	}
 }
 
 textures/niveus/bulb_red_s
 {
-	qer_editorimage textures/niveus/bulb_red
+	qer_editorimage textures/atcs/bulb_red
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	{
-		map textures/niveus/bulb_red
+		map textures/atcs/bulb_red
 	}
 }
 
@@ -356,7 +356,7 @@ textures/niveus/spark_02_s
 	entityMergable
 	cull none
 	{
-		map textures/niveus/spark_02
+		map textures/nexus6/spark
 		blendFunc add
 		rgbGen		const ( 1 1 1 )
 		alphaGen	vertex
@@ -473,7 +473,7 @@ textures/niveus/window_v_glass_s
 
 textures/niveus/cubelight_32_white_10k
 {
-	qer_editorimage textures/niveus/cubelight_32_white
+	qer_editorimage textures/atcs/cubelight_32_white
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	{
@@ -481,19 +481,19 @@ textures/niveus/cubelight_32_white_10k
 		rgbGen identity
 	}
 	{
-		map textures/niveus/cubelight_32_white
+		map textures/atcs/cubelight_32_white
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/niveus/cubelight_32_white.blend
+		map textures/atcs/cubelight_32_white.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
 textures/niveus/cubelight_32_white_30k
 {
-	qer_editorimage textures/niveus/cubelight_32_white
+	qer_editorimage textures/atcs/cubelight_32_white
 	surfaceparm nomarks
 	q3map_surfacelight 30000
 	{
@@ -501,12 +501,12 @@ textures/niveus/cubelight_32_white_30k
 		rgbGen identity
 	}
 	{
-		map textures/niveus/cubelight_32_white
+		map textures/atcs/cubelight_32_white
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/niveus/cubelight_32_white.blend
+		map textures/atcs/cubelight_32_white.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -554,7 +554,7 @@ textures/niveus/wsupport12
 
 textures/niveus/flare_01
 {
-	qer_editorimage textures/niveus/flare_01
+	qer_editorimage textures/nexus6/flare_01
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -562,7 +562,7 @@ textures/niveus/flare_01
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/niveus/flare_01
+		map textures/nexus6/flare_01
 		blendfunc add
 	}
 }
@@ -599,7 +599,7 @@ textures/niveus/flare_red_01
 
 textures/niveus/flare_red_02
 {
-	qer_editorimage textures/niveus/flare_red_02
+	qer_editorimage textures/nexus6/flare_red_02
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -607,7 +607,7 @@ textures/niveus/flare_red_02
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/niveus/flare_red_02
+		map textures/nexus6/flare_red_02
 		blendfunc add
 	}
 }

@@ -142,7 +142,7 @@ textures/tremor/proto_lightred_nonsolid
 // by Veda, adapted by Godmil using a shader by Evillair 
 textures/tremor/light_flicker
 {
-	qer_editorimage textures/tremor/light_128x512
+	qer_editorimage textures/niveus/light_128x512
 	q3map_surfacelight 1500
 	q3map_lightStyle 1
 	{
@@ -151,7 +151,7 @@ textures/tremor/light_flicker
 		tcGen lightmap 
 	}
 	{
-		map textures/tremor/light_128x512
+		map textures/niveus/light_128x512
 		blendfunc GL_DST_COLOR GL_ZERO 
 		rgbGen identity
 	}
@@ -178,10 +178,10 @@ textures/tremor/e6basicstrip_blue_s_nolight
 //by Godmil & jex
 textures/tremor/e8_base1c_nonsolid
 {
-	qer_editorimage textures/tremor/e8_base1c
+	qer_editorimage textures/karith/e8_base1c
 	surfaceparm nonsolid
 	{
-		map textures/tremor/e8_base1c
+		map textures/karith/e8_base1c
 	}
 	{
 		map $lightmap
@@ -194,12 +194,12 @@ textures/tremor/e8_base1c_nonsolid
 //Please check out our mod site at http://www.og-world.com/bkp/
 textures/tremor/darkglass3
 {
-	qer_editorimage textures/tremor/trem2ref
+	qer_editorimage textures/niveus/trem2ref
 	qer_trans .5	
 	surfaceparm trans
 	cull disable
 		{
-		map textures/tremor/trem2ref
+		map textures/niveus/trem2ref
 		tcgen environment
 		blendfunc gl_one gl_one
 		rgbGen identity
@@ -240,9 +240,9 @@ textures/tremor/plainglass3
 {
 	surfaceparm nolightmap
 	cull none
-	qer_editorimage textures/tremor/plainglass
+	qer_editorimage textures/karith/plainglass
 	{
-		map textures/tremor/plainglass
+		map textures/karith/plainglass
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
     }

@@ -84,10 +84,10 @@ textures/karith/defaultmetal_s
 //by Godmil & jex
 textures/karith/e8warning128_nonsolid
 {
-	qer_editorimage textures/karith/e8warning128
+	qer_editorimage textures/transit/evil8_floor_e8warning128
 	surfaceparm nonsolid
 	{
-		map textures/karith/e8warning128
+		map textures/transit/evil8_floor_e8warning128
 	}
 	{
 		map $lightmap
@@ -197,13 +197,13 @@ textures/karith/e6drkbmetalscatched_nonsolid
 //evillairs white striplight, edited by godmil
 textures/karith/e6whitelight_nonsolid
 {
-	qer_editorimage textures/karith/e6basicstrip_white
+	qer_editorimage textures/nexus6/e6basicstrip_white
 	q3map_surfacelight 100
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/e6basicstrip_white
+		map textures/nexus6/e6basicstrip_white
 
 	}
 }
@@ -251,13 +251,13 @@ textures/karith/e6basicstrip_red_nonsolid
 //By Evillair, edited by godmil (unknown textures nicked frmo Nexus6)
 textures/karith/sq_light_orange_nonsolid
 {
-	qer_editorimage textures/karith/sq_light_orange
+	qer_editorimage textures/nexus6/sq_light_orange
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/sq_light_orange
+		map textures/nexus6/sq_light_orange
 	}
 }
 
@@ -562,28 +562,28 @@ textures/karith/e8tinylight_nonsolid
 //							//
 //****************************************************//
 //editted by Godmil
-textures/karith/snowy/snowy_skybox2
+env/karith/snowy
 {
-	qer_editorimage textures/karith/snowy/snowy
+	qer_editorimage env/karith/snowy_bk
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_surfacelight 40
 	q3map_sunExt 0.9 0.95 1 40 45 60 1.5 8
-	skyParms env/karith/snowy/snowy - -
+	skyParms env/karith/snowy - -
 }
 
 
 //by Evillair wee edit by Godmil
 textures/karith/e6whitestrip_nolight_nonsolid
 {
-	qer_editorimage textures/karith/e6basicstrip_white
+	qer_editorimage textures/nexus6/e6basicstrip_white
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	
 	{
-		map textures/karith/e6basicstrip_white
+		map textures/nexus6/e6basicstrip_white
 	}
 }
 
@@ -603,7 +603,7 @@ textures/karith/e6redstrip_nonsolid
 //By Evillair, edit by godmil
 textures/karith/e6bsegrtflr256_nonsolid
 {
-	qer_editorimage textures/karith/e6bsegrtflr256
+	qer_editorimage textures/tremor/e6bsegrtflr256
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -611,7 +611,7 @@ textures/karith/e6bsegrtflr256_nonsolid
 	cull none
 
 	{
-		map textures/karith/e6bsegrtflr256
+		map textures/tremor/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -701,7 +701,7 @@ textures/karith/eshinytin2
 {    
 qer_editorimage textures/karith/eshinytin
         { 
-                map textures/karith/trem2ref
+                map textures/niveus/trem2ref
                 tcGen environment 
 		rgbGen identity 
                 tcmod scale 0.55 1 
@@ -751,7 +751,7 @@ textures/karith/e8bgrate01b
 	surfaceparm metalsteps
 	cull disable
 	{
-		map textures/karith/e8bgrate01
+		map textures/niveus/e8bgrate01
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -768,11 +768,11 @@ textures/karith/e8bgrate01b
 //by Evillair -c2
 textures/karith/e8tinylightblue2
 {
-	qer_editorimage textures/karith/e8tinylightblue
+	qer_editorimage textures/nexus6/e8tinylightblue
 	surfaceparm nomarks
 	q3map_surfacelight 950
 	{
-		map textures/karith/e8tinylightblue
+		map textures/nexus6/e8tinylightblue
 	}
 	{
 		map $lightmap 
@@ -780,7 +780,7 @@ textures/karith/e8tinylightblue2
 		tcGen lightmap 
 	}
 	{
-		map textures/karith/e8tinylightblue.blend
+		map textures/nexus6/e8tinylightblue.blend
 		blendfunc add
 	}
 }
@@ -820,14 +820,14 @@ textures/karith/e8clangfloor05c2
 //by Evillair -c
 textures/karith/e6bsegrtflr256_s2
 {
-	qer_editorimage textures/karith/e6bsegrtflr256
+	qer_editorimage textures/tremor/e6bsegrtflr256
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/karith/e6bsegrtflr256
+		map textures/tremor/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -880,7 +880,7 @@ textures/karith/darkglass2
 
                       cull disable
                       {
-                      map textures/karith/trem2ref
+                      map textures/niveus/trem2ref
                       tcgen environment
                       blendfunc gl_one gl_one
                       rgbGen identity
@@ -933,7 +933,7 @@ textures/karith/tfloor_rndholes_drty_s2
 //by jex -c2
 textures/karith/e3grate_transt2
 {
-	qer_editorimage textures/karith/grt_offmtl
+	qer_editorimage textures/transit/evil3_floors_grt_offmtl
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm nomarks
@@ -942,7 +942,7 @@ textures/karith/e3grate_transt2
 	cull disable
 	nopicmip
 	{
-		map textures/karith/grt_offmtl
+		map textures/transit/evil3_floors_grt_offmtl
 		depthWrite
 		alphaFunc GE128
 	}
@@ -969,13 +969,13 @@ textures/karith/solidslick_s
 
 textures/karith/e6bgrateblack //from evil6 by Evillair
 {
-	qer_editorimage textures/karith/e6bsegrtflr256
+	qer_editorimage textures/tremor/e6bsegrtflr256
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/karith/e6bsegrtflr256
+		map textures/tremor/e6bsegrtflr256
 		rgbGen identity
 	}
 	{

@@ -117,8 +117,8 @@ textures/atcs/cubelight_32_blue_invis_s_15k
 	surfaceparm nomarks
 	surfaceparm noimpact
 	q3map_surfacelight 15000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend
-	qer_editorimage textures/atcs/cubelight_32_blue.blend
+	q3map_lightimage textures/niveus/cubelight_32_blue.blend
+	qer_editorimage textures/niveus/cubelight_32_blue.blend
 }
 
 textures/atcs/cubelight_32_red_invis_s_15k
@@ -159,19 +159,19 @@ textures/atcs/cubelight_32_blue_s_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend
-	qer_editorimage textures/atcs/cubelight_32_blue
+	q3map_lightimage textures/niveus/cubelight_32_blue.blend
+	qer_editorimage textures/niveus/cubelight_32_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue
+		map textures/niveus/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.blend
+		map textures/niveus/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -180,19 +180,19 @@ textures/atcs/cubelight_32_blue_s_15k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 15000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend
-	qer_editorimage textures/atcs/cubelight_32_blue
+	q3map_lightimage textures/niveus/cubelight_32_blue.blend
+	qer_editorimage textures/niveus/cubelight_32_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue
+		map textures/niveus/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.blend
+		map textures/niveus/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -201,19 +201,19 @@ textures/atcs/cubelight_32_blue_s_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend
-	qer_editorimage textures/atcs/cubelight_32_blue
+	q3map_lightimage textures/niveus/cubelight_32_blue.blend
+	qer_editorimage textures/niveus/cubelight_32_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue
+		map textures/niveus/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.blend
+		map textures/niveus/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
