@@ -5,7 +5,7 @@ tremor/tremorspark
   {
     particle
     {
-      shader sync textures/tremor/tremorspark1.tga
+      shader sync textures/tremor/tremorspark1
 
       displacement 0 0 0 0
 

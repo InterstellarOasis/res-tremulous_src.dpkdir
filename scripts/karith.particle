@@ -5,7 +5,7 @@ karith/lghtspark
   {
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
 
       displacement 0 0 0 ~2.0
 
@@ -32,7 +32,7 @@ karith/lghtspark
 
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
 
       displacement 0 0 0 ~2.0
 

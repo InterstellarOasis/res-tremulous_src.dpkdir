@@ -1,11 +1,11 @@
 textures/arachnid2/glass_02_s
 {
-	qer_editorimage textures/arachnid2/001metal.jpg
+	qer_editorimage textures/arachnid2/001metal
 	//surfaceparm nomarks
 	surfaceparm trans
 	cull none
 	{
-		map textures/arachnid2/001metal.jpg
+		map textures/arachnid2/001metal
 		blendfunc add
 		rgbGen const ( 0.05 0.05 0.07 )
 	}
@@ -20,7 +20,7 @@ textures/arachnid2/glass_02_s
 textures/arachnid2/planet_dis
 {
 	{
-		map textures/arachnid2/planet_dis.tga
+		map textures/arachnid2/planet_dis
 		blendfunc add
 		}
 }
@@ -28,38 +28,38 @@ textures/arachnid2/planet_dis
 textures/arachnid2/planet_dis_2
 {
 	{
-		map textures/arachnid2/planet_dis_2.tga
+		map textures/arachnid2/planet_dis_2
 		blendfunc add
 		}
 }
 
 textures/arachnid2/e6basicstrip_red_s_nolight
 {
-	qer_editorimage textures/arachnid2/e6basicstrip_red.jpg
+	qer_editorimage textures/arachnid2/e6basicstrip_red
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	
 	{
-		map textures/arachnid2/e6basicstrip_red.jpg
+		map textures/arachnid2/e6basicstrip_red
 	}
 }
 
 textures/arachnid2/e6horzlight_s_nolight
 {
-	qer_editorimage textures/arachnid2/e6horzlight.jpg
+	qer_editorimage textures/arachnid2/e6horzlight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	
 	{
-		map textures/arachnid2/e6horzlight.jpg
+		map textures/arachnid2/e6horzlight
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/arachnid2/e6horzlight_blend.jpg
+		map textures/arachnid2/e6horzlight_blend
 		blendfunc add
 	}
 }
@@ -70,7 +70,7 @@ textures/arachnid2/e8bgrate01
 	surfaceparm metalsteps
 	cull disable
 	{
-		map textures/arachnid2/e8bgrate01.tga
+		map textures/arachnid2/e8bgrate01
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -86,12 +86,12 @@ textures/arachnid2/e8bgrate01
 
 textures/arachnid2/e8tinylight
 {
-	qer_editorimage textures/arachnid2/e8tinylight.jpg
-	q3map_lightimage textures/arachnid2/e8tinylight.blend.jpg
+	qer_editorimage textures/arachnid2/e8tinylight
+	q3map_lightimage textures/arachnid2/e8tinylight.blend
 	surfaceparm nomarks
 	q3map_surfacelight 950
 	{
-		map textures/arachnid2/e8tinylight.jpg
+		map textures/arachnid2/e8tinylight
 	}
 	{
 		map $lightmap 
@@ -99,21 +99,21 @@ textures/arachnid2/e8tinylight
 		tcGen lightmap 
 	}
 	{
-		map textures/arachnid2/e8tinylight.blend.jpg
+		map textures/arachnid2/e8tinylight.blend
 		blendfunc add
 	}
 }
 
 textures/arachnid2/e6bsegrtflr256_s
 {
-	qer_editorimage textures/arachnid2/e6bsegrtflr256.tga
+	qer_editorimage textures/arachnid2/e6bsegrtflr256
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/arachnid2/e6bsegrtflr256.tga
+		map textures/arachnid2/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -126,12 +126,12 @@ textures/arachnid2/e6bsegrtflr256_s
 
 textures/arachnid2/fan_s
 {
-	qer_editorimage textures/arachnid2/fan.tga
+	qer_editorimage textures/arachnid2/fan
 	surfaceparm trans
 	qer_trans 0.5
 	cull none
 	{
-		clampmap textures/arachnid2/fan.tga
+		clampmap textures/arachnid2/fan
 		tcMod rotate 250
 		depthWrite
 		alphaFunc GE128
@@ -145,7 +145,7 @@ textures/arachnid2/fan_s
 
 textures/arachnid2/fan_shadow_s
 {
-	qer_editorimage textures/arachnid2/fan_shadow.jpg
+	qer_editorimage textures/arachnid2/fan_shadow
 	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nomarks
@@ -154,7 +154,7 @@ textures/arachnid2/fan_shadow_s
 	nopicmip
 	qer_trans 0.75
 	{
-		clampmap textures/arachnid2/fan_shadow.jpg
+		clampmap textures/arachnid2/fan_shadow
 		tcMod rotate 250
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 	}
@@ -162,14 +162,14 @@ textures/arachnid2/fan_shadow_s
 
 textures/arachnid2/tin_s
 {
-	qer_editorimage textures/arachnid2/tin.jpg
+	qer_editorimage textures/arachnid2/tin
 	{
 		map $lightmap 
 		rgbGen identity
 		tcGen lightmap 
 	}
 	{
-		map textures/arachnid2/tin.jpg
+		map textures/arachnid2/tin
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
 		alphaGen lightingSpecular
@@ -178,7 +178,7 @@ textures/arachnid2/tin_s
 
 textures/arachnid2/sky
 {
-	qer_editorimage textures/arachnid2/sky_arc_masked.tga
+	qer_editorimage textures/arachnid2/sky_arc_masked
 	
 	q3map_sunExt 1 1 1 140 -35 25 2 1
 	
@@ -196,13 +196,13 @@ textures/arachnid2/sky
 	nomipmaps
 	
 	{
-		map textures/arachnid2/sky_clouds.tga
+		map textures/arachnid2/sky_clouds
 		tcMod scale 3 3
 		tcMod scroll 0.005 -0.0125
 		rgbGen identityLighting
 	}
 	{
-		map textures/arachnid2/sky_arc_masked.tga
+		map textures/arachnid2/sky_arc_masked
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
 		tcMod transform 0.25 0 0 0.25 0.1075 0.1075
 		rgbGen identityLighting
@@ -214,7 +214,7 @@ textures/arachnid2/mist_s
 	entityMergable
 	cull none
 	{
-		map textures/arachnid2/mist.tga
+		map textures/arachnid2/mist
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		vertex
 		alphaGen	vertex
@@ -224,7 +224,7 @@ textures/arachnid2/mist_s
 
 textures/arachnid2/cubelight_32_blue_s
 {
-	qer_editorimage textures/arachnid2/cubelight_32_blue.jpg
+	qer_editorimage textures/arachnid2/cubelight_32_blue
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	q3map_lightRGB .5 .75 1
@@ -233,12 +233,12 @@ textures/arachnid2/cubelight_32_blue_s
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_blue.jpg
+		map textures/arachnid2/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_blue.blend.jpg
+		map textures/arachnid2/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -246,7 +246,7 @@ textures/arachnid2/cubelight_32_blue_s
 
 textures/arachnid2/cubelight_32_orange_s
 {
-	qer_editorimage textures/arachnid2/cubelight_32_orange.jpg
+	qer_editorimage textures/arachnid2/cubelight_32_orange
 	surfaceparm nomarks
 	q3map_surfacelight 30000
 	{
@@ -254,12 +254,12 @@ textures/arachnid2/cubelight_32_orange_s
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_orange.jpg
+		map textures/arachnid2/cubelight_32_orange
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_orange.blend.jpg
+		map textures/arachnid2/cubelight_32_orange.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -267,7 +267,7 @@ textures/arachnid2/cubelight_32_orange_s
 
 textures/arachnid2/cubelight_32_red_s
 {
-	qer_editorimage textures/arachnid2/cubelight_32_red.jpg
+	qer_editorimage textures/arachnid2/cubelight_32_red
 	surfaceparm nomarks
 	q3map_surfacelight 20000
 	q3map_lightRGB 1 .1 .1
@@ -276,12 +276,12 @@ textures/arachnid2/cubelight_32_red_s
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_red.jpg
+		map textures/arachnid2/cubelight_32_red
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_red.blend.jpg
+		map textures/arachnid2/cubelight_32_red.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -289,7 +289,7 @@ textures/arachnid2/cubelight_32_red_s
 
 textures/arachnid2/cubelight_32_white_s
 {
-	qer_editorimage textures/arachnid2/cubelight_32_white.jpg
+	qer_editorimage textures/arachnid2/cubelight_32_white
 	surfaceparm nomarks
 	q3map_surfacelight 30000
 	{
@@ -297,12 +297,12 @@ textures/arachnid2/cubelight_32_white_s
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_white.jpg
+		map textures/arachnid2/cubelight_32_white
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_white.blend.jpg
+		map textures/arachnid2/cubelight_32_white.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -310,7 +310,7 @@ textures/arachnid2/cubelight_32_white_s
 
 textures/arachnid2/cubelight_32_yellow_s
 {
-	qer_editorimage textures/arachnid2/cubelight_32_yellow.jpg
+	qer_editorimage textures/arachnid2/cubelight_32_yellow
 	surfaceparm nomarks
 	q3map_surfacelight 30000
 	{
@@ -318,38 +318,38 @@ textures/arachnid2/cubelight_32_yellow_s
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_yellow.jpg
+		map textures/arachnid2/cubelight_32_yellow
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/cubelight_32_yellow.blend.jpg
+		map textures/arachnid2/cubelight_32_yellow.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
 textures/arachnid2/zdetlig04yb_s
 {
-	qer_editorimage textures/arachnid2/zdetlig04yb.jpg
+	qer_editorimage textures/arachnid2/zdetlig04yb
 	surfaceparm nomarks
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/zdetlig04yb.jpg
+		map textures/arachnid2/zdetlig04yb
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/arachnid2/zdetlig04yb.jpg
+		map textures/arachnid2/zdetlig04yb
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
 textures/arachnid2/arach_fog_s
 {
-qer_editorimage textures/arachnid2/e6horzlight_blend.jpg
+qer_editorimage textures/arachnid2/e6horzlight_blend
 surfaceparm	trans
 surfaceparm	nonsolid
 surfaceparm	fog

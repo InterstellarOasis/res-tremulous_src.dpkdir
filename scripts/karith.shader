@@ -7,10 +7,10 @@
 //by Godmil & jex
 textures/karith/defaultmetal_nonsolid
 {
-	qer_editorimage textures/karith/defaultmetal.jpg
+	qer_editorimage textures/karith/defaultmetal
 	surfaceparm nonsolid
 	{
-		map textures/karith/defaultmetal.jpg
+		map textures/karith/defaultmetal
 
 	}
 	{
@@ -23,10 +23,10 @@ textures/karith/defaultmetal_nonsolid
 //by Godmil & jex
 textures/karith/drkmtl_default_nonsolid
 {
-	qer_editorimage textures/karith/drkmtl_default.jpg
+	qer_editorimage textures/karith/drkmtl_default
 	surfaceparm nonsolid
 	{
-		map textures/karith/drkmtl_default.jpg
+		map textures/karith/drkmtl_default
 	}
 	{
 		map $lightmap
@@ -38,10 +38,10 @@ textures/karith/drkmtl_default_nonsolid
 //by Godmil & jex
 textures/karith/baseflatmed_nonsolid
 {
-	qer_editorimage textures/karith/base_flat_med.jpg
+	qer_editorimage textures/karith/base_flat_med
 	surfaceparm nonsolid
 	{
-		map textures/karith/base_flat_med.jpg
+		map textures/karith/base_flat_med
 	}
 	{
 		map $lightmap
@@ -53,10 +53,10 @@ textures/karith/baseflatmed_nonsolid
 //by Godmil & jex
 textures/karith/de-cleanmtl_nonsolid
 {
-	qer_editorimage textures/karith/de-cleanmtl.jpg
+	qer_editorimage textures/karith/de-cleanmtl
 	surfaceparm nonsolid
 	{
-		map textures/karith/de-cleanmtl.jpg
+		map textures/karith/de-cleanmtl
 	}
 	{
 		map $lightmap
@@ -68,10 +68,10 @@ textures/karith/de-cleanmtl_nonsolid
 //by Godmil & jex
 textures/karith/defaultmetal_s
 {
-	qer_editorimage textures/karith/defaultmetal.jpg
+	qer_editorimage textures/karith/defaultmetal
 	surfaceparm solid
 	{
-		map textures/karith/defaultmetal.jpg
+		map textures/karith/defaultmetal
 
 	}
 	{
@@ -84,10 +84,10 @@ textures/karith/defaultmetal_s
 //by Godmil & jex
 textures/karith/e8warning128_nonsolid
 {
-	qer_editorimage textures/karith/e8warning128.jpg
+	qer_editorimage textures/karith/e8warning128
 	surfaceparm nonsolid
 	{
-		map textures/karith/e8warning128.jpg
+		map textures/karith/e8warning128
 	}
 	{
 		map $lightmap
@@ -100,13 +100,13 @@ textures/karith/e8warning128_nonsolid
 // - by Evillair - edited by Godmil
 textures/karith/e8tmtllight2_nonsolid
 {
-	qer_editorimage textures/karith/e8tmtllight2.tga
-	q3map_lightimage textures/karith/e8tmtllight2.blend.tga
+	qer_editorimage textures/karith/e8tmtllight2
+	q3map_lightimage textures/karith/e8tmtllight2.blend
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	q3map_surfacelight 950
 	{
-		map textures/karith/e8tmtllight2.tga
+		map textures/karith/e8tmtllight2
 	}
 	{
 		map $lightmap
@@ -114,7 +114,7 @@ textures/karith/e8tmtllight2_nonsolid
 		tcGen lightmap
 	}
 	{
-		map textures/karith/e8tmtllight2.blend.tga
+		map textures/karith/e8tmtllight2.blend
 		blendfunc add
 	}
 }
@@ -122,10 +122,10 @@ textures/karith/e8tmtllight2_nonsolid
 //by Godmil & jex
 textures/karith/e8_base1_nonsolid
 {
-	qer_editorimage textures/karith/e8_base1.jpg
+	qer_editorimage textures/karith/e8_base1
 	surfaceparm nonsolid
 	{
-		map textures/karith/e8_base1.jpg
+		map textures/karith/e8_base1
 	}
 	{
 		map $lightmap
@@ -137,10 +137,10 @@ textures/karith/e8_base1_nonsolid
 //by Godmil & jex
 textures/karith/mtldrk0_nonsolid
 {
-	qer_editorimage textures/karith/mtldrk0.jpg
+	qer_editorimage textures/karith/mtldrk0
 	surfaceparm nonsolid
 	{
-		map textures/karith/mtldrk0.jpg
+		map textures/karith/mtldrk0
 	}
 	{
 		map $lightmap
@@ -152,10 +152,10 @@ textures/karith/mtldrk0_nonsolid
 //by Godmil & jex
 textures/karith/base_flat_med_nonsolid
 {
-	qer_editorimage textures/karith/base_flat_med.jpg
+	qer_editorimage textures/karith/base_flat_med
 	surfaceparm nonsolid
 	{
-		map textures/karith/base_flat_med.jpg
+		map textures/karith/base_flat_med
 	}
 	{
 		map $lightmap
@@ -167,10 +167,10 @@ textures/karith/base_flat_med_nonsolid
 //by Godmil & jex
 textures/karith/e6dmetal_nonsolid
 {
-	qer_editorimage textures/karith/e6dmetal.jpg
+	qer_editorimage textures/karith/e6dmetal
 	surfaceparm nonsolid
 	{
-		map textures/karith/e6dmetal.jpg
+		map textures/karith/e6dmetal
 	}
 	{
 		map $lightmap
@@ -182,10 +182,10 @@ textures/karith/e6dmetal_nonsolid
 //by Godmil & jex
 textures/karith/e6drkbmetalscatched_nonsolid
 {
-	qer_editorimage textures/karith/e6drkbmetalscatched.jpg
+	qer_editorimage textures/karith/e6drkbmetalscatched
 	surfaceparm nonsolid
 	{
-		map textures/karith/e6drkbmetalscatched.jpg
+		map textures/karith/e6drkbmetalscatched
 	}
 	{
 		map $lightmap
@@ -197,13 +197,13 @@ textures/karith/e6drkbmetalscatched_nonsolid
 //evillairs white striplight, edited by godmil
 textures/karith/e6whitelight_nonsolid
 {
-	qer_editorimage textures/karith/e6basicstrip_white.tga
+	qer_editorimage textures/karith/e6basicstrip_white
 	q3map_surfacelight 100
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/e6basicstrip_white.tga
+		map textures/karith/e6basicstrip_white
 
 	}
 }
@@ -211,13 +211,13 @@ textures/karith/e6whitelight_nonsolid
 //evillairs, edited by godmil
 textures/karith/spotlight
 {
-	qer_editorimage textures/karith/spotlight.jpg
+	qer_editorimage textures/karith/spotlight
 	q3map_surfacelight 100
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/spotlight.jpg
+		map textures/karith/spotlight
 
 	}
 }
@@ -225,46 +225,46 @@ textures/karith/spotlight
 //By Evillair, edited by godmil
 textures/karith/e6basicstrip_orange_nonsolid
 {
-	qer_editorimage textures/karith/e6basicstrip_orange.tga
+	qer_editorimage textures/karith/e6basicstrip_orange
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/e6basicstrip_orange.tga
+		map textures/karith/e6basicstrip_orange
 	}
 }
 
 //By Evillair, edited by godmil
 textures/karith/e6basicstrip_red_nonsolid
 {
-	qer_editorimage textures/karith/e6basicstrip_red.tga
+	qer_editorimage textures/karith/e6basicstrip_red
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/e6basicstrip_red.tga
+		map textures/karith/e6basicstrip_red
 	}
 }
 
 //By Evillair, edited by godmil (unknown textures nicked frmo Nexus6)
 textures/karith/sq_light_orange_nonsolid
 {
-	qer_editorimage textures/karith/sq_light_orange.jpg
+	qer_editorimage textures/karith/sq_light_orange
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/sq_light_orange.jpg
+		map textures/karith/sq_light_orange
 	}
 }
 
 //by amethyst edited by jex and godmil
 //textures/godmil/snowy_skybox2
 //{
-//	qer_editorimage textures/amethyst7/snowy/snowy.tga
+//	qer_editorimage textures/amethyst7/snowy/snowy
 //	surfaceparm noimpact
 //	surfaceparm nolightmap
 //	q3map_surfacelight 20
@@ -275,11 +275,11 @@ textures/karith/sq_light_orange_nonsolid
 // by evillair edited by godmil
 textures/karith/trem2redlight_nonsolid
 {
-	qer_editorimage textures/karith/trem2redlight.jpg
+	qer_editorimage textures/karith/trem2redlight
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	{
-		map textures/karith/trem2redlight.tga
+		map textures/karith/trem2redlight
 	}
 	{
 		map $lightmap
@@ -291,10 +291,10 @@ textures/karith/trem2redlight_nonsolid
 //by Godmil & jex
 textures/karith/trem2deadlight_nonsolid
 {
-	qer_editorimage textures/karith/trem2deadlight.jpg
+	qer_editorimage textures/karith/trem2deadlight
 	surfaceparm nonsolid
 	{
-		map textures/karith/trem2deadlight.jpg
+		map textures/karith/trem2deadlight
 	}
 	{
 		map $lightmap
@@ -306,11 +306,11 @@ textures/karith/trem2deadlight_nonsolid
 // by Jex (texture from urban_trim by ydnar)
 textures/karith/fan_s
 {
-	qer_editorimage textures/karith/tag-fan-blade.tga
+	qer_editorimage textures/karith/tag-fan-blade
 	surfaceparm trans
 	qer_trans 0.5
 	{
-		clampmap textures/karith/tag-fan-blade.tga
+		clampmap textures/karith/tag-fan-blade
 		tcMod rotate 250
 		depthWrite
 		alphaFunc GE128
@@ -326,10 +326,10 @@ textures/karith/fan_s
 //by Godmil & jex
 textures/karith/e8_base1c_nonsolid
 {
-	qer_editorimage textures/karith/e8_base1c.jpg
+	qer_editorimage textures/karith/e8_base1c
 	surfaceparm nonsolid
 	{
-		map textures/karith/e8_base1c.jpg
+		map textures/karith/e8_base1c
 	}
 	{
 		map $lightmap
@@ -341,9 +341,9 @@ textures/karith/e8_base1c_nonsolid
 //by ydnar edited by godmil
 textures/karith/snow_rock3
 {
-	q3map_lightImage textures/karith/snow_1.tga
+	q3map_lightImage textures/karith/snow_1
 
-	qer_editorimage textures/karith/dot2c.jpg	
+	qer_editorimage textures/karith/dot2c
 
 	q3map_forceMeta
 	q3map_nonplanar
@@ -361,11 +361,11 @@ textures/karith/snow_rock3
 	q3map_globalTexture
 	
 	{
-		map textures/karith/rock_1.tga
+		map textures/karith/rock_1
 		rgbGen identity
 	}
 	{
-		map textures/karith/snow_1.tga
+		map textures/karith/snow_1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaFunc GE128
 		rgbGen identity
@@ -383,7 +383,7 @@ textures/karith/snow_rock3
 textures/karith/ladder
 {
 	qer_trans .75
-	qer_editorimage textures/karith/ladder.jpg
+	qer_editorimage textures/karith/ladder
 	surfaceparm ladder
 	surfaceparm nodraw
 	surfaceparm nolightmap
@@ -397,9 +397,9 @@ textures/karith/ladder
 //written by ydnar - edited by godmil
 textures/godmil/terrain_snow
 {
-	q3map_lightImage textures/karith/snow_1.tga
+	q3map_lightImage textures/karith/snow_1
 
-	qer_editorimage textures/karith/snow_1.tga
+	qer_editorimage textures/karith/snow_1
 
 	q3map_forceMeta
 	q3map_nonplanar
@@ -414,7 +414,7 @@ textures/godmil/terrain_snow
 	
 	q3map_globalTexture
 	{
-		map textures/karith/snow_1.tga
+		map textures/karith/snow_1
 		rgbGen identity
 		tcMod scale 7 7
 	}
@@ -431,7 +431,7 @@ textures/karith/mist_s
 	entityMergable
 	cull none
 	{
-		map textures/karith/mist.tga
+		map textures/karith/mist
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		vertex
 		alphaGen	vertex
@@ -444,7 +444,7 @@ textures/karith/waterdrop_s
 	entityMergable
 	cull none
 	{
-		map textures/karith/water.tga
+		map textures/karith/water
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		vertex
 		alphaGen	vertex
@@ -454,9 +454,9 @@ textures/karith/waterdrop_s
 //Beautifully written by ydnar - edited by godmil
 textures/karith/snow_rock
 {
-	q3map_lightImage textures/karith/snow_1.tga
+	q3map_lightImage textures/karith/snow_1
 
-	qer_editorimage textures/karith/dot2.jpg	
+	qer_editorimage textures/karith/dot2
 
 	q3map_forceMeta
 	q3map_nonplanar
@@ -474,11 +474,11 @@ textures/karith/snow_rock
 	q3map_globalTexture
 	
 	{
-		map textures/karith/rock_1.tga
+		map textures/karith/rock_1
 		rgbGen identity
 	}
 	{
-		map textures/karith/snow_1.tga
+		map textures/karith/snow_1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaFunc GE128
 		rgbGen identity
@@ -496,9 +496,9 @@ textures/karith/snow_rock
 //by Ydnar, edit by godmil
 textures/karith/snow_rock2
 {
-	q3map_lightImage textures/karith/snow_1.tga
+	q3map_lightImage textures/karith/snow_1
 
-	qer_editorimage textures/karith/dot2.jpg	
+	qer_editorimage textures/karith/dot2
 
 	q3map_forceMeta
 	q3map_nonplanar
@@ -516,11 +516,11 @@ textures/karith/snow_rock2
 	q3map_globalTexture
 	
 	{
-		map textures/karith/rock_1.tga
+		map textures/karith/rock_1
 		rgbGen identity
 	}
 	{
-		map textures/karith/snow_1.tga
+		map textures/karith/snow_1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaFunc GE128
 		rgbGen identity
@@ -536,13 +536,13 @@ textures/karith/snow_rock2
 
 textures/karith/e8tinylight_nonsolid
 {
-	qer_editorimage textures/karith/e8tinylight.tga
-	q3map_lightimage textures/karith/e8tinylight.blend.tga
+	qer_editorimage textures/karith/e8tinylight
+	q3map_lightimage textures/karith/e8tinylight.blend
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	q3map_surfacelight 950
 	{
-		map textures/karith/e8tinylight.tga
+		map textures/karith/e8tinylight
 	}
 	{
 		map $lightmap 
@@ -550,7 +550,7 @@ textures/karith/e8tinylight_nonsolid
 		tcGen lightmap 
 	}
 	{
-		map textures/karith/e8tinylight.blend.tga
+		map textures/karith/e8tinylight.blend
 		blendfunc add
 	}
 }
@@ -564,7 +564,7 @@ textures/karith/e8tinylight_nonsolid
 //editted by Godmil
 textures/karith/snowy/snowy_skybox2
 {
-	qer_editorimage textures/karith/snowy/snowy.tga
+	qer_editorimage textures/karith/snowy/snowy
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_surfacelight 40
@@ -576,34 +576,34 @@ textures/karith/snowy/snowy_skybox2
 //by Evillair wee edit by Godmil
 textures/karith/e6whitestrip_nolight_nonsolid
 {
-	qer_editorimage textures/karith/e6basicstrip_white.jpg
+	qer_editorimage textures/karith/e6basicstrip_white
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	
 	{
-		map textures/karith/e6basicstrip_white.jpg
+		map textures/karith/e6basicstrip_white
 	}
 }
 
 //by Evillair (edit by Godmil)
 textures/karith/e6redstrip_nonsolid
 {
-	qer_editorimage textures/karith/e6basicstrip_red.jpg
+	qer_editorimage textures/karith/e6basicstrip_red
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	{
-		map textures/karith/e6basicstrip_red.jpg
+		map textures/karith/e6basicstrip_red
 	}
 }
 
 //By Evillair, edit by godmil
 textures/karith/e6bsegrtflr256_nonsolid
 {
-	qer_editorimage textures/karith/e6bsegrtflr256.tga
+	qer_editorimage textures/karith/e6bsegrtflr256
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -611,7 +611,7 @@ textures/karith/e6bsegrtflr256_nonsolid
 	cull none
 
 	{
-		map textures/karith/e6bsegrtflr256.tga
+		map textures/karith/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -625,9 +625,9 @@ textures/karith/e6bsegrtflr256_nonsolid
 //variation on shader by ydnar - edited by godmil
 textures/karith/terrain_rock
 {
-//	q3map_lightImage textures/karith/snow_1.tga
+//	q3map_lightImage textures/karith/snow_1
 
-	qer_editorimage textures/karith/rock_1.tga
+	qer_editorimage textures/karith/rock_1
 
 	q3map_forceMeta
 	q3map_nonplanar
@@ -645,11 +645,11 @@ textures/karith/terrain_rock
 	q3map_globalTexture
 	
 	{
-		map textures/karith/rock_1.tga
+		map textures/karith/rock_1
 		rgbGen identity
 	}
 //	{
-//		map textures/karith/snow_1.tga
+//		map textures/karith/snow_1
 //		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 //		alphaFunc GE128
 //		rgbGen identity
@@ -667,7 +667,7 @@ textures/karith/terrain_rock
 textures/karith/terrain_snow
 {
 
-	qer_editorimage textures/karith/snow_1.tga
+	qer_editorimage textures/karith/snow_1
 
 	q3map_forceMeta
 	q3map_nonplanar
@@ -684,7 +684,7 @@ textures/karith/terrain_snow
 	q3map_globalTexture
 	
 	{
-		map textures/karith/snow_1.tga
+		map textures/karith/snow_1
 		rgbGen identity
 		tcMod scale 7 7
 	}
@@ -699,9 +699,9 @@ textures/karith/terrain_snow
 //by Evillair -c2
 textures/karith/eshinytin2
 {    
-qer_editorimage textures/karith/eshinytin.tga 
+qer_editorimage textures/karith/eshinytin
         { 
-                map textures/karith/trem2ref.jpg  
+                map textures/karith/trem2ref
                 tcGen environment 
 		rgbGen identity 
                 tcmod scale 0.55 1 
@@ -712,7 +712,7 @@ qer_editorimage textures/karith/eshinytin.tga
 		rgbGen identity 
 	} 
 	{ 
-		map textures/karith/eshinytin.tga 
+		map textures/karith/eshinytin
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA 
 		rgbGen identity 
 	} 
@@ -726,12 +726,12 @@ qer_editorimage textures/karith/eshinytin.tga
 //by Evillair -c2
 textures/karith/e8trimlight2
 {
-	qer_editorimage textures/karith/e8trimlight.tga
-	q3map_lightimage textures/karith/e8trimlight.blend.tga
+	qer_editorimage textures/karith/e8trimlight
+	q3map_lightimage textures/karith/e8trimlight.blend
 	surfaceparm nomarks
 	q3map_surfacelight 250
 	{
-		map textures/karith/e8trimlight.tga
+		map textures/karith/e8trimlight
 	}
 	{
 		map $lightmap 
@@ -739,7 +739,7 @@ textures/karith/e8trimlight2
 		tcGen lightmap 
 	}
 	{
-		map textures/karith/e8trimlight.blend.tga
+		map textures/karith/e8trimlight.blend
 		blendfunc add
 	}
 }
@@ -751,7 +751,7 @@ textures/karith/e8bgrate01b
 	surfaceparm metalsteps
 	cull disable
 	{
-		map textures/karith/e8bgrate01.tga
+		map textures/karith/e8bgrate01
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -768,11 +768,11 @@ textures/karith/e8bgrate01b
 //by Evillair -c2
 textures/karith/e8tinylightblue2
 {
-	qer_editorimage textures/karith/e8tinylightblue.tga
+	qer_editorimage textures/karith/e8tinylightblue
 	surfaceparm nomarks
 	q3map_surfacelight 950
 	{
-		map textures/karith/e8tinylightblue.tga
+		map textures/karith/e8tinylightblue
 	}
 	{
 		map $lightmap 
@@ -780,7 +780,7 @@ textures/karith/e8tinylightblue2
 		tcGen lightmap 
 	}
 	{
-		map textures/karith/e8tinylightblue.blend.tga
+		map textures/karith/e8tinylightblue.blend
 		blendfunc add
 	}
 }
@@ -795,7 +795,7 @@ textures/karith/e8clangfloor05t2
 		tcGen lightmap
 	}
 	{
-		map textures/karith/e8clangfloor05.tga
+		map textures/karith/e8clangfloor05
 		blendfunc filter
 		rgbGen identity
 	}
@@ -811,7 +811,7 @@ textures/karith/e8clangfloor05c2
 		tcGen lightmap
 	}
 	{
-		map textures/karith/e8clangfloor05c.tga
+		map textures/karith/e8clangfloor05c
 		blendfunc filter
 		rgbGen identity
 	}
@@ -820,14 +820,14 @@ textures/karith/e8clangfloor05c2
 //by Evillair -c
 textures/karith/e6bsegrtflr256_s2
 {
-	qer_editorimage textures/karith/e6bsegrtflr256.tga
+	qer_editorimage textures/karith/e6bsegrtflr256
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/karith/e6bsegrtflr256.tga
+		map textures/karith/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -841,27 +841,27 @@ textures/karith/e6bsegrtflr256_s2
 //by Evillair -c2
 textures/karith/e6basicstripred_nolight
 {
-	qer_editorimage textures/karith/e6basicstrip_red.tga
+	qer_editorimage textures/karith/e6basicstrip_red
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	
 	{
-		map textures/karith/e6basicstrip_red.tga
+		map textures/karith/e6basicstrip_red
 	}
 }
 
 //by Evillair -c
 textures/karith/e6metalfan_s2
 {
-	qer_editorimage textures/karith/e6metalfan.tga
+	qer_editorimage textures/karith/e6metalfan
 
 	{
-		map textures/karith/e6metalfan_blade.tga
+		map textures/karith/e6metalfan_blade
 		tcmod rotate 5000
 	}
 	{
-		map textures/karith/e6metalfan.tga
+		map textures/karith/e6metalfan
 		blendfunc blend
 	}
 	{
@@ -880,7 +880,7 @@ textures/karith/darkglass2
 
                       cull disable
                       {
-                      map textures/karith/trem2ref.tga
+                      map textures/karith/trem2ref
                       tcgen environment
                       blendfunc gl_one gl_one
                       rgbGen identity
@@ -900,7 +900,7 @@ textures/karith/plainglass2
 	surfaceparm solid
 	cull twosided
 	{
-		map textures/karith/plainglass.tga
+		map textures/karith/plainglass
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
                 }
@@ -910,7 +910,7 @@ textures/karith/plainglass2
 /// by Jex
 textures/karith/tfloor_rndholes_drty_s2
 {
-	qer_editorimage textures/karith/tfloor_rndholes_drty.tga
+	qer_editorimage textures/karith/tfloor_rndholes_drty
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm nomarks
@@ -918,7 +918,7 @@ textures/karith/tfloor_rndholes_drty_s2
 	cull disable
 	nopicmip
 	{
-		map textures/karith/tfloor_rndholes_drty.tga
+		map textures/karith/tfloor_rndholes_drty
 		depthWrite
 		alphaFunc GE128
 	}
@@ -933,7 +933,7 @@ textures/karith/tfloor_rndholes_drty_s2
 //by jex -c2
 textures/karith/e3grate_transt2
 {
-	qer_editorimage textures/karith/grt_offmtl.tga
+	qer_editorimage textures/karith/grt_offmtl
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm nomarks
@@ -942,7 +942,7 @@ textures/karith/e3grate_transt2
 	cull disable
 	nopicmip
 	{
-		map textures/karith/grt_offmtl.tga
+		map textures/karith/grt_offmtl
 		depthWrite
 		alphaFunc GE128
 	}
@@ -956,7 +956,7 @@ textures/karith/e3grate_transt2
 
 textures/karith/solidslick_s
 {
-	qer_editorimage textures/karith/solidslick.tga
+	qer_editorimage textures/karith/solidslick
 	surfaceparm nodraw
 	surfaceparm trans
 	surfaceparm nolightmap
@@ -969,13 +969,13 @@ textures/karith/solidslick_s
 
 textures/karith/e6bgrateblack //from evil6 by Evillair
 {
-	qer_editorimage textures/karith/e6bsegrtflr256.tga
+	qer_editorimage textures/karith/e6bsegrtflr256
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/karith/e6bsegrtflr256.tga
+		map textures/karith/e6bsegrtflr256
 		rgbGen identity
 	}
 	{
@@ -988,7 +988,7 @@ textures/karith/e6bgrateblack //from evil6 by Evillair
 // Nodraw Water face by Godmil 19:20 15/02/2004
 textures/karith/water_nodraw
 {
-	qer_editorimage textures/liquids/pool3d_3e.tga
+	qer_editorimage textures/liquids/pool3d_3e
 	qer_trans .5
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -997,11 +997,11 @@ textures/karith/water_nodraw
 //by jex
 textures/karith/trembru_st2
 {
-	qer_editorimage textures/karith/trembru.tga
+	qer_editorimage textures/karith/trembru
 	surfaceparm nomarks
 	q3map_surfacelight 1500
 	{
-		map textures/karith/trembru.tga
+		map textures/karith/trembru
 	}
 	{
 		map $lightmap 
@@ -1009,7 +1009,7 @@ textures/karith/trembru_st2
 		tcGen lightmap 
 	}
 	{
-		map textures/karith/trembru.tga
+		map textures/karith/trembru
 		blendfunc add
 	}
 }
@@ -1022,7 +1022,7 @@ textures/karith/barreltopt2
 	cull none 
 
 	{ 
-		map textures/karith/barrel_rst_top2.tga   
+		map textures/karith/barrel_rst_top2
 		alphaFunc GE128 
 		depthWrite 
 	} 
@@ -1042,7 +1042,7 @@ textures/karith/water
   cull disable
   deformVertexes wave 64 sin .25 .25 0 .5
   {
-    map textures/karith/water_bluish.jpg
+    map textures/karith/water_bluish
     blendFunc GL_DST_COLOR GL_ONE
     rgbgen identity
     tcmod scale .5 .5
@@ -1050,7 +1050,7 @@ textures/karith/water
   }
 
   {
-    map textures/karith/water_redish.jpg
+    map textures/karith/water_redish
     blendFunc GL_DST_COLOR GL_ONE
     tcmod scale -.5 -.5
     tcmod scroll .025 .025
@@ -1066,7 +1066,7 @@ textures/karith/water
 
 textures/karith/light1_3000
 {
-  qer_editorimage textures/base_light/light1.tga
+  qer_editorimage textures/base_light/light1
   light 1
   surfaceparm nomarks
   q3map_surfacelight 1500
@@ -1075,12 +1075,12 @@ textures/karith/light1_3000
       rgbGen identity
   }
   {
-    map textures/base_light/light1.tga
+    map textures/base_light/light1
     blendFunc GL_DST_COLOR GL_ZERO
     rgbGen identity
   }
   {
-    map textures/base_light/light1.blend.tga
+    map textures/base_light/light1.blend
     //rgbGen wave sin 0.5 0.5 0 3
     blendFunc GL_ONE GL_ONE
   }
@@ -1088,12 +1088,12 @@ textures/karith/light1_3000
 
 textures/karith/e8tinylight
 {
-	qer_editorimage textures/karith/e8tinylight.jpg
-	q3map_lightimage textures/karith/e8tinylight.blend.jpg
+	qer_editorimage textures/karith/e8tinylight
+	q3map_lightimage textures/karith/e8tinylight.blend
 	surfaceparm nomarks
 	q3map_surfacelight 950
 	{
-		map textures/karith/e8tinylight.jpg
+		map textures/karith/e8tinylight
 	}
 	{
 		map $lightmap 
@@ -1101,7 +1101,7 @@ textures/karith/e8tinylight
 		tcGen lightmap 
 	}
 	{
-		map textures/karith/e8tinylight.blend.jpg
+		map textures/karith/e8tinylight.blend
 		blendfunc add
 	}
 }

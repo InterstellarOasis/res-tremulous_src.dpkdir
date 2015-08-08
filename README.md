@@ -19,6 +19,10 @@ Credits
 
 This the credit list for this ressource package, not for the Tremulous game itself, this is why Tremulous developers are referenced in the thanks.
 
+Unvanquished port:
+
+* Thomas “illwieckz” Debesse <dev@illwieckz.net> (http://gg.illwieckz.net)
+
 Textures:
 
 * Nicolas “jex“ Jansens <jex@orodu.net>
