@@ -1,18 +1,50 @@
 Tremulous
 ---------
 
-This is a ressource package for map ported from the [Tremulous](http://tremulous.net/) by Darklegion Development to the [Unvanquished](https://www.unvanquished.net/) game.
+This is a ressource package for map ported from the [Tremulous](http://tremulous.net/) game by Darklegion Development to the [Unvanquished](https://www.unvanquished.net/) game.
+
+Ported from Tremulous gpp packages from [http://ingar.satgnu.net/files/tremulous/base/](http://ingar.satgnu.net/files/tremulous/base/).
+
+How-to
+------
+
+* Get the source
+
+```
+git clone https://github.com/interstellar-oasis/res-tremulous.git res-tremulous_source.pk3dir
+cd res-tremulous_source.pk3dir/
+```
+
+* Build
+
+You need the [grtoolbox](https://github.com/illwieckz/grtoolbox).  
+You will find the pk3dir in `build/test`.
+
+```
+make
+```
+
+* Package
+
+You will find the pk3 in `build/pkg`.
+
+```
+make pk3
+```
 
 Maps
 ----
 
 The maps are not stored in this repository, but this repository provides assets for them:
 
-* ATCS by Nicolas “jex” Jansens
-* Karith by Gordon “Godmil” Miller
-* Niveus by Nicolas “jex” Jansens
-* Tremor by Mike “Vedacon” Mcinnerney
-* Uncreation by Who-[Soup]
+* _[Arachnid 2](https://github.com/interstellar-oasis/map-arachnid2)_ by Robin “OverFlow” Marshall
+* _[Advanced Tremulous Combat Simulator](https://github.com/interstellar-oasis/map-atcshd)_ by Nicolas “jex” Jansens, Superpie and Stijn “Ingar“ Buys
+* _[Karith Station 2](https://github.com/interstellar-oasis/map-karith)_ by Gordon “Godmil” Miller
+* _[Nexus Corp. Infusion Plant 6](https://github.com/interstellar-oasis/map-nexus)_ by Nicolas “jex” Jansens
+* _[Niveus: Outpost 652](https://github.com/interstellar-oasis/map-niveus)_ by Nicolas “jex” Jansens
+* _[Transit](https://github.com/interstellar-oasis/map-transit)_ by Jan “Stannum” Van der Weg
+* _[Tremor](https://github.com/interstellar-oasis/map-termor)_ by Mike “Vedacon” Mcinnerney
+* _[Uncreation](https://github.com/interstellar-oasis/map-uncreation)_ by Who-[Soup]
 
 Credits
 -------
@@ -23,20 +55,21 @@ Unvanquished port:
 
 * Thomas “illwieckz” Debesse <dev@illwieckz.net> (http://gg.illwieckz.net)
 
-Textures:
+Textures & Shaders:
 
-* Nicolas “jex“ Jansens <jex@orodu.net>
+* Nicolas “Jex“ Jansens <jex@orodu.net>
+* Gordon “Godmil” Miller <godmil@gmail.com> (http://godmil.com/)
 * Randy “ydnar” Redding <ydnar@shaderlab.com> (http://www.shaderlab.com)
-* Gordon “Godmil” Miller <godmil@email.com> (http://godmil.com/)
 * Yves “evil lair” Allaire (http://evillair.net)
 * Jan “Stannum” Van der Weg
 * Louie “KnightBK“ Doulias
-* Mike “Vedacon” Mcinnerney
+* Mike “Vedacon” McInnerney
 * Paul “MoP” Greveson
 * Simon “sock” O'Callaghan
-* Overflow
+* Robin “OverFlow” Marshall
 * Amethyst7
 * Lunaran
+* The nice chap who released his "ds-old-tex" set to the public
 
 Sound effects:
 
@@ -46,6 +79,7 @@ Sound effects:
 Models:
 
 * Jan “Stannum” Van der Weg
+* Mike “Vedacon” MciInnerney
 
 Special thanks:
 
@@ -56,18 +90,19 @@ Special thanks:
 * Chris “Lakitu7” Schwarz
 * John “Rezyn” Ellis
 * M. “Undeference” Kristall
-* Robin Marshall "OverFlow"
 * Tony “tjw“ White
+* Tristan “Jhrx“ Blease
 * Khalsa
 * Catalyc
 * Crimity
-* Jhrx
 * Kat
 * Lava Croft
 * Lifer
+* Molog
 * Myth
 * ravyn
 * Roughrider
+* The MaF clan
 
 Legal
 -----
