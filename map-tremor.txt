@@ -1,0 +1,59 @@
+Tremor.bsp  by Vedacon for the Q3mod: Tremulous
+
+Design, layout, and texturing by Vedacon
+Additional design and layout by Godmil
+tremor.bsp and shaders haxed by Timbo
+
+---
+
+Contacts
+Veda:     Mike Mcinnerney http://www.cybercowboys.com/~mike/
+Godmil:   Gordon Miller   www.godmil.com  godmil@email.com
+
+Tremulous:  http://tremulous.net/, IRC: irc.quakenet.org #tremulous
+
+---
+
+Most Textures by: Mike 'Veda' Mcinnerney http://www.cybercowboys.com/~mike/
+with a couple of textures by: Yves 'evillair' Allaire http://evillair.net/
+        Randy 'ydnar' Reddig  http://www.shaderlab.com
+        Louie "KnightBK" Doulias http://www.og-world.com/bkp/
+Skybox by:      Veda
+Map models  (Plants): Veda
+    (crates): Jan "Stannum" van der Weg http://www31.brinkster.com/tinmansn/
+
+---
+
+Build Time:  A few weeks
+Compile time: 40 mins
+
+---
+
+Programs used:
+gtkRadiant 1.2.13  (www.qeradiant.com)
+Q3map2       (www.shaderlab.com)
+packertools      (http://lorddaimos.railbait.com)
+mapacker     ( link through packertools)
+
+---
+
+Recompiled for Tremulous 1.2 by Ingar:
+q3map2 -leaktest -samplesize 8 -meta tremor.map
+q3map2 -vis -saveprt tremor.map
+q3map2 -light -fast -shade -dirty -patchshadows -samples 3 -bounce 6 -bouncegrid tremor.map
+
+---
+
+Acknowledgements
+Godmil: thanks to Crimity, Roughrider, Myth (for help with plant shaders).  Kat
+for pointing out that I should use more phong shaders.  Timbo, Overflow,
+Stannum, Jex, Jhrx, MoP and everyone who worked on Tremulous, for help,
+encouragement, and  listening to me bitching about bugs :) Veda for letting
+me remake his map, Lava Croft and Molog for helping beta test.  Lifer and Jex
+for teaching me how to map.  and most of all Who-[Soup] for betting me that I
+couldn't make this into a playable map in less than a week :D (also a wee
+shoutout to everyone in the Gloom and Tremulous communities,
+www.Map-center.com, the Trem Dev Team, and  my clan mates in MaF <3 )
+
+This map uses the Tremulous media license. See the file COPYING for more
+details.

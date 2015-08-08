@@ -1,0 +1,196 @@
+arachnid2/steam1
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/arachnid2/mist_s
+		displacement 0 0 0 0
+
+		velocityType		static
+	
+		velocityDir		linear
+	
+		velocityMagnitude	125
+		velocity		3 0 0 ~5
+
+		accelerationType	static
+		accelerationDir		linear
+		acceleration		0 0 10 ~5
+		accelerationMagnitude	50
+
+
+		radius		0 45 125
+		alpha		250 .5 0
+		rotation	0 ~360 ~360
+		bounce		0.0
+
+		lifeTime 2000
+		}
+	count infinite
+	delay 0
+	period 50 - ~0%
+	}
+}
+
+arachnid2/steam2
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/arachnid2/mist_s
+		displacement 0 0 0 0
+
+		velocityType		static
+	
+		velocityDir		linear
+	
+		velocityMagnitude	125
+		velocity		-.1 .05 -1 ~10
+
+		accelerationType	static
+		accelerationDir		linear
+		acceleration		0 0 10 ~5
+		accelerationMagnitude	50
+
+
+		radius		0 5 25
+		alpha		250 .5 0
+		rotation	0 ~360 ~360
+		bounce		0.0
+
+		lifeTime 2000
+		}
+	count infinite
+	delay 0
+	period 25 - ~0%
+	}
+}
+
+
+arachnid2/spark1
+{
+	ejector
+	{
+		particle
+		{
+	      shader sync gfx/sprites/spark.tga
+
+	      displacement 0 0 0 ~2.0
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 		      0 -1 0 ~25
+		velocityMagnitude 	150
+
+		accelerationType	      static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	600
+
+		bounce		.3
+		radius		75 3 4
+		alpha		0 .5 .0
+		rotation	0 0 ~360
+
+		lifeTime 2500
+
+		overdrawProtection
+		}
+
+
+		particle
+		{
+	      shader sync gfx/sprites/spark.tga
+
+	      displacement 0 0 0 ~2.0
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 		      0 -1 0 ~65
+		velocityMagnitude 	75
+
+		accelerationType	static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		.3
+		radius		75 3 4
+		alpha		0 .5 .0
+		rotation	0 0 ~360
+
+		lifeTime 2500
+
+		overdrawProtection
+		}
+
+	delay 0
+	count infinite
+	period 300 - ~100%
+	}
+}
+
+arachnid2/spark2
+{
+	ejector
+	{
+		particle
+		{
+	      shader sync gfx/sprites/spark.tga
+
+	      displacement 0 0 0 ~2.0
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 		      0 0 -1 ~25
+		velocityMagnitude 	150
+
+		accelerationType	      static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	600
+
+		bounce		.3
+		radius		75 3 4
+		alpha		0 .5 .0
+		rotation	0 0 ~360
+
+		lifeTime 2500
+
+		overdrawProtection
+		}
+
+
+		particle
+		{
+	      shader sync gfx/sprites/spark.tga
+
+	      displacement 0 0 0 ~2.0
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 		      0 0 -1 ~65
+		velocityMagnitude 	75
+
+		accelerationType	static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		.3
+		radius		75 3 4
+		alpha		0 .5 .0
+		rotation	0 0 ~360
+
+		lifeTime 2500
+
+		overdrawProtection
+		}
+
+	delay 0
+	count infinite
+	period 300 - ~100%
+	}
+}

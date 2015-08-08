@@ -1,0 +1,36 @@
+karith.bsp - "Karith Station 2" by Godmil
+for Tremulous (http://tremulous.net/)
+
+-----
+
+Godmil@email.com
+www.godmil.com
+(and generally fucked about a bit by Timbo (tim@ngus.net))
+
+-----
+
+I better mention the artists whose work I've distributed in this file.
+
+Textures by: 	Yves 'evillair' Allaire http://evillair.net/
+		Randy 'ydnar' Reddig  http://www.shaderlab.com
+		mike 'Veda' mcinnerney http://www.cybercowboys.com/~mike/
+		(a couple of textures by myself too :P  - look for the particularly
+    crap elevator control panel)
+Skybox by:	Amethyst7 http://amethyst7.gotdoofed.com/	
+Map models: 	Plantlife, by Veda
+
+Shaders by: Evillair, Ydnar, Jex, Veda, Amethyst7 and myself.
+
+programs used: GtkRadiant 1.2.13, Q3map2, PackerTools, Mapacker, Pakexplorer,
+Paint shop Pro, terrain created using Easygen. 
+
+Acknowledgements
+Godmil: thanks to Crimity, Roughrider, Myth (for help with plant shaders).  Kat
+for pointing out that I should use more phong shaders.  Timbo, Overflow,
+Stannum, Jex, Jhrx, MoP and everyone who worked on Tremulous, for help,
+encouragement, and  listening to me bitching about bugs :) Veda for letting
+me remake his map, Lava Croft and Molog for helping beta test.  Lifer and Jex
+for teaching me how to map.
+
+This map uses the Tremulous media license. See the file COPYING for more
+details.

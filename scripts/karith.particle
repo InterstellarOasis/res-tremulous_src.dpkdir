@@ -1,0 +1,97 @@
+// by jex, edited by Godmil
+karith/lghtspark
+{
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/sprites/spark.tga
+
+      displacement 0 0 0 ~2.0
+
+      velocityType 		static
+      velocityDir 		linear
+      velocity 		      1 0 0 ~25
+      velocityMagnitude 	100~50
+
+      accelerationType	      static
+      accelerationDir		linear
+      acceleration 		0 0 -1 ~25
+      accelerationMagnitude 	600
+
+      bounce		.3
+      radius		75 3 4
+      alpha		0 .5 .0
+      rotation	0 0 ~360
+
+      lifeTime 2500
+
+      overdrawProtection
+    }
+
+
+    particle
+    {
+      shader sync gfx/sprites/spark.tga
+
+      displacement 0 0 0 ~2.0
+
+      velocityType 		static
+      velocityDir 		linear
+      velocity 		      1 0 0 ~65
+      velocityMagnitude 	100~50
+
+      accelerationType	static
+      accelerationDir		linear
+      acceleration 		0 0 -1 ~25
+      accelerationMagnitude 	300
+
+      bounce		.3
+      radius		75 3 4
+      alpha		0 .5 .0
+      rotation	0 0 ~360
+
+      lifeTime 2500
+
+      overdrawProtection
+    }
+
+    delay 0
+    count infinite
+    period 700 - ~100%
+  }
+}
+
+// steam by jex - edited by godmil, water by godmil :)
+karith/steamnrth
+{
+  ejector
+  {
+    particle
+    {
+      shader sync textures/karith/mist_s
+      displacement 0 0 0 0
+
+      velocityType		static
+      velocityDir		linear
+      velocityMagnitude	150
+      velocity		0 1 0 ~20
+
+      accelerationType	static
+      accelerationDir		linear
+      acceleration		0 0 1 ~5
+      accelerationMagnitude	25
+
+      radius		0 5 50
+      alpha		250 .5 0
+      rotation	0 ~360 ~360
+      bounce		0.0
+
+      lifeTime 1000
+    }
+
+    count infinite
+    delay 0
+    period 45 - ~0%
+  }
+}

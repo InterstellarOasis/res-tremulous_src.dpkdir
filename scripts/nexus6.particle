@@ -1,0 +1,179 @@
+nexus6/steamerRad
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/nexus6/mist_s
+		displacement 0 0 0 0
+
+		velocityType		static
+	
+		velocityDir			linear
+	
+		velocityMagnitude		45
+		velocity			0 1 .7 ~15
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration		0 0 -1 ~5
+		accelerationMagnitude	25
+
+
+		radius		0 5 40
+		alpha			250 .5 0
+		rotation		0 ~360 ~360
+		bounce		0.0
+
+		lifeTime 2000
+		}
+	count infinite
+	delay 0
+	period 45 - ~0%
+	}
+}
+
+nexus6/steamerPipe
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/nexus6/mist_red_s
+		displacement 0 0 0 0
+
+		velocityType		static
+	
+		velocityDir			linear
+	
+		velocityMagnitude		45
+		velocity			.15 .7 1 ~15
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration		0 0 -1 ~5
+		accelerationMagnitude	15
+
+
+		radius		0 5 40
+		alpha			250 .5 0
+		rotation		0 ~360 ~360
+		bounce		0.0
+
+		lifeTime 2000
+		}
+	count infinite
+	delay 0
+	period 45 - ~0%
+	}
+}
+
+nexus6/sparkerDown
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/nexus6/spark_s
+
+		displacement 0 0 0 ~3
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 300
+
+		overdrawProtection
+		}
+		particle
+		{
+		shader sync textures/nexus6/spark_s
+
+		displacement 0 0 0 ~5
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 600
+
+		overdrawProtection
+		}
+		particle
+		{
+		shader sync textures/nexus6/spark_s
+
+		displacement 0 0 0 ~5
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 400
+
+		overdrawProtection
+		}
+		particle
+		{
+		shader sync textures/nexus6/spark_s
+
+		displacement 0 0 0 ~5
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 500
+
+		overdrawProtection
+		}
+	count infinite
+	delay 0
+	period 1500 - ~100%
+	}
+}
