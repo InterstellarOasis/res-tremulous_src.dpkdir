@@ -1008,3 +1008,8 @@ textures/transit/evil6_support_e6q3support
 	diffuseMap textures/tremor/e6q3support
 }
 
+textures/transit/TIN
+{
+	qet_editorimage textures/transit/tin
+	diffuseMap textures/transit/tin
+}
