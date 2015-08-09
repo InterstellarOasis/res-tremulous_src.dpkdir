@@ -1293,6 +1293,8 @@ textures/nexus6/glass_04_s
 	}
 }
 
+/*
+ * alphaGen lightingSpecular is not a valid XreaL shader keyword
 textures/nexus6/tin_s
 {
 	qer_editorimage textures/nexus6/tin
@@ -1308,7 +1310,14 @@ textures/nexus6/tin_s
 		alphaGen lightingSpecular
 	}
 }
+*/
 
+// workaround:
+textures/nexus6/tin_s
+{
+	qer_editorimage textures/nexus6/tin
+	diffuseMap textures/nexus6/tin
+}
 
 textures/nexus6/fan_s
 {

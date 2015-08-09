@@ -2964,6 +2964,9 @@ textures/transit/stannum_grate
 		rgbGen identity
 	}
 }
+
+/*
+ * alphaGen lightingSpecular is not a valid XreaL shader keyword
 textures/transit/stannum_hose
 {
 	qer_editorimage textures/base_support/flat1_1
@@ -2977,8 +2980,15 @@ textures/transit/stannum_hose
 		rgbGen identity
 		alphaGen lightingSpecular
 	}
-}       
+}
+*/
 
+// workaround:
+textures/transit/stannum_hose
+{
+	qer_editorimage textures/base_support/flat1_1
+	diffuseMap textures/base_support/flat1_1
+}
 
 textures/transit/stannum_tremnet
 {
@@ -3195,6 +3205,8 @@ textures/transit/evil6_trims_e6trim_light_s_nolight
 	}
 }
 
+/*
+ * alphaGen lightingSpecular is not a valid XreaL shader keyword
 textures/transit/stannum_tin
 {
 	qer_editorimage textures/transit/tin
@@ -3208,25 +3220,40 @@ textures/transit/stannum_tin
 		rgbGen identity
 		alphaGen lightingSpecular
 	}
-}   
+}
+*/
 
+// workaround:
+textures/transit/stannum_tin
+{
+	qer_editorimage textures/transit/tin
+	diffuseMap textures/transit/tin
+}
+
+/*
+ * alphaGen lightingSpecular is not a valid XreaL shader keyword
 textures/transit/stannum_wall_shinybluemetal1
 {
-
 	{
 		map $lightmap
 		rgbgen identity      
 	}
-	
 	{
 		map textures/transit/stannum_wall_shinybluemetal1
 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
 		rgbGen identity
 		alphaGen lightingSpecular
-	}
-
-			
+	}			
 }
+*/
+
+// workaround:
+textures/transit/stannum_wall_shinybluemetal1
+{
+		qer_editorimage textures/transit/stannum_wall_shinybluemetal1
+		diffuseMap textures/transit/stannum_wall_shinybluemetal1
+}
+
 textures/transit/sfx_fog_timctf1
 {
 		qer_editorimage textures/transit/sfx_fog_timctf1

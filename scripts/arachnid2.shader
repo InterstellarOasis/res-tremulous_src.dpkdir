@@ -160,6 +160,8 @@ textures/arachnid2/fan_shadow_s
 	}
 }
 
+/*
+ * alphaGen lightingSpecular is not a valid XreaL shader keyword
 textures/arachnid2/tin_s
 {
 	qer_editorimage textures/nexus6/tin
@@ -174,6 +176,14 @@ textures/arachnid2/tin_s
 		rgbGen identity
 		alphaGen lightingSpecular
 	}
+}
+*/
+
+// workaround:
+textures/arachnid2/tin_s
+{
+	qer_editorimage textures/nexus6/tin
+	diffuseMap textures/nexus6/tin
 }
 
 env/arachnid2/sky
