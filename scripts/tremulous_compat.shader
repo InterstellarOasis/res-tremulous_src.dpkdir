@@ -242,8 +242,8 @@ textures/arachnid2/e8tinylight.blend
 
 textures/tremor/flat_dk
 {
-	qer_editorimage textures/karith/flat_dk
-	diffuseMap textures/karith/flat_dk
+	qer_editorimage textures/nexus6/flat_dk
+	diffuseMap textures/nexus6/flat_dk
 }
 
 textures/arachnid2/mist
@@ -698,8 +698,8 @@ textures/nexus6/cubelight_32_blue
 
 textures/arachnid2/dark_metal
 {
-	qer_editorimage textures/niveus/dark_metal
-	diffuseMap textures/niveus/dark_metal
+	qer_editorimage textures/titan/dark_metal
+	diffuseMap textures/titan/dark_metal
 }
 
 textures/nexus6/e6wallsupprt
@@ -1024,4 +1024,100 @@ textures/transit/TIN
 {
 	qet_editorimage textures/transit/tin
 	diffuseMap textures/transit/tin
+}
+
+textures/karith/flat_dk
+{
+	qer_editorimage textures/nexus6/flat_dk
+	diffuseMap textures/nexus6/flat_dk
+}
+
+textures/niveus/basic_panel_b
+{
+	qer_editorimage textures/titan/basic_panel_b
+	diffuseMap textures/titan/basic_panel_b
+}
+
+textures/arachnid2/comp_bank
+{
+	qer_editorimage textures/displays/comp_bank
+	diffuseMap textures/displays/comp_bank
+}
+
+textures/niveus/crate
+{
+	qer_editorimage textures/titan/crate
+	diffuseMap textures/titan/crate
+}
+
+textures/niveus/dark_metal
+{
+	qer_editorimage textures/titan/dark_metal
+	diffuseMap textures/titan/dark_metal
+}
+
+textures/niveus/dark_metal_2
+{
+	qer_editorimage textures/titan/dark_metal_2
+	diffuseMap textures/titan/dark_metal_2
+}
+
+textures/tremor/databank_1
+{
+	qer_editorimage textures/niveus/databank_1
+	diffuseMap textures/niveus/databank_1
+}
+
+textures/tremor/dirt
+{
+	qer_editorimage textures/misc/dirt
+	diffuseMap textures/misc/dirt
+}
+
+textures/tremor/mtlsupport_wrn
+{
+	qer_editorimage textures/transit/evil3_support_mtlsupport_wrn
+	diffuseMap textures/transit/evil3_support_mtlsupport_wrn
+}
+
+textures/tremor/metal_panels
+{
+	qer_editorimage textures/niveus/metal_panels
+	diffuseMap textures/niveus/metal_panels
+}
+
+textures/niveus/multipanels
+{
+	qer_editorimage textures/titan/multipanels
+	diffuseMap textures/titan/multipanels
+}
+
+textures/tremor/oval_panel_1
+{
+	qer_editorimage textures/karith/oval_panel_1
+	diffuseMap textures/karith/oval_panel_1
+}
+
+textures/tremor/runner_128
+{
+	qer_editorimage textures/karith/runner_128
+	diffuseMap textures/karith/runner_128
+}
+
+textures/tremor/ship_tex
+{
+	qer_editorimage textures/niveus/ship_tex
+	diffuseMap textures/niveus/ship_tex
+}
+
+textures/tremor/tech_256_1
+{
+	qer_editorimage textures/niveus/tech_256_1
+	diffuseMap textures/niveus/tech_256_1
+}
+
+textures/tremor/vented_6
+{
+	qer_editorimage textures/niveus/vented_6
+	diffuseMap textures/niveus/vented_6
 }

@@ -55,7 +55,7 @@ textures/tremor/grate_3_shade
 	surfaceparm	metalsteps		
 	cull none
 	{
-		map textures/tremor/grate_3_shade
+		map textures/niveus/grate_3
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc LT128
 		depthWrite
@@ -96,7 +96,7 @@ textures/tremor/shinymetal
 // Shaders by Godmil adapted from terrain shader by Ydnar
 textures/tremor/dirt_phong
 {
-	qer_editorimage textures/tremor/dirt
+	qer_editorimage textures/misc/dirt
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
@@ -104,7 +104,7 @@ textures/tremor/dirt_phong
 //	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
 	{
-		map textures/tremor/dirt
+		map textures/misc/dirt
 		rgbGen identity
 	}
 	{

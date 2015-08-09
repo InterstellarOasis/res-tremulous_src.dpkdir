@@ -20,7 +20,7 @@ textures/arachnid2/glass_02_s
 textures/arachnid2/planet_dis
 {
 	{
-		map textures/arachnid2/planet_dis
+		map textures/displays/planet_dis
 		blendfunc add
 		}
 }
@@ -28,7 +28,7 @@ textures/arachnid2/planet_dis
 textures/arachnid2/planet_dis_2
 {
 	{
-		map textures/arachnid2/planet_dis_2
+		map textures/displays/planet_dis_2
 		blendfunc add
 		}
 }
