@@ -1,6 +1,6 @@
 textures/arachnid2/sky
 {
-	qer_editorimage textures/arachnid2/sky_arc_masked.tga
+	qer_editorimage textures/arachnid2/sky_arc_masked
 	
 	q3map_sunExt 1 1 1 140 -35 25 2 1
 	
@@ -18,13 +18,13 @@ textures/arachnid2/sky
 	nomipmaps
 	
 	{
-		map textures/arachnid2/sky_clouds.tga
+		map textures/arachnid2/sky_clouds
 		tcMod scale 3 3
 		tcMod scroll 0.005 -0.0125
 		rgbGen identityLighting
 	}
 	{
-		map textures/arachnid2/sky_arc_masked.tga
+		map textures/arachnid2/sky_arc_masked
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
 		tcMod transform 0.25 0 0 0.25 0.1075 0.1075
 		rgbGen identityLighting
