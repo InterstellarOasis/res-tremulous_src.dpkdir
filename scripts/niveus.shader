@@ -57,9 +57,9 @@ textures/niveus/light_128x512_s
 	qer_editorimage textures/niveus/light_128x512
 	q3map_surfacelight 1500
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/niveus/light_128x512
@@ -112,7 +112,7 @@ textures/niveus/light5_10k
 textures/niveus/grate_3_s
 {
 	qer_editorimage textures/niveus/grate_3
-	surfaceparm	metalsteps		
+	surfaceparm	metalsteps
 	cull none
 	{
 		map textures/niveus/grate_3
@@ -134,7 +134,7 @@ textures/niveus/e6walllight_s
 	qer_editorimage textures/niveus/e6walllight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
 		map textures/niveus/e6walllight
 	}
@@ -185,9 +185,9 @@ textures/niveus/fan_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -201,9 +201,9 @@ textures/niveus/trembru_s
 		map textures/karith/trembru
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/karith/trembru
@@ -213,12 +213,12 @@ textures/niveus/trembru_s
 
 textures/niveus/x_girder_s
 {
-	surfaceparm metalsteps	
-    	surfaceparm trans	
+	surfaceparm metalsteps
+    	surfaceparm trans
 	surfaceparm alphashadow
 	surfaceparm playerclip
    	surfaceparm nonsolid
-	surfaceparm nomarks	
+	surfaceparm nomarks
 	cull disable
         nopicmip
 	qer_editorimage textures/niveus/x_girder
@@ -230,7 +230,7 @@ textures/niveus/x_girder_s
 	{
 		map $lightmap
 		blendFunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -252,9 +252,9 @@ textures/niveus/e8xgirder_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -271,10 +271,10 @@ textures/niveus/e8bgrate01
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -294,9 +294,9 @@ textures/niveus/e8bgrate01_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -316,7 +316,7 @@ textures/niveus/tin_s
 		rgbGen identity
 		alphaGen lightingSpecular
 	}
-}       
+}
 */
 
 // workaround:
@@ -410,7 +410,7 @@ textures/niveus/proto_lightred
 		map textures/niveus/proto_lightred_64
 		blendFunc add
 	}
-	
+
 }
 
 textures/niveus/proto_lightred2
@@ -433,7 +433,7 @@ textures/niveus/proto_lightred2
 		blendFunc add
 		rgbGen wave square .5 .5 0 1
 	}
-	
+
 }
 
 textures/niveus/glass_01_s
@@ -446,13 +446,13 @@ textures/niveus/glass_01_s
 		map textures/niveus/trem2ref
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -468,10 +468,10 @@ textures/niveus/glass_02_s
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -490,13 +490,13 @@ textures/niveus/window_v_glass_s
 		map textures/niveus/trem2ref
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 

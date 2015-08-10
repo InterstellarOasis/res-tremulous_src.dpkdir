@@ -1,6 +1,6 @@
 textures/titan/grates_alpha
 {
-	surfaceparm	metalsteps		
+	surfaceparm	metalsteps
 	cull none
 
 	// A GRATE OR GRILL THAT CAN BE SEEN FROM BOTH SIDES
@@ -28,6 +28,6 @@ env/titan/asteroid
       surfaceparm sky
      // q3map_sun   .5 .37 .19 90 170 33
       q3map_surfacelight 15
-      
+
       skyparms env/titan/asteroid - -
 }

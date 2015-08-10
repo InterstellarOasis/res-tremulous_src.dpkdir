@@ -8,9 +8,9 @@ nexus6/steamerRad
 		displacement 0 0 0 0
 
 		velocityType		static
-	
+
 		velocityDir			linear
-	
+
 		velocityMagnitude		45
 		velocity			0 1 .7 ~15
 
@@ -43,9 +43,9 @@ nexus6/steamerPipe
 		displacement 0 0 0 0
 
 		velocityType		static
-	
+
 		velocityDir			linear
-	
+
 		velocityMagnitude		45
 		velocity			.15 .7 1 ~15
 

@@ -13,7 +13,7 @@ textures/atcs/skybox_s
 //	q3map_sun 1.00 1.00 1.00 50 90 90	//comablack
 //	q3map_sun 4 3 3 150 135 50		//mars
 //	q3map_sun 1.00 0.949 0.977 100 200 45	//desert
-	q3map_sun 1.00 0.949 0.977 150 135 45	
+	q3map_sun 1.00 0.949 0.977 150 135 45
 	q3map_skylight 250 3
 	q3map_globaltexture
 	skyparms env/atcs/mars - -
@@ -44,8 +44,8 @@ textures/atcs/burst_blue_s
 textures/atcs/force_field_s
 	{
         qer_editorimage textures/atcs/force_field_gtk
-	surfaceparm trans	
-        surfaceparm nomarks	
+	surfaceparm trans
+        surfaceparm nomarks
 	surfaceparm nolightmap
 	cull none
 	{
@@ -81,7 +81,7 @@ textures/atcs/bulb_red_s
 textures/atcs/eq2_bounce
 {
 	qer_editorimage textures/atcs/eq2_bounce
-	
+
 	{
 		map textures/atcs/eq2_bounce
 		rgbGen identity

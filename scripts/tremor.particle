@@ -42,7 +42,7 @@ tremor/tremorspark
 
       lifeTime 1200
     }
-    
+
     count infinite
     delay 2
     period 2000 - ~50%

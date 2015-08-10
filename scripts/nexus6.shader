@@ -69,7 +69,7 @@ textures/nexus6/proto_lightred_64_300
 		map textures/niveus/proto_lightred_64
 		blendFunc add
 	}
-	
+
 }
 
 textures/nexus6/sq_light_blue_s_5000
@@ -81,7 +81,7 @@ textures/nexus6/sq_light_blue_s_5000
 		map textures/nexus6/sq_light_blue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -99,7 +99,7 @@ textures/nexus6/sq_light_blue_s_10k
 		map textures/nexus6/sq_light_blue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -117,7 +117,7 @@ textures/nexus6/sq_light_blue_s_25k
 		map textures/nexus6/sq_light_blue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -135,7 +135,7 @@ textures/nexus6/sq_light_red_s_25k
 		map textures/nexus6/sq_light_red
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -153,7 +153,7 @@ textures/nexus6/sq_light_green_s_25k
 		map textures/nexus6/sq_light_green
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -171,7 +171,7 @@ textures/nexus6/sq_light_orange_s_5000
 		map textures/nexus6/sq_light_orange
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -189,7 +189,7 @@ textures/nexus6/sq_light_orange_s_25k
 		map textures/nexus6/sq_light_orange
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -207,7 +207,7 @@ textures/nexus6/sq_light_orange_s_30k
 		map textures/nexus6/sq_light_orange
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -225,7 +225,7 @@ textures/nexus6/sq_light_orange_s_35k
 		map textures/nexus6/sq_light_orange
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 	}
 	{
@@ -240,7 +240,7 @@ textures/nexus6/e6basicstrip_white_s_nolight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
 		map textures/nexus6/e6basicstrip_white
 	}
@@ -252,7 +252,7 @@ textures/nexus6/e6basicstrip_white_s_5k
 	q3map_surfacelight 5000
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
 		map textures/nexus6/e6basicstrip_white
 	}
@@ -263,7 +263,7 @@ textures/nexus6/e6tinylight_s_nolight
 	qer_editorimage textures/nexus6/e6tinylight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
 		map textures/nexus6/e6tinylight
 	}
@@ -286,9 +286,9 @@ textures/nexus6/e6tinylight_s_5000
 		map textures/nexus6/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6tinylight_blend
@@ -305,9 +305,9 @@ textures/nexus6/e6tinylight_s_10k
 		map textures/nexus6/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6tinylight_blend
@@ -324,9 +324,9 @@ textures/nexus6/e6tinylight_s_15k
 		map textures/nexus6/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6tinylight_blend
@@ -343,9 +343,9 @@ textures/nexus6/e6tinylight_s_20k
 		map textures/nexus6/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6tinylight_blend
@@ -363,9 +363,9 @@ textures/nexus6/e6tinylight_s_25k
 		map textures/nexus6/e6tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6tinylight_blend
@@ -382,9 +382,9 @@ textures/nexus6/e8tinylightblue_s_5000
 		map textures/nexus6/e8tinylightblue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e8tinylightblue.blend
@@ -401,9 +401,9 @@ textures/nexus6/e8tinylightblue_s_10k
 		map textures/nexus6/e8tinylightblue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e8tinylightblue.blend
@@ -420,9 +420,9 @@ textures/nexus6/e8tinylightblue_s_20k
 		map textures/nexus6/e8tinylightblue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e8tinylightblue.blend
@@ -439,9 +439,9 @@ textures/nexus6/e6horzlight_s_1500
 		map textures/nexus6/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6horzlight_blend
@@ -458,9 +458,9 @@ textures/nexus6/e6horzlight_s_2500
 		map textures/nexus6/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6horzlight_blend
@@ -477,9 +477,9 @@ textures/nexus6/e6horzlight_s_5000
 		map textures/nexus6/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6horzlight_blend
@@ -496,9 +496,9 @@ textures/nexus6/e6horzlight_s_7500
 		map textures/nexus6/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6horzlight_blend
@@ -516,9 +516,9 @@ textures/nexus6/e6horzlight_s_10k
 		map textures/nexus6/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6horzlight_blend
@@ -537,9 +537,9 @@ textures/nexus6/e6horzlight_blue_s_10k
 		map textures/nexus6/e6horzlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6horzlight_blend
@@ -556,9 +556,9 @@ textures/nexus6/e6v_light_s_2500
 		map textures/nexus6/e6v_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_blend
@@ -575,9 +575,9 @@ textures/nexus6/e6v_light_s_5000
 		map textures/nexus6/e6v_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_blend
@@ -594,9 +594,9 @@ textures/nexus6/e6v_light_s_7500
 		map textures/nexus6/e6v_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_blend
@@ -613,9 +613,9 @@ textures/nexus6/e6v_light_s_10k
 		map textures/nexus6/e6v_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_blend
@@ -632,9 +632,9 @@ textures/nexus6/e6v_light_s_15k
 		map textures/nexus6/e6v_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_blend
@@ -651,9 +651,9 @@ textures/nexus6/e6v_light_s_20k
 		map textures/nexus6/e6v_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_blend
@@ -670,9 +670,9 @@ textures/nexus6/e6v_light_s_30k
 		map textures/nexus6/e6v_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_blend
@@ -689,9 +689,9 @@ textures/nexus6/e6v_light_sm_s_2500
 		map textures/nexus6/e6v_light_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_sm_blend
@@ -708,9 +708,9 @@ textures/nexus6/e6v_light_sm_s_5000
 		map textures/nexus6/e6v_light_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_sm_blend
@@ -727,9 +727,9 @@ textures/nexus6/e6v_light_sm_s_7500
 		map textures/nexus6/e6v_light_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_sm_blend
@@ -746,9 +746,9 @@ textures/nexus6/e6v_light_sm_s_10k
 		map textures/nexus6/e6v_light_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_sm_blend
@@ -765,9 +765,9 @@ textures/nexus6/e6v_light_sm_s_15k
 		map textures/nexus6/e6v_light_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_sm_blend
@@ -784,9 +784,9 @@ textures/nexus6/e6v_light_sm_s_20k
 		map textures/nexus6/e6v_light_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_sm_blend
@@ -803,9 +803,9 @@ textures/nexus6/e6v_light_sm_s_30k
 		map textures/nexus6/e6v_light_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_sm_blend
@@ -823,9 +823,9 @@ textures/nexus6/e6v_light_h_sm_s_5k
 		map textures/nexus6/e6v_light_h_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_h_sm_blend
@@ -843,9 +843,9 @@ textures/nexus6/e6v_light_h_sm_blue_s_10k
 		map textures/nexus6/e6v_light_h_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_h_sm_blend
@@ -863,9 +863,9 @@ textures/nexus6/e6v_light_h_sm_blue_s_15k
 		map textures/nexus6/e6v_light_h_sm
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6v_light_h_sm_blend
@@ -882,9 +882,9 @@ textures/nexus6/e6trim_light_s_250
 		map textures/nexus6/e6trim_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6trim_light_blend
@@ -901,9 +901,9 @@ textures/nexus6/e6trim_light_s_500
 		map textures/nexus6/e6trim_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6trim_light_blend
@@ -920,9 +920,9 @@ textures/nexus6/e6trim_light_s_1000
 		map textures/nexus6/e6trim_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6trim_light_blend
@@ -939,9 +939,9 @@ textures/nexus6/e6trim_light_s_1500
 		map textures/nexus6/e6trim_light
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e6trim_light_blend
@@ -1080,7 +1080,7 @@ textures/nexus6/slime_s
 		surfaceparm noimpact
 		surfaceparm slime
 		surfaceparm nolightmap
-		surfaceparm trans		
+		surfaceparm trans
 
 		q3map_surfacelight 100
 		tessSize 32
@@ -1090,15 +1090,15 @@ textures/nexus6/slime_s
 
 		{
 			map textures/nexus6/slime7c
-			rgbGen const ( 0.5 0.5 0.5 )			
+			rgbGen const ( 0.5 0.5 0.5 )
 			blendfunc add
 			tcMod turb .3 .2 1 .05
 			tcMod scroll .01 .01
 		}
-	
+
 		{
 			map textures/nexus6/slime7
-			rgbGen const ( 0.75 0.75 0.75 )			
+			rgbGen const ( 0.75 0.75 0.75 )
 			blendfunc add
 			tcMod turb .2 .1 1 .05
 			tcMod scale .5 .5
@@ -1132,9 +1132,9 @@ textures/nexus6/brown_hose_s
 	qer_editorimage textures/nexus6/flat_64
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/flat_64
@@ -1148,9 +1148,9 @@ textures/nexus6/blue_hose_s
 	qer_editorimage textures/nexus6/e8base_blue
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e8base_blue
@@ -1164,9 +1164,9 @@ textures/nexus6/red_hose_s
 	qer_editorimage textures/nexus6/e8base_red
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e8base_red
@@ -1180,9 +1180,9 @@ textures/nexus6/green_hose_s
 	qer_editorimage textures/nexus6/copper-3
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/copper-3
@@ -1196,9 +1196,9 @@ textures/nexus6/grey_hose_s
 	qer_editorimage textures/nexus6/blackwall
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/blackwall
@@ -1212,9 +1212,9 @@ textures/nexus6/flat_dk_nonsolid_s
 	qer_editorimage textures/nexus6/flat_dk
 	surfaceparm nonsolid
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/flat_dk
@@ -1234,10 +1234,10 @@ textures/nexus6/glass_02_s
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -1260,10 +1260,10 @@ textures/nexus6/glass_03_s
 //		rgbGen const ( 0.5 0.5 0.5 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -1286,10 +1286,10 @@ textures/nexus6/glass_04_s
 //		rgbGen const ( 0.05 0.05 0.05 )
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -1299,9 +1299,9 @@ textures/nexus6/tin_s
 {
 	qer_editorimage textures/nexus6/tin
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/tin
@@ -1333,7 +1333,7 @@ textures/nexus6/fan_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		depthFunc equal
 	}
@@ -1400,9 +1400,9 @@ textures/nexus6/drip_s
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	deformVertexes move 3 1 0 sin 0 5 0 0.1 
-	deformVertexes move 0.6 3.3 0 sin 0 5 0 0.05 
-	deformVertexes wave 30 sin 0 10 0 0.075 
+	deformVertexes move 3 1 0 sin 0 5 0 0.1
+	deformVertexes move 0.6 3.3 0 sin 0 5 0 0.05
+	deformVertexes wave 30 sin 0 10 0 0.075
 	{
 		map textures/nexus6/drip
 		blendfunc add
@@ -1416,7 +1416,7 @@ textures/nexus6/proto_fence
 	qer_editorimage textures/nexus6/objects_fence
 	surfaceparm noimpact
 	surfaceparm playerclip
-	surfaceparm trans		
+	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	cull none

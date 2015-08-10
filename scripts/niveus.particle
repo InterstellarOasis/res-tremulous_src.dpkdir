@@ -118,9 +118,9 @@ niveus/bigSteamerDown
 		displacement 0 0 0 0
 
 		velocityType		static
-	
+
 		velocityDir		linear
-	
+
 		velocityMagnitude	50
 		velocity		0 0 -1 ~15
 
@@ -153,9 +153,9 @@ niveus/smallSteamerDown
 		displacement 0 0 0 0
 
 		velocityType		static
-	
+
 		velocityDir		linear
-	
+
 		velocityMagnitude	45
 		velocity		0 0 -1 ~15
 
@@ -188,9 +188,9 @@ niveus/snowfall
 		displacement 		0 0 0 ~200
 
 		velocityType		static
-	
+
 		velocityDir			linear
-	
+
 		velocityMagnitude		25
 		velocity			0 0 -1 ~25
 

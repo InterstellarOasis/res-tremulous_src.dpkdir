@@ -36,7 +36,7 @@ models/mapobjects/stasis/window
 	{
 		map models/mapobjects/stasis/bubbles
 		blendfunc add
-	
+
 		tcMod scroll 0 0.2
 		tcMod scale 2 1
 	}
@@ -46,15 +46,15 @@ models/mapobjects/stasis/flowpipe
 {
 	{
 		map models/mapobjects/stasis/flowpipe
-		
+
 		tcMod scale 5 5
 		tcMod scroll 1 0
 	}
 	{
 		map models/buildables/overmind/ref2
 		blendfunc filter
-		
-		tcGen environment 
+
+		tcGen environment
 	}
 }
 
@@ -62,7 +62,7 @@ models/mapobjects/stasis/bubbles
 {
 	{
 		map models/mapobjects/stasis/bubbles
-		rgbGen wave noise 0 1 0 1 
+		rgbGen wave noise 0 1 0 1
 		tcMod scroll 0 0.5
 	}
 }

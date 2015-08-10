@@ -1,7 +1,7 @@
 //shaders for Trem2 by Godmil,  shaders written by Evillair, ydnar, jex, Amethyst7
 //and Godmil, compiled and edited by Godmil
 //also (when I started getting desperate) compiled with the help of:
-//  MapShader by LordDaimos (http://lorddaimos.railbait.com) 
+//  MapShader by LordDaimos (http://lorddaimos.railbait.com)
 
 
 //by Godmil & jex
@@ -316,9 +316,9 @@ textures/karith/fan_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -348,18 +348,18 @@ textures/karith/snow_rock3
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-	
+
 	q3map_lightmapAxis z
-	
+
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
-	
+
 	q3map_alphaMod dotproduct2 ( 0.2 0 0.76 )
-	
+
 	q3map_lightmapSampleSize 64
-	
+
 	q3map_globalTexture
-	
+
 	{
 		map textures/karith/rock_1
 		rgbGen identity
@@ -404,14 +404,14 @@ textures/godmil/terrain_snow
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-	
+
 	q3map_lightmapAxis z
-	
+
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
-	
+
 	q3map_lightmapSampleSize 64
-	
+
 	q3map_globalTexture
 	{
 		map textures/karith/snow_1
@@ -461,18 +461,18 @@ textures/karith/snow_rock
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-	
+
 	q3map_lightmapAxis z
-	
+
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
-	
+
 	q3map_alphaMod dotproduct2 ( 0.1 -0.2 0.99 )
-	
+
 	q3map_lightmapSampleSize 64
-	
+
 	q3map_globalTexture
-	
+
 	{
 		map textures/karith/rock_1
 		rgbGen identity
@@ -503,18 +503,18 @@ textures/karith/snow_rock2
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-	
+
 	q3map_lightmapAxis z
-	
+
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
-	
+
 	q3map_alphaMod dotproduct2 ( 0.1 -0.2 0.99 )
-	
+
 	q3map_lightmapSampleSize 64
-	
+
 	q3map_globalTexture
-	
+
 	{
 		map textures/karith/rock_1
 		rgbGen identity
@@ -545,9 +545,9 @@ textures/karith/e8tinylight_nonsolid
 		map textures/karith/e8tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/karith/e8tinylight.blend
@@ -581,7 +581,7 @@ textures/karith/e6whitestrip_nolight_nonsolid
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
-	
+
 	{
 		map textures/nexus6/e6basicstrip_white
 	}
@@ -632,18 +632,18 @@ textures/karith/terrain_rock
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-	
+
 	q3map_lightmapAxis z
-	
+
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
-	
+
 //	q3map_alphaMod dotproduct2 ( 0.1 -0.2 0.99 )
-	
+
 	q3map_lightmapSampleSize 64
-	
+
 	q3map_globalTexture
-	
+
 	{
 		map textures/karith/rock_1
 		rgbGen identity
@@ -672,17 +672,17 @@ textures/karith/terrain_snow
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-	
+
 	q3map_lightmapAxis z
-	
+
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
 
-	
+
 	q3map_lightmapSampleSize 64
-	
+
 	q3map_globalTexture
-	
+
 	{
 		map textures/karith/snow_1
 		rgbGen identity
@@ -698,29 +698,29 @@ textures/karith/terrain_snow
 
 //by Evillair -c2
 textures/karith/eshinytin2
-{    
+{
 qer_editorimage textures/karith/eshinytin
-        { 
+        {
                 map textures/niveus/trem2ref
-                tcGen environment 
-		rgbGen identity 
-                tcmod scale 0.55 1 
-	}   
-      { 
-		map $lightmap 
-       		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA 
-		rgbGen identity 
-	} 
-	{ 
+                tcGen environment
+		rgbGen identity
+                tcmod scale 0.55 1
+	}
+      {
+		map $lightmap
+       		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		rgbGen identity
+	}
+	{
 		map textures/karith/eshinytin
-		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA 
-		rgbGen identity 
-	} 
-        { 
-		map $lightmap 
-       		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA 
-		rgbGen identity 
-	} 
+		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
+		rgbGen identity
+	}
+        {
+		map $lightmap
+       		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		rgbGen identity
+	}
 }
 
 //by Evillair -c2
@@ -734,9 +734,9 @@ textures/karith/e8trimlight2
 		map textures/karith/e8trimlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/karith/e8trimlight.blend
@@ -757,10 +757,10 @@ textures/karith/e8bgrate01b
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -775,9 +775,9 @@ textures/karith/e8tinylightblue2
 		map textures/nexus6/e8tinylightblue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/e8tinylightblue.blend
@@ -845,7 +845,7 @@ textures/karith/e6basicstripred_nolight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
 		map textures/karith/e6basicstrip_red
 	}
@@ -870,7 +870,7 @@ textures/karith/e6metalfan_s2
 	}
 }
 
-//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.  
+//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
 //Please check out our mod site at http://www.og-world.com/bkp/
 textures/karith/darkglass2
                       {
@@ -892,7 +892,7 @@ textures/karith/darkglass2
                       }
                       }
 
-//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.  
+//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
 //Please check out our mod site at http://www.og-world.com/bkp/
 textures/karith/plainglass2
 {
@@ -923,9 +923,9 @@ textures/karith/tfloor_rndholes_drty_s2
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -947,9 +947,9 @@ textures/karith/e3grate_transt2
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1004,9 +1004,9 @@ textures/karith/trembru_st2
 		map textures/karith/trembru
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/karith/trembru
@@ -1016,22 +1016,22 @@ textures/karith/trembru_st2
 //by Evillair
 textures/karith/barreltopt2
 {
-   	surfaceparm trans	
+   	surfaceparm trans
 	surfaceparm alphashadow
-	surfaceparm nomarks	
-	cull none 
+	surfaceparm nomarks
+	cull none
 
-	{ 
+	{
 		map textures/karith/barrel_rst_top2
-		alphaFunc GE128 
-		depthWrite 
-	} 
-	{ 
-		map $lightmap 
+		alphaFunc GE128
+		depthWrite
+	}
+	{
+		map $lightmap
 		blendFunc filter
-		depthFunc equal 
-	} 
-} 
+		depthFunc equal
+	}
+}
 
 textures/karith/water
 {
@@ -1096,9 +1096,9 @@ textures/karith/e8tinylight
 		map textures/karith/e8tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/karith/e8tinylight.blend

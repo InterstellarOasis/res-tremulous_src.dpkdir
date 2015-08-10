@@ -10,10 +10,10 @@ textures/arachnid2/glass_02_s
 		rgbGen const ( 0.05 0.05 0.07 )
 	}
 	//{
-	//	map $lightmap 
+	//	map $lightmap
 	//	blendfunc gl_dst_color gl_src_alpha
 	//	rgbGen identity
-	//	tcGen lightmap 
+	//	tcGen lightmap
 	//}
 }
 
@@ -39,7 +39,7 @@ textures/arachnid2/e6basicstrip_red_s_nolight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
 		map textures/karith/e6basicstrip_red
 	}
@@ -50,7 +50,7 @@ textures/arachnid2/e6horzlight_s_nolight
 	qer_editorimage textures/nexus6/e6horzlight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
 		map textures/nexus6/e6horzlight
 	}
@@ -76,10 +76,10 @@ textures/arachnid2/e8bgrate01
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -94,9 +94,9 @@ textures/arachnid2/e8tinylight
 		map textures/karith/e8tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/karith/e8tinylight.blend
@@ -137,7 +137,7 @@ textures/arachnid2/fan_s
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		depthFunc equal
 	}
@@ -166,9 +166,9 @@ textures/arachnid2/tin_s
 {
 	qer_editorimage textures/nexus6/tin
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/nexus6/tin
@@ -189,22 +189,22 @@ textures/arachnid2/tin_s
 env/arachnid2/sky
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
-	
+
 	q3map_sunExt 1 1 1 140 -35 25 2 1
-	
+
 	q3map_lightRGB 0.7 0.8 1.0
 	q3map_lightmapFilterRadius 0 64
 	q3map_skyLight 90 3
-	
+
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
-	
+
 	skyparms env/arachnid2/sky 1024 -
-	
+
 	nopicmip
 	nomipmaps
-	
+
 	{
 		map textures/arachnid2/sky_clouds
 		tcMod scale 3 3

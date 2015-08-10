@@ -8,9 +8,9 @@ arachnid2/steam1
 		displacement 0 0 0 0
 
 		velocityType		static
-	
+
 		velocityDir		linear
-	
+
 		velocityMagnitude	125
 		velocity		3 0 0 ~5
 
@@ -43,9 +43,9 @@ arachnid2/steam2
 		displacement 0 0 0 0
 
 		velocityType		static
-	
+
 		velocityDir		linear
-	
+
 		velocityMagnitude	125
 		velocity		-.1 .05 -1 ~10
 

@@ -1,22 +1,22 @@
 textures/arachnid2/sky
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
-	
+
 	q3map_sunExt 1 1 1 140 -35 25 2 1
-	
+
 	q3map_lightRGB 0.7 0.8 1.0
 	q3map_lightmapFilterRadius 0 64
 	q3map_skyLight 90 3
-	
+
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
-	
+
 	skyparms env/arachnid2/sky 1024 -
-	
+
 	nopicmip
 	nomipmaps
-	
+
 	{
 		map textures/arachnid2/sky_clouds
 		tcMod scale 3 3
@@ -54,22 +54,22 @@ textures/niveus/snowy_skybox_s
 textures/transit/shaderlab_terrain_sky_s
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
-	
+
 	q3map_sunExt 1 1 1 140 230 60 2 1
-	
+
 	q3map_lightRGB 0.7 0.8 1.0
 	q3map_lightmapFilterRadius 0 64
 	q3map_skyLight 90 3
-	
+
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
-	
+
 	skyparms env/arachnid2/sky 1024 -
-	
+
 	nopicmip
 	nomipmaps
-	
+
 	{
 		map textures/arachnid2/sky_clouds
 		tcMod scale 3 3
@@ -92,7 +92,7 @@ textures/titan/asteroid_skybox
 	surfaceparm sky
 	// q3map_sun   .5 .37 .19 90 170 33
 	q3map_surfacelight 15
-	  
+
 	skyparms env/titan/asteroid - -
 }
 
@@ -109,10 +109,10 @@ textures/karith/e8bgrate01
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }

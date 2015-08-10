@@ -39,7 +39,7 @@ fogparms ( .03 .01 .01 ) 2048
 textures/uncreation/grate1a_trans
 {
 	qer_editorimage textures/uncreation/grate1a
-	surfaceparm	metalsteps		
+	surfaceparm	metalsteps
 	cull none
 	{
 		map textures/uncreation/grate1a
@@ -59,7 +59,7 @@ textures/uncreation/grate1a_trans
 textures/uncreation/grate1b_trans
 {
 	qer_editorimage textures/uncreation/grate1b
-	surfaceparm	metalsteps		
+	surfaceparm	metalsteps
 	cull none
 	{
 		map textures/uncreation/grate1b

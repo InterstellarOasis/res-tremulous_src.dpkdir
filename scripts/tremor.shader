@@ -5,7 +5,7 @@ textures/tremor/force_field
 	{
 		map textures/tremor/force_field
 		blendfunc add
-		rgbGen wave noise 0.8 1 0 1 
+		rgbGen wave noise 0.8 1 0 1
 		tcMod scale 1 1
 	}
 }
@@ -14,12 +14,12 @@ textures/tremor/purple_1
 	{
 		map textures/tremor/purple_1
 		blendfunc add
-		rgbGen wave noise 0.5 1 0 1 
+		rgbGen wave noise 0.5 1 0 1
 	}
 	{
 		map textures/tremor/purple_1
 		blendfunc filter
-		rgbGen wave noise 0.5 1 0 1 
+		rgbGen wave noise 0.5 1 0 1
 		tcMod rotate 15
 	}
 }
@@ -27,9 +27,9 @@ textures/titan/light_128x512
 {
 	q3map_surfacelight 1500
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/titan/light_128x512
@@ -43,16 +43,16 @@ textures/tremor/ship_flame
 		map textures/tremor/ship_flame
 		blendfunc add
 	}
-	{ 
+	{
 		map textures/tremor/ship_flame2
 		blendfunc add
-		rgbGen wave sawtooth 0 1 0 1 
+		rgbGen wave sawtooth 0 1 0 1
 		tcMod scroll 5 0
 	}
 }
 textures/tremor/grate_3_shade
 {
-	surfaceparm	metalsteps		
+	surfaceparm	metalsteps
 	cull none
 	{
 		map textures/niveus/grate_3
@@ -79,17 +79,17 @@ textures/tremor/red_color
 		rgbGen wave square 0 1 0 1
 }
 {
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 textures/tremor/shinymetal
 {
 	{
 		map textures/tremor/shinymetal
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -115,7 +115,7 @@ textures/tremor/dirt_phong
 
 }
 
-// Shader by id 
+// Shader by id
 textures/tremor/proto_lightred_nonsolid
 {
 	q3map_lightimage textures/base_light/proto_lightred
@@ -136,30 +136,30 @@ textures/tremor/proto_lightred_nonsolid
 		map textures/base_light/proto_lightred
 		blendFunc add
 	}
-	
+
 }
 
-// by Veda, adapted by Godmil using a shader by Evillair 
+// by Veda, adapted by Godmil using a shader by Evillair
 textures/tremor/light_flicker
 {
 	qer_editorimage textures/niveus/light_128x512
 	q3map_surfacelight 1500
 	q3map_lightStyle 1
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/niveus/light_128x512
-		blendfunc GL_DST_COLOR GL_ZERO 
+		blendfunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
-	{ 
+	{
 		map textures/tremor/tremorlightblend
-		rgbGen wave sawtooth 0 1 0 0.5 
-		blendfunc GL_ONE GL_ONE 
-	} 
+		rgbGen wave sawtooth 0 1 0 0.5
+		blendfunc GL_ONE GL_ONE
+	}
 }
 
 // by Evillair
@@ -169,7 +169,7 @@ textures/tremor/e6basicstrip_blue_s_nolight
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
 		map textures/tremor/e6basicstrip_blue
 	}
@@ -190,12 +190,12 @@ textures/tremor/e8_base1c_nonsolid
 	}
 }
 
-//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.  
+//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
 //Please check out our mod site at http://www.og-world.com/bkp/
 textures/tremor/darkglass3
 {
 	qer_editorimage textures/niveus/trem2ref
-	qer_trans .5	
+	qer_trans .5
 	surfaceparm trans
 	cull disable
 		{
@@ -234,7 +234,7 @@ textures/tremor/e6bsegrtflr256_nonsolid
 	}
 }
 
-//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.  
+//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
 //Please check out our mod site at http://www.og-world.com/bkp/
 textures/tremor/plainglass3
 {

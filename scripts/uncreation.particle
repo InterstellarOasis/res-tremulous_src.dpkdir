@@ -111,8 +111,8 @@ uncreation/dustbin_broken
       velocityMagnitude 50~100%
       velocity          1 1 1 ~360
 
-      accelerationType      static 
-      accelerationDir       linear 
+      accelerationType      static
+      accelerationDir       linear
       accelerationMagnitude 800
       acceleration          0 0 1 ~0
 
@@ -123,7 +123,7 @@ uncreation/dustbin_broken
       cullOnStartSolid
       lifeTime 500
     }
-    
+
     count 10
     delay 0
     period 0.5 - ~0%
