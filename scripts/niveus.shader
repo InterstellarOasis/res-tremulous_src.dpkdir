@@ -259,6 +259,26 @@ textures/niveus/e8xgirder_s
 	}
 }
 
+textures/niveus/e8bgrate01
+{
+	surfaceparm alphashadow
+	surfaceparm metalsteps
+	cull disable
+	{
+		map textures/niveus/e8bgrate01
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap 
+		depthFunc equal
+	}
+}
+
 textures/niveus/e8bgrate01_s
 {
 	qer_editorimage textures/niveus/e8bgrate01

@@ -96,6 +96,27 @@ textures/titan/asteroid_skybox
 	skyparms env/titan/asteroid - -
 }
 
+textures/karith/e8bgrate01
+{
+	qer_editorimage textures/niveus/e8bgrate01
+	surfaceparm alphashadow
+	surfaceparm metalsteps
+	cull disable
+	{
+		map textures/niveus/e8bgrate01
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap 
+		depthFunc equal
+	}
+}
+
 textures/transit/ceillight1
 {
 	qer_editorimage models/mapobjects/transit/ceillight1/skin
@@ -736,12 +757,6 @@ textures/tremor/e8_base1b
 {
 	qer_editorimage textures/niveus/e8_base1b
 	diffuseMap textures/niveus/e8_base1b
-}
-
-textures/karith/e8bgrate01
-{
-	qer_editorimage textures/niveus/e8bgrate01
-	diffuseMap textures/niveus/e8bgrate01
 }
 
 textures/nexus6/floor1_l3_1a
