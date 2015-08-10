@@ -3,7 +3,14 @@ Tremulous
 
 This is a ressource package for map ported from the [Tremulous](http://tremulous.net/) game by Darklegion Development to the [Unvanquished](https://www.unvanquished.net/) game.
 
-Ported from Tremulous gpp packages from [http://ingar.satgnu.net/files/tremulous/base/](http://ingar.satgnu.net/files/tremulous/base/).
+Ported from Tremulous gpp packages from [http://ingar.satgnu.net/files/tremulous/base/](http://ingar.satgnu.net/files/tremulous/base/) and Tremulous 1.1.0 files from [http://tremulous.net](http://tremulous.net).
+
+This port is an Interstellar Oasis initiative: [https://github.com/interstellar-oasis/interstellar-oasis](https://github.com/interstellar-oasis/interstellar-oasis).
+
+Illustration
+------------
+
+![Illustration](meta/tremulous/tremulous_web.jpg)
 
 How-to
 ------
@@ -42,8 +49,8 @@ The maps are not stored in this repository, but this repository provides assets 
 * _[Karith Station 2](https://github.com/interstellar-oasis/map-karith)_ by Gordon “Godmil” Miller
 * _[Nexus Corp. Infusion Plant 6](https://github.com/interstellar-oasis/map-nexus)_ by Nicolas “jex” Jansens
 * _[Niveus: Outpost 652](https://github.com/interstellar-oasis/map-niveus)_ by Nicolas “jex” Jansens
-* _[Transit](https://github.com/interstellar-oasis/map-transit)_ by Jan “Stannum” Van der Weg
-* _[Tremor](https://github.com/interstellar-oasis/map-termor)_ by Mike “Vedacon” Mcinnerney
+* _[Transit Station](https://github.com/interstellar-oasis/map-transit)_ by Jan “Stannum” Van der Weg
+* _[Tremor](https://github.com/interstellar-oasis/map-termor)_ by Mike “Vedacon” Mcinnerney and Gordon “Godmil” Miller
 * _[Uncreation](https://github.com/interstellar-oasis/map-uncreation)_ by Who-[Soup]
 
 Credits
