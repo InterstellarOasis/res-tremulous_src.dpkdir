@@ -67,15 +67,15 @@ Textures & Shaders:
 * Nicolas “Jex“ Jansens <jex@orodu.net>
 * Gordon “Godmil” Miller <godmil@gmail.com> (http://godmil.com/)
 * Randy “ydnar” Redding <ydnar@shaderlab.com> (http://www.shaderlab.com)
+* Jan “Stannum” Van der Weg (http://janvanderweg.com/)
+* Matthew “Lunaran” Breit (http://lunaran.com/)
+* Paul “MoP” Greveson (http://www.predictable-paul.com/)
+* Robin “OverFlow” Marshall (http://bobbin.vilkacis.net)
+* Simon “sock” O'Callaghan (http://www.simonoc.com/)
 * Yves “evil lair” Allaire (http://evillair.net)
-* Jan “Stannum” Van der Weg
+* Chris “Amethyst” Matz
 * Louie “KnightBK“ Doulias
 * Mike “Vedacon” McInnerney
-* Paul “MoP” Greveson
-* Simon “sock” O'Callaghan
-* Robin “OverFlow” Marshall
-* Amethyst7
-* Lunaran
 * The nice chap who released his "ds-old-tex" set to the public
 
 Sound effects:
@@ -86,15 +86,15 @@ Sound effects:
 Models:
 
 * Jan “Stannum” Van der Weg
-* Mike “Vedacon” MciInnerney
+* Mike “Vedacon” McInnerney
 
 Special thanks:
 
-* Stijn “Ingar“ Buys <ingar@osirion.org>
+* Stijn “Ingar“ Buys <ingar@osirion.org> (http://ingar.satgnu.net/)
+* Chris “Lakitu7” Schwarz <lakitu7@gmail.com>
+* Ben “benmachine” Millwood (http://benmachine.co.uk/)
+* Ben “DASPRiD” Scholzen (http://www.dasprids.de/)
 * Asa “Norfenstein” Kravets
-* Ben “benmachine” Millwood
-* Ben “DASPRiD” Scholzen
-* Chris “Lakitu7” Schwarz
 * John “Rezyn” Ellis
 * M. “Undeference” Kristall
 * Tony “tjw“ White
@@ -114,14 +114,23 @@ Special thanks:
 Legal
 -----
 
+Changes by Thomas Debesse fall under the Internet Systems Consortium License:  
+http://directory.fsf.org/wiki/License:ISC
+
 Assets by Tremulous contributors fall under the Creative Commons Attribution-ShareAlike 2.5 Generic License:  
 http://creativecommons.org/licenses/by-sa/2.5/
 
 Textures by Yves Allaire fall under the Creative Commons Attribution-ShareAlike 4.0 International License:  
 http://creativecommons.org/licenses/by-sa/4.0/
 
+Textures by Chris Matz fall under the GNU General Public License version 2:  
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
 Textures from shaderlab are subject to the terms of this notice:  
 Usage and redistribution policy: Textures may be freely downloaded, modified, and used in free maps, mods or total conversions provided this copyright notice is left intact and a link to Shaderlab is provided in the credits or read-me file. Other non-commercial applications are considered on a case-by-case basis via e-mail. All other usage requires written permission. Bulk redistribution or archival of the textures in any medium, digital or otherwise (except mapping packages for mods) is prohibited.
+
+Textures from Matthew Breit are subject to the terms of this notice:  
+You may: Use the included custom textures & shaders, or modifications thereof, provided you give note of such in an attached readme (and please let me know). Distribute this pak file and/or its contents by any electronic means, provided you leave the contents unaltered and include this text file, also unaltered. You may not: Commercially exploit this file or its contents in any way. Distribute this pak file and/or its contents on any hard media whatsoever, including but not limited to magazine coverdisks or level compilations, without prior consent of and negotiation with the author.
 
 History
 -------
