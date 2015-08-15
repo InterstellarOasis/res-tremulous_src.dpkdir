@@ -186,7 +186,7 @@ textures/arachnid2/tin_s
 	diffuseMap textures/nexus6/tin
 }
 
-env/arachnid2/sky
+textures/arachnid2/sky
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
 

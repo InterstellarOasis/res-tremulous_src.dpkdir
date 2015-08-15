@@ -562,7 +562,7 @@ textures/karith/e8tinylight_nonsolid
 //							//
 //****************************************************//
 //editted by Godmil
-env/karith/snowy
+textures/karith/snowy
 {
 	qer_editorimage env/karith/snowy_bk
 	surfaceparm noimpact

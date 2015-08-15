@@ -309,12 +309,6 @@ textures/karith/snowy/snowy
 	diffuseMap env/karith/snowy_lf
 }
 
-env/niveus/snowy_lf
-{
-	qer_editorimage env/karith/snowy_lf
-	diffuseMap env/karith/snowy_lf
-}
-
 textures/transit/evil3_floors_t-flr_oddtile_drty
 {
 	qer_editorimage textures/karith/t-flroddtiledrty

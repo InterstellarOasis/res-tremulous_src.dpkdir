@@ -2834,7 +2834,7 @@ q3map_tcGen ivector ( 2048 0 0 ) ( 0 2048 0 )
 
 // this sky must be compiled with Q3Map2 2.5.11 or later using -skyfix
 
-env/transit/sky
+textures/transit/sky
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
 

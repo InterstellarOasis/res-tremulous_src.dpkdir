@@ -1,4 +1,4 @@
-env/niveus/snowy
+textures/niveus/snowy
 {
 	qer_editorimage env/karith/snowy_bk
 	surfaceparm noimpact

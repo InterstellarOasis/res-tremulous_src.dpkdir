@@ -20,7 +20,7 @@ textures/titan/grates_alpha
 	}
 }
 
-env/titan/asteroid
+textures/titan/asteroid
 {
       qer_editorimage textures/titan/asteroid
       surfaceparm noimpact
