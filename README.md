@@ -1,5 +1,5 @@
-Tremulous
----------
+Tremulous Resources
+-------------------
 
 This is a ressource package for map ported from the [Tremulous](http://tremulous.net/) game by Darklegion Development to the [Unvanquished](https://www.unvanquished.net/) game.
 
@@ -95,10 +95,12 @@ Special thanks:
 * Ben “benmachine” Millwood (http://benmachine.co.uk/)
 * Ben “DASPRiD” Scholzen (http://www.dasprids.de/)
 * Asa “Norfenstein” Kravets
+* Dan “kharnov” Floda
 * John “Rezyn” Ellis
 * M. “Undeference” Kristall
 * Tony “tjw“ White
 * Tristan “Jhrx“ Blease
+* cu-kai
 * Khalsa
 * Catalyc
 * Crimity
@@ -108,6 +110,7 @@ Special thanks:
 * Molog
 * Myth
 * ravyn
+* StalKermit
 * Roughrider
 * The MaF clan
 
@@ -135,6 +138,7 @@ You may: Use the included custom textures & shaders, or modifications thereof, p
 History
 -------
 
+* 2015-08-16:	Tremulous Resources 1.2 (Unvanquished community resource pack)
 * 2009-12-04:	Tremulous 1.2 Beta (Gameplay preview)
 * 2006-03-31:	Tremulous 1.1.0 (Standalone)
 * 2005-10-09:	Tremulous 1.0.2 (Quake Ⅲ Arena modification)
