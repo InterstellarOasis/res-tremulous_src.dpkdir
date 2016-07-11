@@ -2965,23 +2965,21 @@ textures/transit/stannum_grate
 	}
 }
 
-/*
- * alphaGen lightingSpecular is not a valid XreaL shader keyword
-textures/transit/stannum_hose
-{
-	qer_editorimage textures/base_support/flat1_1
-	{
-		rgbGen .2 .2 .2
-		map $lightmap
-	}
-	{
-		map textures/base_support/flat1_1
-		blendFunc GL_DST_COLOR GL_SRC_ALPHA
-		rgbGen identity
-		alphaGen lightingSpecular
-	}
-}
-*/
+// alphaGen lightingSpecular is not a valid XreaL shader keyword
+// textures/transit/stannum_hose
+// {
+// 	qer_editorimage textures/base_support/flat1_1
+// 	{
+// 		rgbGen .2 .2 .2
+// 		map $lightmap
+// 	}
+// 	{
+// 		map textures/base_support/flat1_1
+// 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
+// 		rgbGen identity
+// 		alphaGen lightingSpecular
+// 	}
+// }
 
 // workaround:
 textures/transit/stannum_hose
@@ -3205,23 +3203,21 @@ textures/transit/evil6_trims_e6trim_light_s_nolight
 	}
 }
 
-/*
- * alphaGen lightingSpecular is not a valid XreaL shader keyword
-textures/transit/stannum_tin
-{
-	qer_editorimage textures/transit/tin
-	{
-		rgbGen identity
-		map $lightmap
-	}
-	{
-		map textures/transit/tin
-		blendFunc GL_DST_COLOR GL_SRC_ALPHA
-		rgbGen identity
-		alphaGen lightingSpecular
-	}
-}
-*/
+// alphaGen lightingSpecular is not a valid XreaL shader keyword
+// textures/transit/stannum_tin
+// {
+// 	qer_editorimage textures/transit/tin
+// 	{
+// 		rgbGen identity
+// 		map $lightmap
+// 	}
+// 	{
+// 		map textures/transit/tin
+// 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
+// 		rgbGen identity
+// 		alphaGen lightingSpecular
+// 	}
+// }
 
 // workaround:
 textures/transit/stannum_tin
@@ -3230,22 +3226,20 @@ textures/transit/stannum_tin
 	diffuseMap textures/transit/tin
 }
 
-/*
- * alphaGen lightingSpecular is not a valid XreaL shader keyword
-textures/transit/stannum_wall_shinybluemetal1
-{
-	{
-		map $lightmap
-		rgbgen identity
-	}
-	{
-		map textures/transit/stannum_wall_shinybluemetal1
-		blendFunc GL_DST_COLOR GL_SRC_ALPHA
-		rgbGen identity
-		alphaGen lightingSpecular
-	}
-}
-*/
+// alphaGen lightingSpecular is not a valid XreaL shader keyword
+// textures/transit/stannum_wall_shinybluemetal1
+// {
+// 	{
+// 		map $lightmap
+// 		rgbgen identity
+// 	}
+// 	{
+// 		map textures/transit/stannum_wall_shinybluemetal1
+// 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
+// 		rgbGen identity
+// 		alphaGen lightingSpecular
+// 	}
+// }
 
 // workaround:
 textures/transit/stannum_wall_shinybluemetal1

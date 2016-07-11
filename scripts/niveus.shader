@@ -301,23 +301,21 @@ textures/niveus/e8bgrate01_s
 	}
 }
 
-/*
- * alphaGen lightingSpecular is not a valid XreaL shader keyword
-textures/niveus/tin_s
-{
-	qer_editorimage textures/niveus/pewter_128
-        {
-		rgbGen identity
-		map $lightmap
-	}
-	{
-		map textures/niveus/pewter_128
-		blendFunc GL_DST_COLOR GL_SRC_ALPHA
-		rgbGen identity
-		alphaGen lightingSpecular
-	}
-}
-*/
+// alphaGen lightingSpecular is not a valid XreaL shader keyword
+// textures/niveus/tin_s
+// {
+// 	qer_editorimage textures/niveus/pewter_128
+//         {
+// 		rgbGen identity
+// 		map $lightmap
+// 	}
+// 	{
+// 		map textures/niveus/pewter_128
+// 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
+// 		rgbGen identity
+// 		alphaGen lightingSpecular
+// 	}
+// }
 
 // workaround:
 textures/niveus/tin_s

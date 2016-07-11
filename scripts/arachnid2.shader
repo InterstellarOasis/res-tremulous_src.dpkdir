@@ -160,24 +160,22 @@ textures/arachnid2/fan_shadow_s
 	}
 }
 
-/*
- * alphaGen lightingSpecular is not a valid XreaL shader keyword
-textures/arachnid2/tin_s
-{
-	qer_editorimage textures/nexus6/tin
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-	}
-	{
-		map textures/nexus6/tin
-		blendfunc gl_dst_color gl_src_alpha
-		rgbGen identity
-		alphaGen lightingSpecular
-	}
-}
-*/
+// alphaGen lightingSpecular is not a valid XreaL shader keyword
+// textures/arachnid2/tin_s
+// {
+// 	qer_editorimage textures/nexus6/tin
+// 	{
+// 		map $lightmap
+// 		rgbGen identity
+// 		tcGen lightmap
+// 	}
+// 	{
+// 		map textures/nexus6/tin
+// 		blendfunc gl_dst_color gl_src_alpha
+// 		rgbGen identity
+// 		alphaGen lightingSpecular
+// 	}
+// }
 
 // workaround:
 textures/arachnid2/tin_s
