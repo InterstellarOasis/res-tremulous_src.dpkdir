@@ -5,7 +5,7 @@ This is a ressource package for map ported from the [Tremulous](http://tremulous
 
 Ported from Tremulous gpp packages from [http://ingar.satgnu.net/files/tremulous/base/](http://ingar.satgnu.net/files/tremulous/base/) and Tremulous 1.1.0 files from [http://tremulous.net](http://tremulous.net).
 
-This port is an Interstellar Oasis initiative: [https://github.com/interstellar-oasis/interstellar-oasis](https://github.com/interstellar-oasis/interstellar-oasis).
+This port is an Interstellar Oasis initiative: [https://github.com/InterstellarOasis/InterstellarOasis](https://github.com/InterstellarOasis/InterstellarOasis).
 
 Illustration
 ------------
@@ -18,25 +18,25 @@ How-to
 * Get the source
 
 ```
-git clone https://github.com/interstellar-oasis/res-tremulous.git res-tremulous_source.pk3dir
-cd res-tremulous_source.pk3dir/
+git clone https://github.com/InterstellarOasis/res-tremulous_src.dpkdir.git
+cd res-tremulous_src.dpkdir/
 ```
 
 * Build
 
-You need the [grtoolbox](https://github.com/illwieckz/grtoolbox).  
-You will find the pk3dir in `build/test`.
+You need the [Urcheon](https://github.com/illwieckz/Urcheon) tool.  
+You will find the dpkdir in `build/test`.
 
 ```
-make
+urcheon build
 ```
 
 * Package
 
-You will find the pk3 in `build/pkg`.
+You will find the dpk in `build/pkg`.
 
 ```
-make pk3
+urcheon package
 ```
 
 Maps
@@ -44,14 +44,14 @@ Maps
 
 The maps are not stored in this repository, but this repository provides assets for them:
 
-* _[Arachnid 2](https://github.com/interstellar-oasis/map-arachnid2)_ by Robin “OverFlow” Marshall
-* _[Advanced Tremulous Combat Simulator](https://github.com/interstellar-oasis/map-atcshd)_ by Nicolas “jex” Jansens, Superpie and Stijn “Ingar“ Buys
-* _[Karith Station 2](https://github.com/interstellar-oasis/map-karith)_ by Gordon “Godmil” Miller
-* _[Nexus Corp. Infusion Plant 6](https://github.com/interstellar-oasis/map-nexus)_ by Nicolas “jex” Jansens
-* _[Niveus: Outpost 652](https://github.com/interstellar-oasis/map-niveus)_ by Nicolas “jex” Jansens
-* _[Transit Station](https://github.com/interstellar-oasis/map-transit)_ by Jan “Stannum” Van der Weg
-* _[Tremor](https://github.com/interstellar-oasis/map-termor)_ by Mike “Vedacon” Mcinnerney and Gordon “Godmil” Miller
-* _[Uncreation](https://github.com/interstellar-oasis/map-uncreation)_ by Who-[Soup]
+* _[Arachnid 2](https://github.com/InterstellarOasis/map-arachnid2)_ by Robin “OverFlow” Marshall
+* _[Advanced Tremulous Combat Simulator](https://github.com/InterstellarOasis/map-atcshd)_ by Nicolas “jex” Jansens, Superpie and Stijn “Ingar“ Buys
+* _[Karith Station 2](https://github.com/InterstellarOasis/map-karith)_ by Gordon “Godmil” Miller
+* _[Nexus Corp. Infusion Plant 6](https://github.com/InterstellarOasis/map-nexus)_ by Nicolas “jex” Jansens
+* _[Niveus: Outpost 652](https://github.com/InterstellarOasis/map-niveus)_ by Nicolas “jex” Jansens
+* _[Transit Station](https://github.com/InterstellarOasis/map-transit)_ by Jan “Stannum” Van der Weg
+* _[Tremor](https://github.com/InterstellarOasis/map-termor)_ by Mike “Vedacon” Mcinnerney and Gordon “Godmil” Miller
+* _[Uncreation](https://github.com/InterstellarOasis/map-uncreation)_ by Who-[Soup]
 
 Credits
 -------
