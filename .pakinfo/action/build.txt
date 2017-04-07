@@ -1,0 +1,1 @@
+ignore meta/tremulous/tremulous_web.jpg
