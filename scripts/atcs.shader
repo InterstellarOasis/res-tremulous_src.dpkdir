@@ -5,13 +5,13 @@ textures/atcs/skybox_s
 	surfaceparm nolightmap
 	surfaceparm sky
 	q3map_lightimage textures/atcs/skylight
-//	q3map_sun 0.95 0.95 1.0 150 120 25	//lilacisles
-//	q3map_sun 1.00 1.00 0.965 75 90 30 	//siege
-//	q3map_sun 1.00 0.90 0.80 110 180 35	//orangecream
-//	q3map_sun 1.00 0.80 0.70 100 0 20	//cottoncandy
+//	q3map_sun 0.95 0.95 1.0 150 120 25		//lilacisles
+//	q3map_sun 1.00 1.00 0.965 75 90 30		//siege
+//	q3map_sun 1.00 0.90 0.80 110 180 35		//orangecream
+//	q3map_sun 1.00 0.80 0.70 100 0 20		//cottoncandy
 //	q3map_sun 0.934 0.835 1.00 75 230 35	//desertsky
-//	q3map_sun 1.00 1.00 1.00 50 90 90	//comablack
-//	q3map_sun 4 3 3 150 135 50		//mars
+//	q3map_sun 1.00 1.00 1.00 50 90 90		//comablack
+//	q3map_sun 4 3 3 150 135 50				//mars
 //	q3map_sun 1.00 0.949 0.977 100 200 45	//desert
 	q3map_sun 1.00 0.949 0.977 150 135 45
 	q3map_skylight 250 3
@@ -43,9 +43,9 @@ textures/atcs/burst_blue_s
 
 textures/atcs/force_field_s
 	{
-        qer_editorimage textures/atcs/force_field_gtk
+	qer_editorimage textures/atcs/force_field_gtk
 	surfaceparm trans
-        surfaceparm nomarks
+	surfaceparm nomarks
 	surfaceparm nolightmap
 	cull none
 	{
@@ -99,7 +99,7 @@ textures/atcs/eq2_bounce
 		blendfunc blend
 		rgbGen identity
 	}
-		{
+	{
 		map $lightmap
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO

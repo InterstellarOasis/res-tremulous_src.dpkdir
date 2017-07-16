@@ -30,100 +30,97 @@ textures/transit/evil4_techfloors_tfloor3_huge
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_techfloors_tfloor_rndholes
 {
-
-        {
+	{
 		map textures/transit/evil4_techfloors_tfloor_rndholes
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_techfloors_tfloor_rndholes_drty
 {
-
-        {
+	{
 		map textures/transit/evil4_techfloors_tfloor_rndholes_drty
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
 
 textures/transit/evil4_metals_mtlsportal
 {
-	  cull disable
-        surfaceparm nomarks
-        surfaceparm trans
-        sort additive
-        {
-	        clampmap textures/transit/evil4_metals_mtlsportal_fx1
-		blendFunc add
-                tcmod rotate -100
-                rgbGen identity
-        }
-        {
-
-	        clampmap textures/transit/evil4_metals_mtlsportal_fx2
-		blendFunc add
-                tcmod rotate 100
-                rgbGen identity
-	}
-        {
-
-	        clampmap textures/transit/evil4_metals_mtlsportal_fx3
-		blendFunc add
-                tcmod rotate 10
-                rgbGen identity
-	}
-
-        {
-	        clampmap textures/transit/evil4_metals_mtlsportal
-		alphaFunc GE128
-                depthWrite
-	        rgbGen identity
-	}
-        {
-		map $lightmap
-		rgbGen identity
-		blendFunc GL_DST_COLOR GL_ZERO
-		depthFunc equal
+		cull disable
+		surfaceparm nomarks
+		surfaceparm trans
+		sort additive
+		{
+			clampmap textures/transit/evil4_metals_mtlsportal_fx1
+			blendFunc add
+			tcmod rotate -100
+			rgbGen identity
+		}
+		{
+			clampmap textures/transit/evil4_metals_mtlsportal_fx2
+			blendFunc add
+			tcmod rotate 100
+			rgbGen identity
+		}
+		{
+			clampmap textures/transit/evil4_metals_mtlsportal_fx3
+			blendFunc add
+			tcmod rotate 10
+			rgbGen identity
+		}
+		{
+			clampmap textures/transit/evil4_metals_mtlsportal
+			alphaFunc GE128
+			depthWrite
+			rgbGen identity
+		}
+		{
+			map $lightmap
+			rgbGen identity
+			blendFunc GL_DST_COLOR GL_ZERO
+			depthFunc equal
 	}
 }
+
 textures/transit/evil4_metals_flrgrate
 {
-
-        {
+	{
 		map textures/transit/evil4_metals_flrgrate
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_metals_mtlflrslots
 {
-
-        {
+	{
 		map textures/transit/evil4_metals_mtlflrslots
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
@@ -132,7 +129,7 @@ textures/transit/evil4_metals_drkmtl_grlpltmech
 {
 	{
 		map textures/transit/evil4_metals_drkmtl_grlpltmech
-		//blendfunc blend
+		// blendfunc blend
 		rgbGen identity
 	}
 	{
@@ -157,7 +154,7 @@ textures/transit/evil4_metals_drkmtl_grlpltmech
 		map textures/transit/evil4_metals_drkmtl_grlpltmech_fx
 		blendfunc add
 		rgbgen wave sin 1.1 .1 1 1
-       		tcmod scroll 0  2.8
+		tcmod scroll 0	2.8
 	}
 	{
 		map textures/transit/evil4_metals_drkmtl_grlpltmech
@@ -171,37 +168,39 @@ textures/transit/evil4_metals_drkmtl_grlpltmech
 		blendfunc filter
 	}
 }
+
 textures/transit/evil4_metals_mtlbrushed
 {
 	qer_editorimage textures/transit/evil4_metals_mtlbrushed
-        {
-                map textures/transit/evil4_metals_mtlbrushed_env
-                tcGen environment
-                rgbGen identity
-	}
-        {
-		map textures/transit/evil4_metals_mtlbrushed
-                blendFunc gl_dst_color gl_zero
+	{
+		map textures/transit/evil4_metals_mtlbrushed_env
+		tcGen environment
 		rgbGen identity
 	}
-        {
+	{
+		map textures/transit/evil4_metals_mtlbrushed
+		blendFunc gl_dst_color gl_zero
+		rgbGen identity
+	}
+	{
 		map $lightmap
-       		blendfunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
+		blendfunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_metals_eshinytin
 {
 	qer_editorimage textures/transit/evil4_metals_eshinytin
-        {
-                map textures/effects/tinfx
-                tcGen environment
+	{
+		map textures/effects/tinfx
+		tcGen environment
 		rgbGen identity
-                tcmod scale 0.55 1
+		tcmod scale 0.55 1
 	}
-      {
+	{
 		map $lightmap
-       		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 	{
@@ -209,33 +208,33 @@ textures/transit/evil4_metals_eshinytin
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-       		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_metals_mtlpanel_wrnstripe_ow2
 {
-        {
+	{
 		map textures/transit/evil4_metals_mtlpnl_wrnstrpow2_glow
-       		rgbGen wave sin 0.5 0.5 0 1
+		rgbGen wave sin 0.5 0.5 0 1
 		blendfunc GL_ONE GL_ONE
 	}
-        {
+	{
 		map textures/transit/evil4_metals_mtlpnl_wrnstrpow2_glow
-       		//rgbGen wave sin 0.5 0.5 0 1
+		// rgbGen wave sin 0.5 0.5 0 1
 		blendfunc GL_ONE GL_ONE
 	}
-        {
+	{
 		map textures/transit/evil4_metals_mtlpanel_wrnstripe_ow2
-       		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+ 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-
-        {
+	{
 		map $lightmap
-       		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+ 		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
@@ -247,11 +246,10 @@ textures/transit/evil4_metals_mtltekfloor
 	q3map_lightimage textures/evil4_metal/mtltekfloor_fx
 	{
 		map textures/base_wall/chrome_env
-	        rgbGen identity
+		rgbGen identity
 		tcGen environment
 		tcmod scale .25 .25
 	}
-
 	{
 		map textures/transit/evil4_metals_mtltekfloor
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
@@ -270,9 +268,10 @@ textures/transit/evil4_metals_mtltekfloor
 	{
 		map textures/transit/evil4_metals_mtltekfloor_fx2
 		blendFunc GL_ONE GL_ONE
-		//rgbGen wave sin 0.5 0.5 0 .2
+		// rgbGen wave sin 0.5 0.5 0 .2
 	}
 }
+
 textures/transit/evil4_metals_wrnjumppad
 {
 	{
@@ -292,14 +291,13 @@ textures/transit/evil4_metals_wrnjumppad
 }
 
 textures/transit/evil4_wall_tekwallmulti2
-	{
 {
+	{
 		map textures/base_wall/chrome_env
-	        rgbGen identity
+		rgbGen identity
 		tcGen environment
 		tcmod scale .25 .25
 	}
-
 	{
 		map textures/transit/evil4_wall_tekwallmulti2
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
@@ -316,7 +314,7 @@ textures/transit/evil4_lights_steplight
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	//light1
+	// light1
 	{
 		map $lightmap
 		rgbGen identity
@@ -331,6 +329,7 @@ textures/transit/evil4_lights_steplight
 		blendfunc GL_ONE GL_ONE
 	}
 }
+
 textures/transit/evil4_lights_drkmtlsupport_light
 {
 	surfaceparm nomarks
@@ -351,6 +350,7 @@ textures/transit/evil4_lights_drkmtlsupport_light
 	}
 
 }
+
 textures/transit/evil4_lights_s_light
 {
 	qer_editorimage textures/transit/evil4_lights_s_light
@@ -372,11 +372,12 @@ textures/transit/evil4_lights_s_light
 		blendFunc Filter
 	}
 }
+
 textures/transit/evil4_lights_t_mtllight
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	//light1
+	// light1
 	{
 		map $lightmap
 		rgbGen identity
@@ -392,11 +393,12 @@ textures/transit/evil4_lights_t_mtllight
 		blendfunc GL_ONE GL_ONE
 	}
 }
+
 textures/transit/evil4_lights_mtl_lightsmll
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	//light1
+	// light1
 	{
 		map $lightmap
 		rgbGen identity
@@ -416,7 +418,7 @@ textures/transit/evil4_lights_mtl_lightsmll
 textures/transit/evil4_lights_l_light_b
 {
 	q3map_surfacelight 5000
-        q3map_lightimage textures/transit/evil4_lights_l_light_b
+	q3map_lightimage textures/transit/evil4_lights_l_light_b
 	{
 		map $lightmap
 		rgbGen identity
@@ -425,21 +427,22 @@ textures/transit/evil4_lights_l_light_b
 		map textures/transit/evil4_lights_l_light_b
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
-}
+	}
 	{
 		map textures/transit/evil4_lights_l_light_b_blend
 		blendfunc GL_ONE GL_ONE
 	}
-{
+	{
 		map textures/transit/evil4_lights_l_light_b_blend
 		rgbGen wave sin 6 2 1 2
 		blendfunc GL_ONE GL_ONE
 	}
 }
+
 textures/transit/evil4_lights_l_light_g
 {
 	q3map_surfacelight 5000
-        q3map_lightimage textures/transit/evil4_lights_l_light_g
+	q3map_lightimage textures/transit/evil4_lights_l_light_g
 	{
 		map $lightmap
 		rgbGen identity
@@ -448,21 +451,22 @@ textures/transit/evil4_lights_l_light_g
 		map textures/transit/evil4_lights_l_light_g
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
-}
+	}
 	{
 		map textures/transit/evil4_lights_l_light_g_blend
 		blendfunc GL_ONE GL_ONE
 	}
-{
+	{
 		map textures/transit/evil4_lights_l_light_g_blend
 		rgbGen wave sin 6 2 1 2
 		blendfunc GL_ONE GL_ONE
 	}
 }
+
 textures/transit/evil4_lights_l_light_r
 {
 	q3map_surfacelight 5000
-        q3map_lightimage textures/transit/evil4_lights_l_light_r
+	q3map_lightimage textures/transit/evil4_lights_l_light_r
 	{
 		map $lightmap
 		rgbGen identity
@@ -471,21 +475,22 @@ textures/transit/evil4_lights_l_light_r
 		map textures/transit/evil4_lights_l_light_r
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
-}
+	}
 	{
 		map textures/transit/evil4_lights_l_light_r_blend
 		blendfunc GL_ONE GL_ONE
 	}
-{
+	{
 		map textures/transit/evil4_lights_l_light_r_blend
 		rgbGen wave sin 6 2 1 2
 		blendfunc GL_ONE GL_ONE
 	}
 }
+
 textures/transit/evil4_lights_l_light_w
 {
 	q3map_surfacelight 5000
-        q3map_lightimage textures/transit/evil4_lights_l_light_w
+	q3map_lightimage textures/transit/evil4_lights_l_light_w
 	{
 		map $lightmap
 		rgbGen identity
@@ -494,12 +499,12 @@ textures/transit/evil4_lights_l_light_w
 		map textures/transit/evil4_lights_l_light_w
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
-}
+	}
 	{
 		map textures/transit/evil4_lights_l_light_w_blend
 		blendfunc GL_ONE GL_ONE
 	}
-{
+	{
 		map textures/transit/evil4_lights_l_light_w_blend
 		rgbGen wave sin 6 2 1 2
 		blendfunc GL_ONE GL_ONE
@@ -510,16 +515,15 @@ textures/transit/evil4_lights_mtl_l1
 {
 	{
 		map textures/transit/evil4_lights_mtl_l1_fx
-		//blendfunc add
-       tcmod scale 12 1
+		// blendfunc add
+		tcmod scale 12 1
 		rgbGen identity
 		tcMod scroll 0 1
-
 	}
 	{
 		map textures/transit/evil4_lights_mtl_l1_fx
 		blendfunc add
-       //tcmod scale 25 1
+		// tcmod scale 25 1
 		rgbGen identity
 		tcMod scroll 1 0
 
@@ -532,7 +536,7 @@ textures/transit/evil4_lights_mtl_l1
 	{
 		map textures/transit/evil4_lights_mtl_l1_fx2
 		blendfunc add
-       tcmod scale 1 1
+		tcmod scale 1 1
 	}
 	{
 		map $lightmap
@@ -546,12 +550,10 @@ textures/transit/evil4_lights_trimtl_grlbtm_light
 	q3map_surfacelight 5000
 	q3map_lightimage textures/transit/evil4_lights_trimtl_grlbtm_light_blnd
 	qer_editorimage textures/transit/evil4_lights_trimtl_grlbtm_light
-
 	{
 		map textures/transit/evil4_lights_trimtl_grlbtm_light
 		rgbGen identity
 	}
-
 	{
 		map $lightmap
 		rgbGen identity
@@ -564,10 +566,11 @@ textures/transit/evil4_lights_trimtl_grlbtm_light
 	}
 
 }
+
 textures/transit/evil4_lights_s_bluelight
 {
 	q3map_surfacelight 1000
-        q3map_lightimage textures/transit/evil4_lights_s_bluelight
+	q3map_lightimage textures/transit/evil4_lights_s_bluelight
 	{
 		map $lightmap
 		rgbGen identity
@@ -579,13 +582,13 @@ textures/transit/evil4_lights_s_bluelight
 	}
 	{
 		map textures/transit/evil4_lights_s_bluelight_glow
-       rgbGen wave sin 0.5 0.5 0 .2
-       blendfunc add
+			 rgbGen wave sin 0.5 0.5 0 .2
+			 blendfunc add
 
 	}
-      {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ZERO
+		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 
@@ -595,30 +598,28 @@ textures/transit/evil4_fx_mtlportal_fx
 {
 	qer_editorimage textures/transit/evil4_fx_mtlportal
 	cull disable
-        surfaceparm nomarks
-        surfaceparm trans
-        sort additive
-        {
-	        clampmap textures/transit/evil4_fx_mtlportal_fx1
+	surfaceparm nomarks
+	surfaceparm trans
+	sort additive
+	{
+		clampmap textures/transit/evil4_fx_mtlportal_fx1
 		blendFunc add
-                tcmod rotate -100
-                rgbGen identity
-        }
-        {
-
-	        clampmap textures/transit/evil4_fx_mtlportal_fx2
-		blendFunc add
-                tcmod rotate 100
-                rgbGen identity
+		tcmod rotate -100
+		rgbGen identity
 	}
-
-        {
-	        clampmap textures/transit/evil4_fx_mtlportal
+	{
+		clampmap textures/transit/evil4_fx_mtlportal_fx2
+		blendFunc add
+		tcmod rotate 100
+		rgbGen identity
+	}
+	{
+		clampmap textures/transit/evil4_fx_mtlportal
 		alphaFunc GE128
-                depthWrite
-	        rgbGen identity
+		depthWrite
+		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
@@ -638,22 +639,20 @@ textures/transit/evil4_fx_mat1
 	{
 		map textures/transit/evil4_fx_mat2
 		blendfunc GL_ONE GL_ONE
-       		rgbGen identity
-      		rgbGen wave sin 0.5 0.5 0 .2
+ 		rgbGen identity
+		rgbGen wave sin 0.5 0.5 0 .2
 	}
 	{
 		map textures/transit/evil4_fx_mat3
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
 		tcMod scroll 0 -.1
-
 	}
 	{
 		map textures/transit/evil4_fx_mat4
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
 		tcMod scroll 0 2
-
 	}
 	{
 		map $lightmap
@@ -661,57 +660,53 @@ textures/transit/evil4_fx_mat1
 		blendfunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
 	}
 }
+
 textures/transit/evil4_fx_b_ray
 {
-      		q3map_surfacelight 200
-      		surfaceparm trans
-      		surfaceparm nonsolid
-		surfaceparm nomarks
-		surfaceparm nolightmap
-		q3map_lightimage textures/transit/evil4_fx_b_ray
-
-		cull none
-
+	q3map_surfacelight 200
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm nolightmap
+	q3map_lightimage textures/transit/evil4_fx_b_ray
+	cull none
 	{
 		map textures/transit/evil4_fx_b_ray
 		blendFunc GL_ONE GL_ONE
 		rgbgen wave triangle 1 9 1 1
-		tcMod scale  0 0
+		tcMod scale	0 0
 		tcMod scroll 1 0
 	}
 	{
 		map textures/transit/evil4_fx_b_ray
 		blendFunc GL_ONE GL_ONE
 		rgbgen wave triangle 1 1 1 1
-		tcMod scale  1 1
+		tcMod scale	1 1
 		tcMod scroll 1 0
 	}
 }
 
-
 textures/transit/evil4_fx_b_rayc
 {
-		q3map_surfacelight 200
-		surfaceparm trans
-		surfaceparm nonsolid
-		surfaceparm nomarks
-		surfaceparm nolightmap
-		q3map_lightimage textures/transit/evil4_fx_b_rayc
-
-		cull none
-
+	q3map_surfacelight 200
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm nolightmap
+	q3map_lightimage textures/transit/evil4_fx_b_rayc
+	cull none
 	{
 		map textures/transit/evil4_fx_b_rayc
 		blendFunc GL_ONE GL_ONE
 		rgbgen wave triangle 1 9 1 1
-		tcMod scale  0 0
+		tcMod scale	0 0
 		tcMod scroll 2 0
 	}
 	{
 		map textures/transit/evil4_fx_b_rayc
 		blendFunc GL_ONE GL_ONE
 		rgbgen wave triangle 1 1 1 1
-		tcMod scale  1 1
+		tcMod scale	1 1
 		tcMod scroll 2 0
 	}
 
@@ -719,14 +714,13 @@ textures/transit/evil4_fx_b_rayc
 
 textures/transit/evil4_fx_esnow
 {
-		q3map_surfacelight 100
-		surfaceparm trans
-		surfaceparm nonsolid
-		surfaceparm nomarks
-		surfaceparm nolightmap
-		q3map_lightimage textures/evil4fx/esnow
-   		cull none
-
+	q3map_surfacelight 100
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm nolightmap
+	q3map_lightimage textures/evil4fx/esnow
+	cull none
 	{
 		map textures/transit/evil4_fx_esnow
 		blendFunc GL_ONE GL_ONE
@@ -745,7 +739,7 @@ textures/transit/evil4_fx_esnow
 	{
 		map textures/transit/evil4_fx_esnow2
 		blendFunc GL_ONE GL_ONE
-		tcMod scale  2 2
+		tcMod scale	2 2
 		tcMod scroll 0 -3
 	}
 
@@ -759,23 +753,20 @@ textures/transit/evil4_fx_e_waterfall
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_lightimage textures/transit/evil4_fx_e_waterfall
-
 	cull none
-
 	{
 		map textures/transit/evil4_fx_e_waterfall
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbgen wave triangle 2 1 1 5
-		tcMod scale  5 5
+		tcMod scale	5 5
 		tcMod scroll 0 -1
 	}
-      {
+	{
 		map textures/transit/evil4_fx_e_waterfall
 		tcGen environment
 		tcmod scale 1 1
 		tcmod scroll 1 -1
-
 		blendFunc GL_ONE GL_ONE
 		rgbGen identity
 	}
@@ -785,39 +776,38 @@ textures/transit/evil4_fx_e_waterfall
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_fx_teleprtr
 {
-	  cull disable
-        surfaceparm nomarks
-        surfaceparm trans
-        sort additive
-        {
-	        clampmap textures/transit/evil4_fx_teleprtr_fx3
-		          blendFunc add
-                tcmod rotate -267
-                rgbGen identity
-        }
-        {
-
-	        clampmap textures/transit/evil4_fx_teleprtr_fx1
+	cull disable
+	surfaceparm nomarks
+	surfaceparm trans
+	sort additive
+	{
+	clampmap textures/transit/evil4_fx_teleprtr_fx3
 		blendFunc add
-                tcmod rotate 155
-                rgbGen identity
+		tcmod rotate -267
+		rgbGen identity
 	}
-        {
-	        clampmap textures/transit/evil4_fx_teleprtr_fx2
+	{
+		clampmap textures/transit/evil4_fx_teleprtr_fx1
 		blendFunc add
-                tcmod rotate -100
-                rgbGen identity
-        }
-
-        {
-	        clampmap textures/transit/evil4_fx_teleprtr
+		tcmod rotate 155
+		rgbGen identity
+	}
+	{
+		clampmap textures/transit/evil4_fx_teleprtr_fx2
+		blendFunc add
+		tcmod rotate -100
+		rgbGen identity
+	}
+	{
+		clampmap textures/transit/evil4_fx_teleprtr
 		alphaFunc GE128
-                depthWrite
-	        rgbGen identity
+		depthWrite
+		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
@@ -829,7 +819,6 @@ textures/transit/evil4_techwalls_tech_dw2
 {
 	{
 		map textures/transit/evil4_techwalls_tech_dw2
-
 		rgbGen identity
 	}
 	{
@@ -843,11 +832,11 @@ textures/transit/evil4_techwalls_tech_dw2
 		rgbGen wave sin .5 .5 0 3
 	}
 }
+
 textures/transit/evil4_techwalls_tech_dw2g
 {
 	{
 		map textures/transit/evil4_techwalls_tech_dw2g
-
 		rgbGen identity
 	}
 	{
@@ -861,11 +850,11 @@ textures/transit/evil4_techwalls_tech_dw2g
 		rgbGen wave sin .5 .5 0 3
 	}
 }
+
 textures/transit/evil4_techwalls_tech_dw2gb
 {
 	{
 		map textures/transit/evil4_techwalls_tech_dw2gb
-
 		rgbGen identity
 	}
 	{
@@ -900,110 +889,113 @@ textures/transit/evil4_techwalls_tech_wall_dlight
 	}
 
 }
+
 textures/transit/evil4_techwalls_tech_dwteky
 {
 
-        {
+				{
 		map textures/transit/evil4_techwalls_tech_dwteky_glow
-      tcmod turb 0 3 5 8
-       blendFunc GL_ONE GL_ONE
+			tcmod turb 0 3 5 8
+			 blendFunc GL_ONE GL_ONE
 
 	}
-        {
+				{
 	map textures/transit/evil4_techwalls_tech_dwteky_glow
  	blendFunc GL_ONE GL_ONE
 	tcmod turb 0 1 1 1
 	}
-        {
+				{
 		map textures/transit/evil4_techwalls_tech_dwteky
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+								blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+				{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+								blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_techwalls_tech_drkwll_pnltek
 {
 
-        {
+				{
 	map textures/transit/evil4_techwalls_tech_drkwll_pnltek_glow
-      	tcmod turb 0 1 1 9
-       	blendFunc GL_ONE GL_ONE
+				tcmod turb 0 1 1 9
+			 	blendFunc GL_ONE GL_ONE
 
 	}
-        {
+				{
 		map textures/transit/evil4_techwalls_tech_drkwll_pnltek
 		blendFunc GL_ONE GL_ONE
 	}
-        {
+				{
 		map textures/transit/evil4_techwalls_tech_drkwll_pnltek
-        	blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+					blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+				{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+								blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
 
 textures/transit/evil4_techwalls_tech_window
 {
-     cull twosided
+		 cull twosided
 	{
 		map textures/transit/evil4_techwalls_tech_windowmask
 		tcGen environment
 		tcMod turb 0 0.01 0 0.01
 		tcmod scroll .0 .0
 		blendfunc GL_ONE GL_ONE
-                }
-        {
+								}
+				{
 		map textures/transit/evil4_techwalls_tech_window
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+								blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+				{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+								blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_techwalls_drkmtl_lightboard
 {
-
-        {
+	{
 		map textures/transit/evil4_techwalls_drkmtl_lightboard_glow
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sin 0.5 0.5 0 .3
 	}
-        {
+	{
 		map textures/transit/evil4_techwalls_drkmtl_lightboard_glow
 		blendFunc GL_ONE GL_ONE
 	}
-        {
+	{
 		map textures/transit/evil4_techwalls_drkmtl_lightboard
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_techwalls_drkmtl_dpanelwrnb2
  {
-       {
+	 {
 		map textures/evil_techwalls/drkmtl_dpanelwrnb2
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+				{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+								blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
@@ -1012,7 +1004,6 @@ textures/transit/evil4_d_techwalls_d_tech_dw2
 {
 	{
 		map textures/transit/evil4_d_techwalls_d_tech_dw2
-
 		rgbGen identity
 	}
 	{
@@ -1026,11 +1017,11 @@ textures/transit/evil4_d_techwalls_d_tech_dw2
 		rgbGen wave sin .5 .5 0 3
 	}
 }
+
 textures/transit/evil4_d_techwalls_d_tech_dw2g
 {
 	{
 		map textures/transit/evil4_d_techwalls_d_tech_dw2g
-
 		rgbGen identity
 	}
 	{
@@ -1044,11 +1035,11 @@ textures/transit/evil4_d_techwalls_d_tech_dw2g
 		rgbGen wave sin .5 .5 0 3
 	}
 }
+
 textures/transit/evil4_d_techwalls_d_tech_dw2gb
 {
 	{
 		map textures/transit/evil4_d_techwalls_d_tech_dw2gb
-
 		rgbGen identity
 	}
 	{
@@ -1083,113 +1074,114 @@ textures/transit/evil4_d_techwalls_d_tech_wall_dlight
 	}
 
 }
+
 textures/transit/evil4_d_techwalls_d_tech_dwteky
 {
-
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_tech_dwteky_glow
-      tcmod turb 0 3 5 8
-       blendFunc GL_ONE GL_ONE
-
+		tcmod turb 0 3 5 8
+		blendFunc GL_ONE GL_ONE
 	}
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_tech_dwteky_glow
  		blendFunc GL_ONE GL_ONE
 		tcmod turb 0 1 1 1
 	}
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_tech_dwteky
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_d_techwalls_d_tech_drkwll_pnltek
 {
-
-        {
+	{
 		maptextures/transit/evil4_d_techwalls_d_tech_drkwll_pnltek_glow
 		tcmod turb 0 1 1 9
 		blendFunc GL_ONE GL_ONE
 	}
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_tech_drkwll_pnltek
 		blendFunc GL_ONE GL_ONE
 	}
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_tech_drkwll_pnltek
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+								blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
 
-
 textures/transit/evil4_d_techwalls_d_tech_window
 {
-     cull twosided
+	cull twosided
 	{
 		map textures/transit/evil4_d_techwalls_d_tech_windowmask
 		tcGen environment
 		tcMod turb 0 0.01 0 0.01
 		tcmod scroll .0 .0
 		blendfunc GL_ONE GL_ONE
-                }
-        {
+	}
+	{
 		map textures/transit/evil4_d_techwalls_d_tech_window
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_d_techwalls_d_drkmtl_lightboard
 {
 
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_drkmtl_lightboard_glow
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sin 0.5 0.5 0 .3
 	}
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_drkmtl_lightboard_glow
 		blendFunc GL_ONE GL_ONE
 	}
-        {
+	{
 		map textures/transit/evil4_d_techwalls_d_drkmtl_lightboard
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil4_d_techwalls_d_drkmtl_dpanelwrnb2
  {
-       {
+	 {
 		map textures/transit/evil4_d_techwalls_d_drkmtl_dpanelwrnb2
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/evil6_floors_e6bsegrtflr128_s
 {
 	qer_editorimage textures/transit/evil6_floors_e6bsegrtflr128
@@ -1197,7 +1189,6 @@ textures/transit/evil6_floors_e6bsegrtflr128_s
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
-
 	{
 		map textures/transit/evil6_floors_e6bsegrtflr128
 		alphafunc GE128
@@ -1217,7 +1208,6 @@ textures/transit/evil6_floors_e6bsegrtflr256_s
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
-
 	{
 		map textures/transit/evil6_floors_e6bsegrtflr256
 		alphafunc GE128
@@ -1237,7 +1227,6 @@ textures/transit/evil6_floors_e6grate_flr_b_s
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
-
 	{
 		map textures/transit/evil6_floors_e6grate_flr_b
 		alphafunc GE128
@@ -1257,7 +1246,6 @@ textures/transit/evil6_floors_e6grate_flr_s
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
-
 	{
 		map textures/transit/evil6_floors_e6grate_flr
 		alphafunc GE128
@@ -1277,7 +1265,6 @@ textures/transit/evil6_floors_e6grtfloorceil_s
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
-
 	{
 		map textures/transit/evil6_floors_e6grtfloorceil
 		alphafunc GE128
@@ -1297,7 +1284,6 @@ textures/transit/evil6_floors_e6grate2_flr_s
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
-
 	{
 		map textures/transit/evil6_floors_e6grate2_flr
 		alphafunc GE128
@@ -1317,7 +1303,6 @@ textures/transit/evil6_floors_e6grate2_flr_b_s
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
-
 	{
 		map textures/transit/evil6_floors_e6grate2_flr_b
 		alphafunc GE128
@@ -1486,6 +1471,7 @@ textures/transit/evil6_floor_e6xgratebasic_s
 		blendfunc filter
 	}
 }
+
 textures/transit/evil6_trims_e6btrim_light_s_nolight
 {
 	qer_editorimage textures/transit/evil6_trims_e6btrim_light
@@ -1575,6 +1561,7 @@ textures/transit/evil6_trims_e6trim_light_s_nolight
 		blendfunc add
 	}
 }
+
 textures/transit/evil8_lights_e8btrimlight
 {
 	qer_editorimage textures/transit/evil8_lights_e8btrimlight
@@ -1654,6 +1641,7 @@ textures/transit/evil8_floor_e8minitrimlight
 		blendfunc add
 	}
 }
+
 textures/transit/evil8_fx_e8_jumppad02
 {
 	q3map_lightimage textures/transit/evil8_fx_e8_jumppad02_fx
@@ -1682,6 +1670,7 @@ textures/transit/evil8_fx_e8_jumppad02
 		tcGen lightmap
 	}
 }
+
 textures/transit/evil8_lights_e8_rlightb2
 {
 	qer_editorimage textures/transit/evil8_lights_e8_rlightb2
@@ -1701,6 +1690,7 @@ textures/transit/evil8_lights_e8_rlightb2
 		blendfunc add
 	}
 }
+
 textures/transit/evil8_lights_e8_rlightb
 {
 	qer_editorimage textures/transit/evil8_lights_e8_rlightb
@@ -2212,7 +2202,6 @@ textures/transit/evil8_fx_e8icon_blue
 	}
 }
 
-
 textures/transit/evil8_fx_e8scuffs1
 {
 	surfaceparm nolightmap
@@ -2490,7 +2479,6 @@ textures/transit/evil8_base_e8metal_red_shiney
 	}
 }
 
-
 textures/transit/evil8_trim_e8trimlight
 {
 	q3map_lightimage textures/transit/evil8_trim_e8trimlight_fx
@@ -2552,7 +2540,6 @@ textures/transit/evil8_trim_e8trimlight2_red
 	}
 }
 
-
 textures/transit/evil8_floor_e8clangfloor
 {
 	//qer_editorimage textures/transit/evil8_floor_e8clangfloor
@@ -2568,6 +2555,7 @@ textures/transit/evil8_floor_e8clangfloor
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor01
 {
 	surfaceparm metalsteps
@@ -2612,6 +2600,7 @@ textures/transit/evil8_floor_e8clangfloor04
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor04_blue
 {
 	surfaceparm metalsteps
@@ -2626,6 +2615,7 @@ textures/transit/evil8_floor_e8clangfloor04_blue
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor04_red
 {
 	surfaceparm metalsteps
@@ -2640,6 +2630,7 @@ textures/transit/evil8_floor_e8clangfloor04_red
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor04b
 {
 	surfaceparm metalsteps
@@ -2654,6 +2645,7 @@ textures/transit/evil8_floor_e8clangfloor04b
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor04warn
 {
 	surfaceparm metalsteps
@@ -2668,6 +2660,7 @@ textures/transit/evil8_floor_e8clangfloor04warn
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor04warn2
 {
 	surfaceparm metalsteps
@@ -2682,6 +2675,7 @@ textures/transit/evil8_floor_e8clangfloor04warn2
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor05
 {
 	surfaceparm metalsteps
@@ -2696,6 +2690,7 @@ textures/transit/evil8_floor_e8clangfloor05
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor05b
 {
 	surfaceparm metalsteps
@@ -2710,6 +2705,7 @@ textures/transit/evil8_floor_e8clangfloor05b
 		rgbGen identity
 	}
 }
+
 textures/transit/evil8_floor_e8clangfloor05c
 {
 	surfaceparm metalsteps
@@ -2736,6 +2732,7 @@ textures/transit/jher_flood_d_blood1
 		blendfunc filter
 	}
 }
+
 textures/transit/jher_flood_d_blood3
 {
 	surfaceparm noimpact
@@ -2747,6 +2744,7 @@ textures/transit/jher_flood_d_blood3
 		blendfunc filter
 	}
 }
+
 textures/transit/jher_flood_d_bwriting1
 {
 	surfaceparm noimpact
@@ -2758,6 +2756,7 @@ textures/transit/jher_flood_d_bwriting1
 		blendfunc filter
 	}
 }
+
 textures/transit/shaderlab_terrain_dirt_rock_grass
 {
 	q3map_lightImage textures/transit/shaderlab_terrain_snow_1
@@ -2767,7 +2766,6 @@ textures/transit/shaderlab_terrain_dirt_rock_grass
 	q3map_shadeAngle 179
 
 	q3map_lightmapAxis z
-
 
 	q3map_tcMod rotate 33
 
@@ -2830,8 +2828,6 @@ q3map_tcGen ivector ( 2048 0 0 ) ( 0 2048 0 )
 	}
 }
 
-
-
 // this sky must be compiled with Q3Map2 2.5.11 or later using -skyfix
 
 textures/transit/sky
@@ -2887,7 +2883,7 @@ textures/transit/stannum_briefing
 
 	{
 		map textures/transit/stannum_lines
-	      blendfunc gl_dst_color gl_src_alpha
+				blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
 		tcmod scroll 0.5 0.5
 	}
@@ -2899,6 +2895,7 @@ textures/transit/stannum_briefing
 	}
 
 }
+
 models/mapobjects/reactor/reactorskin
 {
 	surfaceparm trans
@@ -2925,15 +2922,16 @@ textures/transit/stannum_fence
 
 	{
 		map textures/transit/stannum_fence
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
+
 textures/transit/stannum_fencetop
 {
 	qer_editorimage textures/transit/stannum_fence
@@ -2942,12 +2940,12 @@ textures/transit/stannum_fencetop
 
 	{
 		map textures/transit/stannum_fence
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
-        {
+	{
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
@@ -2997,6 +2995,7 @@ textures/transit/stannum_tremnet
 		map textures/transit/stannum_tremnet
 	}
 }
+
 textures/transit/stannum_join
 {
 	surfaceparm noimpact
@@ -3006,6 +3005,7 @@ textures/transit/stannum_join
 		map textures/transit/stannum_join
 	}
 }
+
 textures/transit/stannum_join
 {
 	surfaceparm noimpact
@@ -3015,6 +3015,7 @@ textures/transit/stannum_join
 		map textures/transit/stannum_join
 	}
 }
+
 textures/transit/stannum_dyp
 {
 	surfaceparm noimpact
@@ -3024,6 +3025,7 @@ textures/transit/stannum_dyp
 		map textures/transit/stannum_dyp
 	}
 }
+
 textures/transit/stannum_movie
 {
 	surfaceparm noimpact
@@ -3033,6 +3035,7 @@ textures/transit/stannum_movie
 		map textures/transit/stannum_movie
 	}
 }
+
 textures/transit/stannum_blood1
 {
 	surfaceparm noimpact
@@ -3043,6 +3046,7 @@ textures/transit/stannum_blood1
 		blendfunc filter
 	}
 }
+
 textures/transit/stannum_blood2
 {
 	surfaceparm noimpact
@@ -3053,6 +3057,7 @@ textures/transit/stannum_blood2
 		blendfunc filter
 	}
 }
+
 textures/transit/stannum_blood3
 {
 	surfaceparm noimpact
@@ -3063,6 +3068,7 @@ textures/transit/stannum_blood3
 		blendfunc filter
 	}
 }
+
 textures/transit/stannum_blood4
 {
 	surfaceparm noimpact
@@ -3112,7 +3118,6 @@ textures/transit/stannum_transitterrain
 
 	q3map_lightmapAxis z
 
-
 	q3map_alphaMod dotproduct2 ( 0 0 0.9 )
 	q3map_clipModel
 
@@ -3139,11 +3144,7 @@ textures/transit/stannum_transitterrain
 	}
 }
 
-
-
-
 // jex make goooood!
-
 
 textures/transit/evil6_floor_e6grtfloorceil_s
 {
@@ -3206,17 +3207,17 @@ textures/transit/evil6_trims_e6trim_light_s_nolight
 // alphaGen lightingSpecular is not a valid XreaL shader keyword
 // textures/transit/stannum_tin
 // {
-// 	qer_editorimage textures/transit/tin
-// 	{
-// 		rgbGen identity
-// 		map $lightmap
-// 	}
-// 	{
-// 		map textures/transit/tin
-// 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
-// 		rgbGen identity
-// 		alphaGen lightingSpecular
-// 	}
+//	qer_editorimage textures/transit/tin
+//	{
+//		rgbGen identity
+//		map $lightmap
+//	}
+//	{
+//		map textures/transit/tin
+//		blendFunc GL_DST_COLOR GL_SRC_ALPHA
+//		rgbGen identity
+//		alphaGen lightingSpecular
+//	}
 // }
 
 // workaround:
@@ -3229,16 +3230,16 @@ textures/transit/stannum_tin
 // alphaGen lightingSpecular is not a valid XreaL shader keyword
 // textures/transit/stannum_wall_shinybluemetal1
 // {
-// 	{
-// 		map $lightmap
-// 		rgbgen identity
-// 	}
-// 	{
-// 		map textures/transit/stannum_wall_shinybluemetal1
-// 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
-// 		rgbGen identity
-// 		alphaGen lightingSpecular
-// 	}
+//	{
+//		map $lightmap
+//		rgbgen identity
+//	}
+//	{
+//		map textures/transit/stannum_wall_shinybluemetal1
+//		blendFunc GL_DST_COLOR GL_SRC_ALPHA
+//		rgbGen identity
+//		alphaGen lightingSpecular
+//	}
 // }
 
 // workaround:

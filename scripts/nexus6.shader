@@ -47,7 +47,6 @@ textures/nexus6/ladder
 	surfaceparm playerclip
 }
 
-
 //   LIGHTS   //
 
 textures/nexus6/proto_lightred_64_300
@@ -65,7 +64,7 @@ textures/nexus6/proto_lightred_64_300
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/niveus/proto_lightred_64
 		blendFunc add
 	}
@@ -353,7 +352,6 @@ textures/nexus6/e6tinylight_s_20k
 	}
 }
 
-
 textures/nexus6/e6tinylight_s_25k
 {
 	qer_editorimage textures/nexus6/e6tinylight
@@ -506,7 +504,6 @@ textures/nexus6/e6horzlight_s_7500
 	}
 }
 
-
 textures/nexus6/e6horzlight_s_10k
 {
 	qer_editorimage textures/nexus6/e6horzlight
@@ -525,7 +522,6 @@ textures/nexus6/e6horzlight_s_10k
 		blendfunc add
 	}
 }
-
 
 textures/nexus6/e6horzlight_blue_s_10k
 {
@@ -1068,7 +1064,6 @@ textures/nexus6/light5_s_10k
 	}
 }
 
-
 //   OTHER   //
 
 textures/nexus6/slime_s
@@ -1296,18 +1291,18 @@ textures/nexus6/glass_04_s
 // alphaGen lightingSpecular is not a valid XreaL shader keyword
 // textures/nexus6/tin_s
 // {
-// 	qer_editorimage textures/nexus6/tin
-// 	{
-// 		map $lightmap
-// 		rgbGen identity
-// 		tcGen lightmap
-// 	}
-// 	{
-// 		map textures/nexus6/tin
-// 		blendfunc gl_dst_color gl_src_alpha
-// 		rgbGen identity
-// 		alphaGen lightingSpecular
-// 	}
+//	qer_editorimage textures/nexus6/tin
+//	{
+//		map $lightmap
+//		rgbGen identity
+//		tcGen lightmap
+//	}
+//	{
+//		map textures/nexus6/tin
+//		blendfunc gl_dst_color gl_src_alpha
+//		rgbGen identity
+//		alphaGen lightingSpecular
+//	}
 // }
 
 // workaround:
@@ -1418,7 +1413,7 @@ textures/nexus6/proto_fence
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	cull none
-        nopicmip
+	nopicmip
 	{
 		map textures/nexus6/objects_fence
 		tcMod scale 3 3

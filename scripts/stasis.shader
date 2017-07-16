@@ -66,4 +66,3 @@ models/mapobjects/stasis/bubbles
 		tcMod scroll 0 0.5
 	}
 }
-

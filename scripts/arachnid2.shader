@@ -9,12 +9,12 @@ textures/arachnid2/glass_02_s
 		blendfunc add
 		rgbGen const ( 0.05 0.05 0.07 )
 	}
-	//{
-	//	map $lightmap
-	//	blendfunc gl_dst_color gl_src_alpha
-	//	rgbGen identity
-	//	tcGen lightmap
-	//}
+//	{
+//		map $lightmap
+//		blendfunc gl_dst_color gl_src_alpha
+//		rgbGen identity
+//		tcGen lightmap
+//	}
 }
 
 textures/arachnid2/planet_dis
@@ -22,7 +22,7 @@ textures/arachnid2/planet_dis
 	{
 		map textures/displays/planet_dis
 		blendfunc add
-		}
+	}
 }
 
 textures/arachnid2/planet_dis_2
@@ -30,13 +30,13 @@ textures/arachnid2/planet_dis_2
 	{
 		map textures/displays/planet_dis_2
 		blendfunc add
-		}
+	}
 }
 
 textures/arachnid2/e6basicstrip_red_s_nolight
 {
 	qer_editorimage textures/karith/e6basicstrip_red
-	//q3map_surfacelight ?
+	// q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 
@@ -48,7 +48,7 @@ textures/arachnid2/e6basicstrip_red_s_nolight
 textures/arachnid2/e6horzlight_s_nolight
 {
 	qer_editorimage textures/nexus6/e6horzlight
-	//q3map_surfacelight ?
+	// q3map_surfacelight ?
 	surfaceparm nomarks
 
 	{
@@ -163,19 +163,19 @@ textures/arachnid2/fan_shadow_s
 // alphaGen lightingSpecular is not a valid XreaL shader keyword
 // textures/arachnid2/tin_s
 // {
-// 	qer_editorimage textures/nexus6/tin
-// 	{
-// 		map $lightmap
-// 		rgbGen identity
-// 		tcGen lightmap
-// 	}
-// 	{
-// 		map textures/nexus6/tin
-// 		blendfunc gl_dst_color gl_src_alpha
-// 		rgbGen identity
-// 		alphaGen lightingSpecular
-// 	}
-// }
+//	qer_editorimage textures/nexus6/tin
+//	{
+//		map $lightmap
+//		rgbGen identity
+//		tcGen lightmap
+//	}
+//	{
+//		map textures/nexus6/tin
+//		blendfunc gl_dst_color gl_src_alpha
+//		rgbGen identity
+//		alphaGen lightingSpecular
+//	}
+//	}
 
 // workaround:
 textures/arachnid2/tin_s
@@ -229,7 +229,6 @@ textures/arachnid2/mist_s
 	}
 }
 
-
 textures/arachnid2/cubelight_32_blue_s
 {
 	qer_editorimage textures/niveus/cubelight_32_blue
@@ -251,7 +250,6 @@ textures/arachnid2/cubelight_32_blue_s
 	}
 }
 
-
 textures/arachnid2/cubelight_32_orange_s
 {
 	qer_editorimage textures/arachnid2/cubelight_32_orange
@@ -271,7 +269,6 @@ textures/arachnid2/cubelight_32_orange_s
 		blendfunc GL_ONE GL_ONE
 	}
 }
-
 
 textures/arachnid2/cubelight_32_red_s
 {
@@ -294,7 +291,6 @@ textures/arachnid2/cubelight_32_red_s
 	}
 }
 
-
 textures/arachnid2/cubelight_32_white_s
 {
 	qer_editorimage textures/arachnid2/cubelight_32_white
@@ -314,7 +310,6 @@ textures/arachnid2/cubelight_32_white_s
 		blendfunc GL_ONE GL_ONE
 	}
 }
-
 
 textures/arachnid2/cubelight_32_yellow_s
 {
@@ -357,12 +352,11 @@ textures/arachnid2/zdetlig04yb_s
 
 textures/arachnid2/arach_fog_s
 {
-qer_editorimage textures/nexus6/e6horzlight_blend
-surfaceparm	trans
-surfaceparm	nonsolid
-surfaceparm	fog
-surfaceparm	nolightmap
-qer_nocarve
-fogparms ( 0.0 0.0 0.0 ) 500
-
+	qer_editorimage textures/nexus6/e6horzlight_blend
+	surfaceparm	trans
+	surfaceparm	nonsolid
+	surfaceparm	fog
+	surfaceparm	nolightmap
+	qer_nocarve
+	fogparms ( 0.0 0.0 0.0 ) 500
 }

@@ -9,6 +9,7 @@ textures/tremor/force_field
 		tcMod scale 1 1
 	}
 }
+
 textures/tremor/purple_1
 {
 	{
@@ -23,6 +24,7 @@ textures/tremor/purple_1
 		tcMod rotate 15
 	}
 }
+
 textures/titan/light_128x512
 {
 	q3map_surfacelight 1500
@@ -37,6 +39,7 @@ textures/titan/light_128x512
 		rgbGen identity
 	}
 }
+
 textures/tremor/ship_flame
 {
 	{
@@ -50,6 +53,7 @@ textures/tremor/ship_flame
 		tcMod scroll 5 0
 	}
 }
+
 textures/tremor/grate_3_shade
 {
 	surfaceparm	metalsteps
@@ -68,6 +72,7 @@ textures/tremor/grate_3_shade
 		depthFunc equal
 	}
 }
+
 textures/tremor/red_color
 {
 		surfaceparm trans
@@ -78,6 +83,7 @@ textures/tremor/red_color
 		blendfunc add
 		rgbGen wave square 0 1 0 1
 }
+
 {
 		map $lightmap
 		blendfunc filter
@@ -85,6 +91,7 @@ textures/tremor/red_color
 		tcGen lightmap
 	}
 }
+
 textures/tremor/shinymetal
 {
 	{
@@ -132,7 +139,7 @@ textures/tremor/proto_lightred_nonsolid
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/base_light/proto_lightred
 		blendFunc add
 	}
@@ -175,7 +182,7 @@ textures/tremor/e6basicstrip_blue_s_nolight
 	}
 }
 
-//by Godmil & jex
+// by Godmil & jex
 textures/tremor/e8_base1c_nonsolid
 {
 	qer_editorimage textures/karith/e8_base1c
@@ -190,28 +197,28 @@ textures/tremor/e8_base1c_nonsolid
 	}
 }
 
-//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
-//Please check out our mod site at http://www.og-world.com/bkp/
+// Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
+// Please check out our mod site at http://www.og-world.com/bkp/
 textures/tremor/darkglass3
 {
 	qer_editorimage textures/niveus/trem2ref
 	qer_trans .5
 	surfaceparm trans
 	cull disable
-		{
+	{
 		map textures/niveus/trem2ref
 		tcgen environment
 		blendfunc gl_one gl_one
 		rgbGen identity
-		}
-		{
+	}
+	{
 		map $lightmap
 		blendFunc gl_dst_color gl_zero
 		rgbgen identity
-		}
+	}
 }
 
-//By Evillair, edit by Jex, and godmil
+// By Evillair, edit by Jex, and godmil
 textures/tremor/e6bsegrtflr256_nonsolid
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
@@ -234,8 +241,8 @@ textures/tremor/e6bsegrtflr256_nonsolid
 	}
 }
 
-//Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
-//Please check out our mod site at http://www.og-world.com/bkp/
+// Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
+// Please check out our mod site at http://www.og-world.com/bkp/
 textures/tremor/plainglass3
 {
 	surfaceparm nolightmap
@@ -245,44 +252,44 @@ textures/tremor/plainglass3
 		map textures/karith/plainglass
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
-    }
+	}
 }
 
-//Shader created by Timbo
-//Comment added to ensure continuation of meticulously anal crediting policy
+// Shader created by Timbo
+// Comment added to ensure continuation of meticulously anal crediting policy
 textures/tremor/tremorspark1
 {
-  {
-    map textures/tremor/tremorspark1
-    blendFunc blend
-  }
+	{
+		map textures/tremor/tremorspark1
+		blendFunc blend
+	}
 }
 
 textures/tremor/proto_zzztblu3
 {
-  surfaceparm nolightmap
-  surfaceparm nonsolid
-  cull none
-  {
-    map textures/tremor/proto_zzztblu3
-    tcGen environment
-    tcMod turb 0 0.25 0 0.5
-    tcmod scroll 1 1
-    blendfunc GL_ONE GL_ONE
-  }
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	cull none
+	{
+		map textures/tremor/proto_zzztblu3
+		tcGen environment
+		tcMod turb 0 0.25 0 0.5
+		tcmod scroll 1 1
+		blendfunc GL_ONE GL_ONE
+	}
 }
 
 textures/tremor/beam_red
 {
-  surfaceparm trans
-  surfaceparm nomarks
-  surfaceparm nonsolid
-  surfaceparm nolightmap
-  qer_trans .5
-  cull none
-  {
-    map textures/tremor/beam_red
-    tcMod Scroll .3 0
-    blendFunc add
-  }
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+	qer_trans .5
+	cull none
+	{
+		map textures/tremor/beam_red
+		tcMod Scroll .3 0
+		blendFunc add
+	}
 }

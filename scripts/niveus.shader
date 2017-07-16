@@ -214,13 +214,13 @@ textures/niveus/trembru_s
 textures/niveus/x_girder_s
 {
 	surfaceparm metalsteps
-    	surfaceparm trans
+	surfaceparm trans
 	surfaceparm alphashadow
 	surfaceparm playerclip
    	surfaceparm nonsolid
 	surfaceparm nomarks
 	cull disable
-        nopicmip
+	nopicmip
 	qer_editorimage textures/niveus/x_girder
 	{
 		map textures/niveus/x_girder
@@ -304,17 +304,17 @@ textures/niveus/e8bgrate01_s
 // alphaGen lightingSpecular is not a valid XreaL shader keyword
 // textures/niveus/tin_s
 // {
-// 	qer_editorimage textures/niveus/pewter_128
-//         {
-// 		rgbGen identity
-// 		map $lightmap
-// 	}
-// 	{
-// 		map textures/niveus/pewter_128
-// 		blendFunc GL_DST_COLOR GL_SRC_ALPHA
-// 		rgbGen identity
-// 		alphaGen lightingSpecular
-// 	}
+//	qer_editorimage textures/niveus/pewter_128
+//	{
+//		rgbGen identity
+//		map $lightmap
+//	}
+//	{
+//		map textures/niveus/pewter_128
+//		blendFunc GL_DST_COLOR GL_SRC_ALPHA
+//		rgbGen identity
+//		alphaGen lightingSpecular
+//	}
 // }
 
 // workaround:
@@ -404,7 +404,7 @@ textures/niveus/proto_lightred
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/niveus/proto_lightred_64
 		blendFunc add
 	}
@@ -426,7 +426,7 @@ textures/niveus/proto_lightred2
 		blendFunc filter
 		rgbGen identity
 	}
-        {
+	{
 		map textures/niveus/proto_lightred_64
 		blendFunc add
 		rgbGen wave square .5 .5 0 1
@@ -453,7 +453,6 @@ textures/niveus/glass_01_s
 		tcGen lightmap
 	}
 }
-
 
 textures/niveus/glass_02_s
 {

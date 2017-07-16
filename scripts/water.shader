@@ -1,4 +1,4 @@
-//deep ocean
+// deep ocean
 textures/misc/dark_water
 {
 	{
@@ -21,7 +21,7 @@ textures/misc/dark_water
 	}
 }
 
-//tank bubbles
+// tank bubbles
 textures/misc/bubbles
 {
 	cull disable
@@ -41,7 +41,7 @@ textures/misc/bubbles
 	}
 }
 
-//foamy water top
+// foamy water top
 textures/misc/foam
 {
 	surfaceparm nonsolid
@@ -55,4 +55,3 @@ textures/misc/foam
 		blendfunc add
 	}
 }
-
