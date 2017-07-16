@@ -69,7 +69,6 @@ textures/karith/de-cleanmtl_nonsolid
 textures/karith/defaultmetal_s
 {
 	qer_editorimage textures/karith/defaultmetal
-	surfaceparm solid
 	{
 		map textures/karith/defaultmetal
 
@@ -876,7 +875,6 @@ textures/karith/darkglass2
                       {
                       qer_trans .5
                       surfaceparm trans
-		      surfaceparm solid
 
                       cull disable
                       {
@@ -897,7 +895,6 @@ textures/karith/darkglass2
 textures/karith/plainglass2
 {
 	surfaceparm nolightmap
-	surfaceparm solid
 	cull twosided
 	{
 		map textures/karith/plainglass
