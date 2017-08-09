@@ -22,7 +22,7 @@ textures/titan/grates_alpha
 
 textures/titan/asteroid
 {
-	qer_editorimage textures/titan/asteroid
+	qer_editorimage textures/titan/asteroid_p
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm sky
