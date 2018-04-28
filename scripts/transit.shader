@@ -2721,42 +2721,6 @@ textures/transit/evil8_floor_e8clangfloor05c
 	}
 }
 
-textures/transit/jher_flood_d_blood1
-{
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonoffset
-	{
-		map textures/transit/jher_flood_d_blood1
-		blendfunc filter
-	}
-}
-
-textures/transit/jher_flood_d_blood3
-{
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonoffset
-	{
-		map textures/transit/jher_flood_d_blood3
-		blendfunc filter
-	}
-}
-
-textures/transit/jher_flood_d_bwriting1
-{
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonoffset
-	{
-		map textures/transit/jher_flood_d_bwriting1
-		blendfunc filter
-	}
-}
-
 textures/transit/shaderlab_terrain_dirt_rock_grass
 {
 	q3map_lightImage textures/transit/shaderlab_terrain_snow_1
@@ -3033,58 +2997,6 @@ textures/transit/stannum_movie
 	polygonoffset
 	{
 		map textures/transit/stannum_movie
-	}
-}
-
-textures/transit/stannum_blood1
-{
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	polygonoffset
-	{
-		map textures/transit/stannum_blood1
-		blendfunc filter
-	}
-}
-
-textures/transit/stannum_blood2
-{
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	polygonoffset
-	{
-		map textures/transit/stannum_blood2
-		blendfunc filter
-	}
-}
-
-textures/transit/stannum_blood3
-{
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	polygonoffset
-	{
-		map textures/transit/stannum_blood3
-		blendfunc filter
-	}
-}
-
-textures/transit/stannum_blood4
-{
-	surfaceparm noimpact
-	surfaceparm nonsolid
-
-	tessSize 32
-	cull disable
-	deformVertexes wave 100 sin 0 1 .5 .5
-
-	polygonoffset
-	{
-		map textures/transit/stannum_blood4
-		blendfunc filter
-		tcMod turb .3 .2 1 .05
-		tcMod scroll .01 .01
-
 	}
 }
 
