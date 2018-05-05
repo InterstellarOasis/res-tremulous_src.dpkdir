@@ -194,11 +194,11 @@ textures/niveus/fan_s
 
 textures/niveus/trembru_s
 {
-	qer_editorimage textures/karith/trembru
+	qer_editorimage textures/shared_ambient_src/soda-machines/trembru_d
 	surfaceparm nomarks
 	q3map_surfacelight 1500
 	{
-		map textures/karith/trembru
+		map textures/shared_ambient_src/soda-machines/trembru_d
 	}
 	{
 		map $lightmap
@@ -206,7 +206,7 @@ textures/niveus/trembru_s
 		tcGen lightmap
 	}
 	{
-		map textures/karith/trembru
+		map textures/shared_ambient_src/soda-machines/trembru_d
 		blendfunc add
 	}
 }

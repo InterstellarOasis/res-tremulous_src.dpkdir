@@ -119,82 +119,82 @@ textures/karith/e8bgrate01
 
 textures/transit/jher_flood_d_blood1
 {
-	qer_editorimage textures/blood_src/jher_flood_blood1_d
+	qer_editorimage textures/shared_ambient_src/blood/jher_flood_blood1_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/blood_src/jher_flood_blood1_d
+		map textures/shared_ambient_src/blood/jher_flood_blood1_d
 		blendfunc filter
 	}
 }
 
 textures/transit/jher_flood_d_blood3
 {
-	qer_editorimage textures/blood_src/jher_flood_blood3_d
+	qer_editorimage textures/shared_ambient_src/blood/jher_flood_blood3_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/blood_src/jher_flood_blood3_d
+		map textures/shared_ambient_src/blood/jher_flood_blood3_d
 		blendfunc filter
 	}
 }
 
 textures/transit/jher_flood_d_bwriting1
 {
-	qer_editorimage textures/blood_src/jher_flood_blood_writing1_d
+	qer_editorimage textures/shared_ambient_src/blood/jher_flood_blood_writing1_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/blood_src/jher_flood_blood_writing1_d
+		map textures/shared_ambient_src/blood/jher_flood_blood_writing1_d
 		blendfunc filter
 	}
 }
 
 textures/transit/stannum_blood1
 {
-	qer_editorimage textures/blood_src/stannum_blood1_d
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood1_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	polygonoffset
 	{
-		map textures/blood_src/stannum_blood1_d
+		map textures/shared_ambient_src/blood/stannum_blood1_d
 		blendfunc filter
 	}
 }
 
 textures/transit/stannum_blood2
 {
-	qer_editorimage textures/blood_src/stannum_blood2_d
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood2_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	polygonoffset
 	{
-		map textures/blood_src/stannum_blood2_d
+		map textures/shared_ambient_src/blood/stannum_blood2_d
 		blendfunc filter
 	}
 }
 
 textures/transit/stannum_blood3
 {
-	qer_editorimage textures/blood_src/stannum_blood3_d
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood3_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	polygonoffset
 	{
-		map textures/blood_src/stannum_blood3_d
+		map textures/shared_ambient_src/blood/stannum_blood3_d
 		blendfunc filter
 	}
 }
 
 textures/transit/stannum_blood4
 {
-	qer_editorimage textures/blood_src/stannum_blood4_d
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood4_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 
@@ -204,7 +204,7 @@ textures/transit/stannum_blood4
 
 	polygonoffset
 	{
-		map textures/blood_src/stannum_blood4_d
+		map textures/shared_ambient_src/blood/stannum_blood4_d
 		blendfunc filter
 		tcMod turb .3 .2 1 .05
 		tcMod scroll .01 .01
@@ -411,8 +411,8 @@ textures/transit/evil3_floors_t-flr_oddtile_drty
 
 textures/niveus/trembru
 {
-	qer_editorimage textures/karith/trembru
-	diffuseMap textures/karith/trembru
+	qer_editorimage textures/shared_ambient_src/soda-machines/trembru_d
+	diffuseMap textures/shared_ambient_src/soda-machines/trembru_d
 }
 
 textures/niveus/barrel_rst_top
