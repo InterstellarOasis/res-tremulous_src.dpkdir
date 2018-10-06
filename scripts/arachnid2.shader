@@ -352,7 +352,7 @@ textures/arachnid2/zdetlig04yb_s
 
 textures/arachnid2/arach_fog_s
 {
-	qer_editorimage textures/nexus6/e6horzlight_blend
+	qer_editorimage textures/transit/fog
 	surfaceparm	trans
 	surfaceparm	nonsolid
 	surfaceparm	fog
