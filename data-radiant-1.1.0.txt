@@ -1,0 +1,72 @@
+July 26, 2009
+=============================================================================
+
+Title                   : Tremulous support files for Radiant
+
+Filename	        : data-radiant-1.1.0.pk3
+
+Author                  : Ingar =KCT=
+
+Email Address           : ingar@telenet.be
+
+Web Site(s)             : http://users.telenet.be/ingar/tremulous
+
+Description             : Tremulous support files for Radiant
+
+Credits to              : ID-Software for Quake III Arena,
+                          darklegion for Tremulous
+			  ydnar for common.shader additions
+
+=============================================================================
+
+TREMULOUS SUPPORT FILES FOR RADIANT
+
+    This archive contains the necessary support files to use the Radiant
+    map editor to create Tremulous maps. It does not include the gamepack
+    for Radiant itself.
+
+    The textures in the common/ and radiant/ subdirectories replace
+    those found in common-spog.pk3 and can be used freely.
+
+    The common.shader file has been floating around in the community for a while,
+    I cleaned it up a bit to match the new textures.
+
+    The models and related textures were extracted from common-strands.pk3 and
+    common-mgturret.pk3.
+
+INSTALLATION
+
+    This file should be copied into the Tremulous base/ directory.
+    This is the directory that contains the main data-1.1.0.pk3.
+
+    If it doesn't exists, create a new subdirectory scripts/ inside
+    the base/ directory. In this subdirectory, there should be a file
+    called shaderlist.txt with the following content:
+
+	arachnid2
+	atcs
+	karith
+	nexus6
+	niveus
+	transit
+	tremor
+	uncreation
+	common
+	common-trem
+	titan
+	displays
+	misc
+	plant_life
+	water
+
+HISTORY
+
+    2009-07-26
+	Renamed skip to hintskip.tga
+
+    2009-07-25
+	Corrected syntax errors in common.shader
+	Added textures/common/skip.tga
+
+    2009-07-22
+	Initial release
