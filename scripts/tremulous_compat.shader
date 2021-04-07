@@ -1,3 +1,137 @@
+// Renamed as playerclip
+textures/common/clip
+{
+	qer_editorImage textures/common_src/playerclip_p
+	qer_trans 0.4
+
+	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm trans
+}
+
+// Inexistent in Unvanquished, it is used?
+textures/common/clusterportal
+{
+	qer_editorImage textures/common_src/clusterportal_p
+	qer_trans 0.5
+
+	surfaceparm clusterportal
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+
+// Renamed as fullclip
+textures/common/full_clip
+{
+	qer_editorImage textures/common_src/fullclip_p
+	qer_trans 0.4
+
+	surfaceparm nodraw
+//	surfaceparm playerclip // this is not correct
+}
+
+// Renamed as fullclip
+textures/common/missileclip
+{
+	qer_editorImage textures/common_src/playerclip_p
+	qer_trans .4
+
+	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+//	surfaceparm playerclip // this is not correct
+	surfaceparm trans
+}
+
+// Inexistent in Unvanquished, it is used?
+textures/common/noimpact
+{
+	qer_editorImage textures/common_src/noimpact_p
+
+	surfaceparm noimpact
+}
+
+// Inexistent in Unvanquished, it is used?
+textures/common/nolightmap
+{
+	qer_editorImage textures/common_src/nolightmap_p
+
+	surfaceparm nolightmap
+}
+
+// Renamed as terrain_dust
+textures/common/terrain2
+{
+	qer_editorImage textures/common_src/terrain_dust_p
+
+	q3map_terrain
+
+	surfaceparm dust
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+}
+
+// Renamed as fullclip
+textures/common/weapclip
+{
+	qer_editorImage textures/common_src/fullclip_p
+	qer_trans 0.40
+
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm trans
+}
+
+textures/common-trem/nobuild
+{
+	qer_editorImage textures/common_src/nobuild_p
+	qer_trans 0.5
+
+	surfaceparm nobuild
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+
+textures/common-trem/noalienbuild
+{
+	qer_editorImage textures/common_src/noalienbuild_p
+	qer_trans 0.5
+
+	surfaceparm noalienbuild
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+
+textures/common-trem/nohumanbuild
+{
+	qer_editorImage textures/common_src/nohumanbuild_p
+	qer_trans 0.5
+
+	surfaceparm nodraw
+	surfaceparm nohumanbuild
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+
 textures/karith/snowy/snowy_skybox2
 {
 	qer_editorimage env/karith/snowy_bk

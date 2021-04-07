@@ -1,1 +1,2 @@
+tex-common
 res-ambient

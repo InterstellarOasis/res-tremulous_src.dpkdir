@@ -8,6 +8,6 @@ stasis
 titan
 transit
 tremor
+tremulous_compat
 uncreation
 water
-tremulous_compat
