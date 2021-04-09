@@ -51,7 +51,7 @@ models/mapobjects/stasis/flowpipe
 		tcMod scroll 1 0
 	}
 	{
-		map models/buildables/overmind/ref2
+		map models/tremulous/buildables/overmind/ref2
 		blendfunc filter
 
 		tcGen environment
