@@ -42,8 +42,8 @@ textures/atcs/burst_blue_s
 }
 
 textures/atcs/force_field_s
-	{
-	qer_editorimage textures/atcs/force_field_gtk
+{
+	qer_editorimage textures/atcs/force_field
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
