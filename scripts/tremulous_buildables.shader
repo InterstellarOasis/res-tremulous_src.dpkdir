@@ -160,7 +160,7 @@ models/tremulous/buildables/medistat/medi_cone
 	cull none
 
 	{
-		map models/tremulous/buildables/medistat/medi_cone.jpg
+		map models/tremulous/buildables/medistat/medi_cone
 		blendfunc add
 		rgbGen lightingDiffuse
 		tcMod scroll 1 0
@@ -334,7 +334,7 @@ models/tremulous/buildables/telenode/rep_cyl
 {
 	cull disable
 	{
-		map models/tremulous/buildables/telenode/rep_cyl.jpg
+		map models/tremulous/buildables/telenode/rep_cyl
 		blendfunc add
 		rgbGen lightingDiffuse
 		tcMod scroll 0.2 0
