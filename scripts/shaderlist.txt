@@ -9,6 +9,7 @@ titan
 transit
 tremor
 tremulous_buildables
+tremulous_players
 tremulous_weapons
 tremulous_compat
 uncreation
