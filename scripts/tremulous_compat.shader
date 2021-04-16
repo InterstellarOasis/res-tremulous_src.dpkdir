@@ -872,38 +872,38 @@ textures/transit/majestic_cr_large_red
 
 textures/arachnid2/cubelight_32_blue.blend
 {
-	qer_editorimage textures/niveus/cubelight_32_blue.blend
-	diffuseMap textures/niveus/cubelight_32_blue.blend
+	qer_editorimage textures/atcs/cubelight_32_blue.blend
+	diffuseMap textures/atcs/cubelight_32_blue.blend
 }
 
 textures/atcs/cubelight_32_blue.blend
 {
-	qer_editorimage textures/niveus/cubelight_32_blue.blend
-	diffuseMap textures/niveus/cubelight_32_blue.blend
+	qer_editorimage textures/atcs/cubelight_32_blue.blend
+	diffuseMap textures/atcs/cubelight_32_blue.blend
 }
 
 textures/nexus6/cubelight_32_blue.blend
 {
-	qer_editorimage textures/niveus/cubelight_32_blue.blend
-	diffuseMap textures/niveus/cubelight_32_blue.blend
+	qer_editorimage textures/atcs/cubelight_32_blue.blend
+	diffuseMap textures/atcs/cubelight_32_blue.blend
 }
 
 textures/arachnid2/cubelight_32_blue
 {
-	qer_editorimage textures/niveus/cubelight_32_blue
-	diffuseMap textures/niveus/cubelight_32_blue
+	qer_editorimage textures/atcs/cubelight_32_blue
+	diffuseMap textures/atcs/cubelight_32_blue
 }
 
 textures/atcs/cubelight_32_blue
 {
-	qer_editorimage textures/niveus/cubelight_32_blue
-	diffuseMap textures/niveus/cubelight_32_blue
+	qer_editorimage textures/atcs/cubelight_32_blue
+	diffuseMap textures/atcs/cubelight_32_blue
 }
 
 textures/nexus6/cubelight_32_blue
 {
-	qer_editorimage textures/niveus/cubelight_32_blue
-	diffuseMap textures/niveus/cubelight_32_blue
+	qer_editorimage textures/atcs/cubelight_32_blue
+	diffuseMap textures/atcs/cubelight_32_blue
 }
 
 textures/arachnid2/dark_metal

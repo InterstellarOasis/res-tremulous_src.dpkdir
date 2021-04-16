@@ -391,7 +391,7 @@ textures/uncreation/billsky
 textures/uncreation/clip
 {
 	qer_trans 0.40
-	qer_editorimage common/clip
+	qer_editorimage common/playerclip
 	surfaceparm nodraw
 	surfaceparm nolightmap
 	surfaceparm nonsolid

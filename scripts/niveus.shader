@@ -539,7 +539,7 @@ textures/niveus/cubelight_32_white_30k
 
 textures/niveus/cubelight_32_blue_10k
 {
-	qer_editorimage textures/niveus/cubelight_32_blue
+	qer_editorimage textures/atcs/cubelight_32_blue
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	{
@@ -547,12 +547,12 @@ textures/niveus/cubelight_32_blue_10k
 		rgbGen identity
 	}
 	{
-		map textures/niveus/cubelight_32_blue
+		map textures/atcs/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/niveus/cubelight_32_blue.blend
+		map textures/atcs/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
