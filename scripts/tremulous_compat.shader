@@ -329,8 +329,14 @@ textures/transit/stannum_blood4
 
 textures/transit/ceillight1
 {
-	qer_editorimage models/mapobjects/transit/ceillight1/skin
-	diffuseMap models/mapobjects/transit/ceillight1/skin
+	qer_editorimage models/mapobjects/nexus6/ceillight
+	diffuseMap models/mapobjects/nexus6/ceillight
+}
+
+models/mapobjects/transit/ceillight1/skin
+{
+	qer_editorimage models/mapobjects/nexus6/ceillight
+	diffuseMap models/mapobjects/nexus6/ceillight
 }
 
 textures/transit/shaderlab_terrain_sky_clouds
