@@ -2947,7 +2947,9 @@ textures/transit/stannum_grate
 textures/transit/stannum_hose
 {
 	qer_editorimage textures/base_support/flat1_1
-	diffuseMap textures/base_support/flat1_1
+	{
+		diffuseMap textures/base_support/flat1_1
+	}
 }
 
 textures/transit/stannum_tremnet
@@ -3136,7 +3138,9 @@ textures/transit/evil6_trims_e6trim_light_s_nolight
 textures/transit/stannum_tin
 {
 	qer_editorimage textures/transit/tin
-	diffuseMap textures/transit/tin
+	{
+		diffuseMap textures/transit/tin
+	}
 }
 
 // alphaGen lightingSpecular is not a valid XreaL shader keyword
@@ -3157,8 +3161,10 @@ textures/transit/stannum_tin
 // workaround:
 textures/transit/stannum_wall_shinybluemetal1
 {
-		qer_editorimage textures/transit/stannum_wall_shinybluemetal1
+	qer_editorimage textures/transit/stannum_wall_shinybluemetal1
+	{
 		diffuseMap textures/transit/stannum_wall_shinybluemetal1
+	}
 }
 
 textures/transit/sfx_fog_timctf1

@@ -181,7 +181,9 @@ textures/arachnid2/fan_shadow_s
 textures/arachnid2/tin_s
 {
 	qer_editorimage textures/nexus6/tin
-	diffuseMap textures/nexus6/tin
+	{
+		diffuseMap textures/nexus6/tin
+	}
 }
 
 textures/arachnid2/sky

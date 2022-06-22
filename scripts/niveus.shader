@@ -321,7 +321,9 @@ textures/niveus/e8bgrate01_s
 textures/niveus/tin_s
 {
 	qer_editorimage textures/niveus/pewter_128
-	diffuseMap textures/niveus/pewter_128
+	{
+		diffuseMap textures/niveus/pewter_128
+	}
 }
 
 textures/niveus/bulb_white_s
