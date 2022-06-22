@@ -68,6 +68,21 @@ textures/common/nolightmap
 	surfaceparm nolightmap
 }
 
+// Renamed as hintskip
+textures/common/skip
+{
+	qer_editorImage textures/common_src/hintskip_p
+
+	qer_nocarve
+	qer_trans .3
+
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm skip
+	surfaceparm structural
+	surfaceparm trans
+}
+
 // Renamed as terrain_dust
 textures/common/terrain2
 {
