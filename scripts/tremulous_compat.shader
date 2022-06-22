@@ -105,12 +105,11 @@ textures/common/weapclip
 textures/common-trem/nobuild
 {
 	qer_editorImage textures/common_src/nobuild_p
-	qer_trans 0.5
+
+	qer_trans .5
 
 	surfaceparm nobuild
 	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -118,12 +117,11 @@ textures/common-trem/nobuild
 textures/common-trem/noalienbuild
 {
 	qer_editorImage textures/common_src/noalienbuild_p
-	qer_trans 0.5
+
+	qer_trans .5
 
 	surfaceparm noalienbuild
 	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -131,12 +129,11 @@ textures/common-trem/noalienbuild
 textures/common-trem/nohumanbuild
 {
 	qer_editorImage textures/common_src/nohumanbuild_p
-	qer_trans 0.5
+
+	qer_trans .5
 
 	surfaceparm nodraw
 	surfaceparm nohumanbuild
-	surfaceparm nolightmap
-	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
