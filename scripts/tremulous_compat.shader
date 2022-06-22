@@ -5,9 +5,6 @@ textures/common/clip
 	qer_trans 0.4
 
 	surfaceparm nodraw
-	surfaceparm noimpact
-	surfaceparm nolightmap
-	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
@@ -34,7 +31,8 @@ textures/common/full_clip
 	qer_trans 0.4
 
 	surfaceparm nodraw
-//	surfaceparm playerclip // this is not correct
+//	surfaceparm playerclip // see comment for fullclip in tex-common
+	surfaceparm trans
 }
 
 // Renamed as fullclip
@@ -44,11 +42,7 @@ textures/common/missileclip
 	qer_trans .4
 
 	surfaceparm nodraw
-	surfaceparm noimpact
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nonsolid
-//	surfaceparm playerclip // this is not correct
+//	surfaceparm playerclip // see comment for fullclip in tex-common
 	surfaceparm trans
 }
 
