@@ -387,15 +387,3 @@ textures/uncreation/billsky
 		tcMod scale 3 2
 	}
 }
-
-textures/uncreation/clip
-{
-	qer_editorImage textures/common_src/playerclip_p
-
-	qer_trans .4
-
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm playerclip
-	surfaceparm trans
-}

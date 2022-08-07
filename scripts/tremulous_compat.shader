@@ -138,6 +138,54 @@ textures/common-trem/nohumanbuild
 	surfaceparm trans
 }
 
+textures/nexus6/clip
+{
+	qer_editorImage textures/common_src/playerclip_p
+
+	qer_trans .4
+
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm trans
+}
+
+textures/nexus6/ladder
+{
+	qer_editorImage textures/common_src/ladder_p
+
+	qer_trans .5
+
+	surfaceparm ladder
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm trans
+}
+
+textures/nexus6/nodraw_nonsolid
+{
+	qer_editorImage textures/common_src/nodrawnonsolid_p
+
+	qer_trans .4
+
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+
+textures/uncreation/clip
+{
+	qer_editorImage textures/common_src/playerclip_p
+
+	qer_trans .4
+
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm trans
+}
+
 textures/karith/snowy/snowy_skybox2
 {
 	qer_editorimage env/karith/snowy_bk
@@ -598,11 +646,11 @@ textures/niveus/trembru
 	}
 }
 
-textures/niveus/barrel_rst_top
+textures/nexus5/barrel_rst_top
 {
-	qer_editorimage textures/nexus6/barrel_rst_top
+	qer_editorimage textures/niveus/barrel_rst_top
 	{
-		diffuseMap textures/nexus6/barrel_rst_top
+		diffuseMap textures/niveus/barrel_rst_top
 	}
 }
 

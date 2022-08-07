@@ -8,42 +8,6 @@ textures/nexus6/lilacisles_skybox
 	skyparms env/nexus6/lilacisles - -
 }
 
-textures/nexus6/nodraw_nonsolid
-{
-	qer_editorImage textures/common_src/nodrawnonsolid_p
-
-	qer_trans .4
-
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-}
-
-textures/nexus6/clip
-{
-	qer_editorImage textures/common_src/playerclip_p
-
-	qer_trans .4
-
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm playerclip
-	surfaceparm trans
-}
-
-textures/nexus6/ladder
-{
-	qer_editorImage textures/common_src/ladder_p
-
-	qer_trans .5
-
-	surfaceparm ladder
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm playerclip
-	surfaceparm trans
-}
-
 //   LIGHTS   //
 
 textures/nexus6/proto_lightred_64_300
