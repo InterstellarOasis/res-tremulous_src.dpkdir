@@ -8,7 +8,7 @@ textures/nexus6/lilacisles_skybox
 	skyparms env/nexus6/lilacisles - -
 }
 
-//   LIGHTS   //
+// LIGHTS
 
 textures/nexus6/proto_lightred_64_300
 {
@@ -1025,7 +1025,7 @@ textures/nexus6/light5_s_10k
 	}
 }
 
-//   OTHER   //
+// OTHER
 
 textures/nexus6/slime_s
 	{

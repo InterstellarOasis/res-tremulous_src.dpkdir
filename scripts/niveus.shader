@@ -217,7 +217,7 @@ textures/niveus/x_girder_s
 	surfaceparm trans
 	surfaceparm alphashadow
 	surfaceparm playerclip
-   	surfaceparm nonsolid
+	surfaceparm nonsolid
 	surfaceparm nomarks
 	cull disable
 	nopicmip
@@ -241,7 +241,7 @@ textures/niveus/e8xgirder_s
 	surfaceparm metalsteps
 	surfaceparm nomarks
 	surfaceparm playerclip
-   	surfaceparm nonsolid
+	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
 	nopicmip

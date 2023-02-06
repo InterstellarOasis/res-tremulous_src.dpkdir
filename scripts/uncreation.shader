@@ -19,9 +19,9 @@ textures/uncreation/lightbridge
 	surfaceparm nomarks
 	{
 		map textures/uncreation/blue
-		blendFunc 	blend
-		rgbGen 		identity
-		alphaGen 	wave sin .2 .1 90 0.2
+		blendFunc blend
+		rgbGen identity
+		alphaGen wave sin .2 .1 90 0.2
 	}
 }
 
@@ -36,7 +36,7 @@ textures/uncreation/fogfalloff
 	fogparms ( .03 .01 .01 ) 2048
 }
 
-//***** Shaders below are copied from the tech1soc set
+// Shaders below are copied from the tech1soc set
 
 textures/uncreation/grate1a_trans
 {

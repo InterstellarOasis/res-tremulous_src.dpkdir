@@ -150,7 +150,7 @@ models/tremulous/weapons/grenade/grenade_s
 {
 	{
 		map models/tremulous/weapons/grenade/energy
-		rgbGen wave sawtooth 0.3 1 0 0.5 
+		rgbGen wave sawtooth 0.3 1 0 0.5
 		tcMod scale 2 1
 		tcMod scroll 0 1
 	}

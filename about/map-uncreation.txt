@@ -1,17 +1,15 @@
-		===== Uncreation =====
-		     by Who-[Soup]
-		======================
+===== Uncreation =====
+     by Who-[Soup]
+======================
 
 This is a map for Tremulous (http://tremulous.net/).
 
-
-
 The map has 8456 brushes (including patches), and took entirely too long to
-make. 
+make.
 
-   BSP: 172 seconds
-   VIS: 12  seconds
- LIGHT: 732 seconds
+  BSP: 172 seconds
+  VIS: 12  seconds
+LIGHT: 732 seconds
 
 	A note on the doors:
 
@@ -19,7 +17,7 @@ There are a total of four doors in this map, two in the human half, and another
 two in the alien half. They are set to open at different stages during the
 game. The door closest to the alien base, and the door on the alien side in the
 central hub room are triggered by the alien team's stage advances (Stage 2 and
-3, respectively). The same goes for the doors on the human team. 
+3, respectively). The same goes for the doors on the human team.
 
 	Thanks go to:
 
@@ -32,9 +30,7 @@ Most of the textures have been taken from Lunaran's lun3dm4, and from Sock's
 tech1soc texture set. Without those textures, this map would not be able to
 exist. Thanks.
 
-
-		     Oh uncreation      
-		The evolution in reverse
-		     Oh uncreation
-		  The death of universe 
-
+	     Oh uncreation
+	The evolution in reverse
+	     Oh uncreation
+	  The death of universe

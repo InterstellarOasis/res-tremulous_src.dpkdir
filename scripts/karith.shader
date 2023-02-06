@@ -551,13 +551,9 @@ textures/karith/e8tinylight_nonsolid
 	}
 }
 
-// ****************************************************//
-//                                                     //
-//   snowy.shader for GTKRadiant                       //
-//   by Amethyst7 - 01.14.2002                         //
-//                                                     //
-// ****************************************************//
-// editted by Godmil
+// snowy.shader for GTKRadiant
+// by Amethyst7 - 01.14.2002
+// edited by Godmil
 textures/karith/snowy
 {
 	qer_editorimage env/karith/snowy_bk
@@ -568,7 +564,7 @@ textures/karith/snowy
 	skyParms env/karith/snowy - -
 }
 
-// by Evillair wee edit by Godmil
+// by Evillair, edited by Godmil
 textures/karith/e6whitestrip_nolight_nonsolid
 {
 	qer_editorimage textures/nexus6/e6basicstrip_white
@@ -582,7 +578,7 @@ textures/karith/e6whitestrip_nolight_nonsolid
 	}
 }
 
-// by Evillair (edit by Godmil)
+// by Evillair, edited by Godmil
 textures/karith/e6redstrip_nonsolid
 {
 	qer_editorimage textures/karith/e6basicstrip_red
@@ -595,7 +591,7 @@ textures/karith/e6redstrip_nonsolid
 	}
 }
 
-// By Evillair, edit by godmil
+// By Evillair, edited by Godmil
 textures/karith/e6bsegrtflr256_nonsolid
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
@@ -617,10 +613,10 @@ textures/karith/e6bsegrtflr256_nonsolid
 	}
 }
 
-// variation on shader by ydnar - edited by godmil
+// variation on shader by ydnar, edited by Godmil
 textures/karith/terrain_rock
 {
-// 	q3map_lightImage textures/karith/snow_1
+//	q3map_lightImage textures/karith/snow_1
 
 	qer_editorimage textures/karith/rock_1
 
@@ -633,7 +629,7 @@ textures/karith/terrain_rock
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
 
-// 	q3map_alphaMod dotproduct2 ( 0.1 -0.2 0.99 )
+//	q3map_alphaMod dotproduct2 ( 0.1 -0.2 0.99 )
 
 	q3map_lightmapSampleSize 64
 
@@ -658,7 +654,7 @@ textures/karith/terrain_rock
 	}
 }
 
-// variation on shader by ydnar - edited by godmil
+// variation on shader by ydnar, edited by Godmil
 textures/karith/terrain_snow
 {
 
@@ -667,14 +663,10 @@ textures/karith/terrain_snow
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-
 	q3map_lightmapAxis z
-
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
-
 	q3map_lightmapSampleSize 64
-
 	q3map_globalTexture
 
 	{
@@ -694,15 +686,15 @@ textures/karith/terrain_snow
 textures/karith/eshinytin2
 {
 qer_editorimage textures/karith/eshinytin
-		{
-				map textures/niveus/trem2ref
-				tcGen environment
+	{
+		map textures/niveus/trem2ref
+		tcGen environment
 		rgbGen identity
-				tcmod scale 0.55 1
+		tcmod scale 0.55 1
 	}
-		{
+	{
 		map $lightmap
-		 		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 	{
@@ -710,9 +702,9 @@ qer_editorimage textures/karith/eshinytin
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
 		rgbGen identity
 	}
-		{
+	{
 		map $lightmap
-		 		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+		blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }

@@ -9,34 +9,34 @@ tremor/tremorspark
 
 			displacement 0 0 0 0
 
-			velocityType		static
-			velocityDir			linear
-			velocityMagnitude	50
-			velocity			0 0 -1 ~50
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity 0 0 -1 ~50
 
-//			velocityType		static
-//			velocityDir			linear
-//			velocityMagnitude	100 ~50%
-//			velocity			1 0 0 ~60
+			// velocityType static
+			// velocityDir linear
+			// velocityMagnitude 100 ~50%
+			// velocity 1 0 0 ~60
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~5
-			accelerationMagnitude	250
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 250
 
-//			accelerationType		static
-//			accelerationDir			linear
-//			acceleration			0 0 -1 ~5
-//			accelerationMagnitude	500
+			// accelerationType static
+			// accelerationDir linear
+			// acceleration 0 0 -1 ~5
+			// accelerationMagnitude 500
 
-			radius		0 3 1
-			alpha		1200 .9 0
-			rotation	0 ~180 ~45
-			bounce		0.0
+			radius 0 3 1
+			alpha 1200 .9 0
+			rotation 0 ~180 ~45
+			bounce 0.0
 
-//			radius 0 3.0 1.0
-//			alpha  100 0.3 0.0
-//			bounce 0.5
+			// radius 0 3.0 1.0
+			// alpha 100 0.3 0.0
+			// bounce 0.5
 
 			lifeTime 1200
 		}

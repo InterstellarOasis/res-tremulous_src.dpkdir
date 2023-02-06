@@ -8,23 +8,24 @@ uncreation/rnd_dust
 			displacement 0 0 0 ~200.0
 			cullOnStartSolid
 
-			velocityType		static
-			velocityDir			linear
-			velocityMagnitude	5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude 	10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
-			radius		5000 5 2
-			alpha		8000 1 .5
-			rotation	0 0 ~360
-			bounce		cull
+			radius 5000 5 2
+			alpha 8000 1 .5
+			rotation 0 0 ~360
+			bounce cull
 
 			lifeTime 20000
 		}
+
 		count infinite
 		delay 0
 		period 100 - ~0%
@@ -41,23 +42,24 @@ uncreation/misc_dust_parts
 			displacement 0 0 0 ~300.0
 			cullOnStartSolid
 
-			velocityType		static
-			velocityDir			linear
-			velocityMagnitude	30
-			velocity			0 0 -1 ~180
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 30
+			velocity 0 0 -1 ~180
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			1 1 1 ~360
-			accelerationMagnitude 	10~100%
+			accelerationType static
+			accelerationDir linear
+			acceleration 1 1 1 ~360
+			accelerationMagnitude 10~100%
 
-			radius		0 4~100% 3~50%
-			alpha		0 .3 .3
-			rotation	0 0 ~360
-			bounce		cull
+			radius 0 4~100% 3~50%
+			alpha 0 .3 .3
+			rotation 0 0 ~360
+			bounce cull
 
 			lifeTime 1000
 		}
+
 		count infinite
 		delay 0
 		period 300 - ~0%
@@ -74,24 +76,25 @@ uncreation/dustbin_human
 			displacement 0 0 0 ~300.0
 			cullOnStartSolid
 
-			velocityType		static
-			velocityDir			linear
-			velocityMagnitude	0
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			point
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude 	120
-			accelerationPoint		-1760 640 -672 ~0
+			accelerationType static
+			accelerationDir point
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 120
+			accelerationPoint -1760 640 -672 ~0
 
-			radius		5000 5 2
-			alpha		8000 1 .5
-			rotation	0 0 ~360
-			bounce		cull
+			radius 5000 5 2
+			alpha 8000 1 .5
+			rotation 0 0 ~360
+			bounce cull
 
 			lifeTime 10000
 		}
+
 		count infinite
 		delay 0
 		period 500 - ~0%
@@ -106,18 +109,18 @@ uncreation/dustbin_broken
 		{
 			shader sync textures/uncreation/dusty
 
-			velocityType		static
-			velocityDir		 linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 50~100%
-			velocity			1 1 1 ~360
+			velocity 1 1 1 ~360
 
-			accelerationType		static
-			accelerationDir		 linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration			0 0 1 ~0
+			acceleration 0 0 1 ~0
 
 			radius 0 5.0~150% 1.0~50%
-			alpha	400 1.0 0.0
+			alpha 400 1.0 0.0
 			rotation 0 0 0
 			bounce 0.6
 			cullOnStartSolid

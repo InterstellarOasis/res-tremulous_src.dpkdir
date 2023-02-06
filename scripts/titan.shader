@@ -26,7 +26,7 @@ textures/titan/asteroid
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm sky
-	// q3map_sun   .5 .37 .19 90 170 33
+	// q3map_sun .5 .37 .19 90 170 33
 	q3map_surfacelight 15
 
 	skyparms env/titan/asteroid - -

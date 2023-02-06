@@ -9,7 +9,7 @@ models/tremulous/buildables/booster/booster_head
 		blendfunc filter
 		rgbGen identity
 		tcMod rotate 5
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -22,7 +22,7 @@ models/tremulous/buildables/booster/booster_sac
 	{
 		map models/tremulous/buildables/booster/poison
 		blendfunc add
-		rgbGen wave sin 0 1 0 0.1 
+		rgbGen wave sin 0 1 0 0.1
 		tcMod scroll -0.05 -0.05
 	}
 }
@@ -52,7 +52,7 @@ models/tremulous/buildables/dcc/comp_pipes
 	{
 		map models/tremulous/buildables/dcc/comp_pipes
 		rgbGen lightingDiffuse
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -169,7 +169,7 @@ models/tremulous/buildables/medistat/medi_cone
 		map models/tremulous/buildables/telenode/sparkles
 		blendfunc add
 		rgbGen identity
-		rgbGen wave noise 0 1 35 1 
+		rgbGen wave noise 0 1 35 1
 		tcMod scale 2 2
 		tcMod scroll 1 0.5
 	}
@@ -181,7 +181,7 @@ models/tremulous/buildables/mgturret/t_flash
 	{
 		map models/tremulous/buildables/mgturret/t_flash
 		blendfunc add
-		rgbGen wave square 0 1 0 10 
+		rgbGen wave square 0 1 0 10
 	}
 }
 
@@ -205,7 +205,7 @@ models/tremulous/buildables/mgturret/turret_shiny
 		map models/tremulous/buildables/mgturret/ref_map
 		blendfunc filter
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -229,7 +229,7 @@ models/tremulous/buildables/overmind/over_spike
 		map models/tremulous/buildables/overmind/ref2
 		blendfunc filter
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -242,7 +242,7 @@ models/tremulous/buildables/reactor/reactor_main
 	{
 		map models/tremulous/buildables/reactor/reactor_glow
 		blendfunc add
-		rgbGen wave sin 0 1 0 0.5 
+		rgbGen wave sin 0 1 0 0.5
 	}
 }
 
@@ -277,7 +277,7 @@ models/tremulous/buildables/repeater/energy
 {
 	{
 		map models/tremulous/buildables/repeater/energy
-		rgbGen wave sawtooth 0.3 1 0 0.5 
+		rgbGen wave sawtooth 0.3 1 0 0.5
 		tcMod scale 2 1
 		tcMod scroll 0 1
 	}
@@ -317,7 +317,7 @@ models/tremulous/buildables/telenode/telenode_top
 		map models/tremulous/buildables/overmind/ref2
 		blendfunc filter
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -325,7 +325,7 @@ models/tremulous/buildables/telenode/energy
 {
 	{
 		map models/tremulous/buildables/telenode/energy
-		rgbGen wave inversesawtooth 0.2 0.4 0 1 
+		rgbGen wave inversesawtooth 0.2 0.4 0 1
 		tcMod rotate 10
 	}
 }
@@ -357,7 +357,7 @@ models/tremulous/buildables/telenode/telenode_parts
 		map models/tremulous/buildables/overmind/ref2
 		blendfunc filter
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -371,7 +371,7 @@ models/tremulous/buildables/tesla/tesla_main
 		map models/tremulous/buildables/overmind/ref2
 		blendfunc filter
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -380,7 +380,7 @@ models/tremulous/buildables/tesla/tesla_ball
 	{
 		map models/tremulous/buildables/tesla/tesla_ball
 		rgbGen lightingDiffuse
-		tcGen environment 
+		tcGen environment
 	}
 }
 
@@ -388,7 +388,7 @@ models/tremulous/buildables/tesla/tesla_grill
 {
 	{
 		map models/tremulous/buildables/tesla/tesla_grill
-		rgbGen wave sin 0 1 0 0.4 
+		rgbGen wave sin 0 1 0 0.4
 	}
 }
 
@@ -414,7 +414,7 @@ models/ammo/tesla/tesla_bolt
 	{
 		map models/ammo/tesla/tesla_bolt
 		blendfunc add
-		rgbGen wave sin 0 1 0 5 
+		rgbGen wave sin 0 1 0 5
 		tcMod scroll 0.5 0
 		tcMod scale -1 1
 	}

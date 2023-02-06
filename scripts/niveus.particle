@@ -8,100 +8,104 @@ niveus/sparkerDown
 
 			displacement 0 0 0 ~3
 
-			velocityType 		static
-			velocityDir 		linear
-			velocity 			0 0 -1 ~150
-			velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-			bounce		0
-			radius		0 1 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
 			lifeTime 300
 
 			overdrawProtection
 		}
+
 		particle
 		{
 			shader sync textures/niveus/spark_02_s
 
 			displacement 0 0 0 ~5
 
-			velocityType 		static
-			velocityDir 		linear
-			velocity 			0 0 -1 ~150
-			velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration	 		0 0 -1 ~25
-			accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-			bounce		0
-			radius		0 1 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
 			lifeTime 600
 
 			overdrawProtection
 		}
-		particle
-		{
-		shader sync textures/niveus/spark_02_s
 
-		displacement 0 0 0 ~5
-
-			velocityType 		static
-			velocityDir 		linear
-			velocity 			0 0 -1 ~150
-			velocityMagnitude 	100
-
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude 	300
-
-			bounce		0
-			radius		0 1 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
-
-			lifeTime 400
-
-			overdrawProtection
-		}
 		particle
 		{
 			shader sync textures/niveus/spark_02_s
 
 			displacement 0 0 0 ~5
 
-			velocityType 		static
-			velocityDir 		linear
-			velocity 			0 0 -1 ~150
-			velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-			bounce		0
-			radius		0 1 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
+
+			lifeTime 400
+
+			overdrawProtection
+		}
+
+		particle
+		{
+			shader sync textures/niveus/spark_02_s
+
+			displacement 0 0 0 ~5
+
+			velocityType static
+			velocityDir linear
+			velocity 0 0 -1 ~150
+			velocityMagnitude 100
+
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
+
+			bounce 0
+			radius 0 1 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
 			lifeTime 500
 
 			overdrawProtection
 		}
+
 		count infinite
 		delay 0
 		period 1500 - ~100%
@@ -117,25 +121,26 @@ niveus/bigSteamerDown
 			shader sync textures/niveus/mist_s
 			displacement 0 0 0 0
 
-			velocityType	static
+			velocityType static
 
-			velocityDir		linear
+			velocityDir linear
 
-			velocityMagnitude	50
-			velocity			0 0 -1 ~15
+			velocityMagnitude 50
+			velocity 0 0 -1 ~15
 
-			accelerationType	static
-			accelerationDir		linear
-			acceleration		0 0 -1 ~5
-			accelerationMagnitude	25
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 25
 
-			radius		0 5 40
-			alpha		250 .5 0
-			rotation	0 ~360 ~360
-			bounce		0.0
+			radius 0 5 40
+			alpha 250 .5 0
+			rotation 0 ~360 ~360
+			bounce 0.0
 
 			lifeTime 2000
 		}
+
 		count infinite
 		delay 0
 		period 45 - ~0%
@@ -151,25 +156,26 @@ niveus/smallSteamerDown
 			shader sync textures/niveus/mist_red_s
 			displacement 0 0 0 0
 
-			velocityType	static
+			velocityType static
 
-			velocityDir		linear
+			velocityDir linear
 
-			velocityMagnitude	45
-			velocity			0 0 -1 ~15
+			velocityMagnitude 45
+			velocity 0 0 -1 ~15
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~5
-			accelerationMagnitude	25
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 25
 
-			radius		0 5 40
-			alpha		250 .5 0
-			rotation	0 ~360 ~360
-			bounce		0.0
+			radius 0 5 40
+			alpha 250 .5 0
+			rotation 0 ~360 ~360
+			bounce 0.0
 
 			lifeTime 1500
 		}
+
 		count infinite
 		delay 0
 		period 45 - ~0%
@@ -183,27 +189,28 @@ niveus/snowfall
 		particle
 		{
 			shader sync textures/niveus/flake_01_s
-			displacement 		0 0 0 ~200
+			displacement 0 0 0 ~200
 
-			velocityType		static
+			velocityType static
 
-			velocityDir			linear
+			velocityDir linear
 
-			velocityMagnitude	25
-			velocity			0 0 -1 ~25
+			velocityMagnitude 25
+			velocity 0 0 -1 ~25
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 0 ~25
-			accelerationMagnitude 	50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 ~25
+			accelerationMagnitude 50
 
-			radius		0 2 2
-			alpha		8000 .5 0
-			rotation	0 0 ~360
-			bounce		cull
+			radius 0 2 2
+			alpha 8000 .5 0
+			rotation 0 0 ~360
+			bounce cull
 
 			lifeTime 9000
 		}
+
 		count infinite
 		delay 0
 		period 55 - ~0%
@@ -220,100 +227,104 @@ niveus/sparkerNorthEast
 
 			displacement 0 0 0 ~3
 
-			velocityType 		static
-			velocityDir 		linear
-			velocity 		1 1 .25 ~50
-			velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 1 1 .25 ~50
+			velocityMagnitude 100
 
-			accelerationType	static
-			accelerationDir		linear
-			acceleration 		0 0 -1 ~25
-			accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-			bounce		0
-			radius		0 2 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
+			bounce 0
+			radius 0 2 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
 			lifeTime 300
 
 			overdrawProtection
 		}
+
 		particle
 		{
 			shader sync textures/niveus/spark_01_s
 
 			displacement 0 0 0 ~5
 
-			velocityType 		static
-			velocityDir 		linear
-			velocity 		1 1 .25 ~50
-			velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 1 1 .25 ~50
+			velocityMagnitude 100
 
-			accelerationType	static
-			accelerationDir		linear
-			acceleration 		0 0 -1 ~25
-			accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-			bounce		0
-			radius		0 2 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
+			bounce 0
+			radius 0 2 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
 			lifeTime 600
 
 			overdrawProtection
 		}
+
 		particle
 		{
 			shader sync textures/niveus/spark_01_s
 
 			displacement 0 0 0 ~5
 
-			velocityType 		static
-			velocityDir 		linear
-			velocity 		1 1 .25 ~50
-			velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 1 1 .25 ~50
+			velocityMagnitude 100
 
-			accelerationType	static
-			accelerationDir		linear
-			acceleration 		0 0 -1 ~25
-			accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-			bounce		0
-			radius		0 2 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
+			bounce 0
+			radius 0 2 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
 			lifeTime 400
 
 			overdrawProtection
 		}
+
 		particle
 		{
 			shader sync textures/niveus/spark_01_s
 
 			displacement 0 0 0 ~5
 
-			velocityType 		static
-			velocityDir 		linear
-			velocity 		1 1 .25 ~50
-			velocityMagnitude 	100
+			velocityType static
+			velocityDir linear
+			velocity 1 1 .25 ~50
+			velocityMagnitude 100
 
-			accelerationType	static
-			accelerationDir		linear
-			acceleration 		0 0 -1 ~25
-			accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-			bounce		0
-			radius		0 2 1
-			alpha		0 .5 .0
-			rotation	0 0 ~360
+			bounce 0
+			radius 0 2 1
+			alpha 0 .5 .0
+			rotation 0 0 ~360
 
 			lifeTime 500
 
 			overdrawProtection
 		}
+
 		count infinite
 		delay 0
 		period 500 - ~100%
