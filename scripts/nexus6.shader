@@ -1182,6 +1182,7 @@ textures/nexus6/flat_dk_nonsolid_s
 textures/nexus6/glass_02_s
 {
 	qer_editorimage textures/niveus/scratchglass
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	{
@@ -1200,6 +1201,7 @@ textures/nexus6/glass_02_s
 textures/nexus6/glass_03_s
 {
 	qer_editorimage textures/nexus6/dirtyglass
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	cull none
@@ -1226,6 +1228,7 @@ textures/nexus6/glass_03_s
 textures/nexus6/glass_04_s
 {
 	qer_editorimage textures/niveus/scratchglass
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	cull none

@@ -1,6 +1,7 @@
 textures/arachnid2/glass_02_s
 {
 	qer_editorimage textures/niveus/scratchglass
+	qer_trans .5
 	//surfaceparm nomarks
 	surfaceparm trans
 	cull none

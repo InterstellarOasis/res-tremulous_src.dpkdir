@@ -261,6 +261,7 @@ textures/niveus/e8xgirder_s
 
 textures/niveus/e8bgrate01
 {
+	qer_trans .5
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	cull disable
@@ -282,6 +283,7 @@ textures/niveus/e8bgrate01
 textures/niveus/e8bgrate01_s
 {
 	qer_editorimage textures/niveus/e8bgrate01
+	qer_trans .5
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm nomarks
