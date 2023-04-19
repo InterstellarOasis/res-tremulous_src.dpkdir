@@ -1,49 +1,23 @@
-Tremulous Resources
--------------------
+# Tremulous Resources
 
 This is a ressource package for map ported from the [Tremulous](https://tremulous.net) game by Darklegion Development to the [Unvanquished](https://unvanquished.net) game.
 
-Ported from Tremulous gpp packages from [ingar.intranifty.net/files/tremulous/base/](http://ingar.intranifty.net/files/tremulous/base/) and Tremulous 1.1.0 files from [tremulous.net](https://tremulous.net).
+It is ported from Tremulous GPP packages from [ingar.intranifty.net/files/tremulous/base](http://ingar.intranifty.net/files/tremulous/base/) and Tremulous 1.1.0 files from [tremulous.net](https://tremulous.net).
 
 This port is an Interstellar Oasis initiative: [github.com/InterstellarOasis/InterstellarOasis](https://github.com/InterstellarOasis/InterstellarOasis).
 
 
-Illustration
-------------
+## Illustration
 
 ![Illustration](meta/tremulous/tremulous_web.jpg)
 
 
-How-to
-------
+## How-to
 
-* Get the source
-
-```
-git clone https://github.com/InterstellarOasis/res-tremulous_src.dpkdir.git
-cd res-tremulous_src.dpkdir/
-```
-
-* Build
-
-You need the [Urcheon](https://github.com/DaemonEngine/Urcheon) tool.  
-You will find the dpkdir in `build/test`.
-
-```
-urcheon build
-```
-
-* Package
-
-You will find the dpk in `build/pkg`.
-
-```
-urcheon package
-```
+This package is meant to be built using [Urcheon](https://github.com/DaemonEngine/Urcheon).
 
 
-Maps
-----
+## Maps
 
 The maps are not stored in this repository, but this repository provides assets for them:
 
@@ -57,26 +31,25 @@ The maps are not stored in this repository, but this repository provides assets 
 * _[Uncreation](https://github.com/InterstellarOasis/map-uncreation_src.dpkdir)_ by Who-[Soup]
 
 
-Credits
--------
+## Credits
 
-This is the credit list for this ressource package, not for the Tremulous game itself, this is why Tremulous developers are referenced in the thanks.
+This is the credit list for this ressource package, not for the Tremulous game itself, this is why Tremulous developers are named in the thanks.
 
 Unvanquished port:
 
-* Thomas “illwieckz” Debesse <dev@illwieckz.net> (http://gg.illwieckz.net)
+* Thomas “illwieckz” Debesse <hidden email="dev [ad] illwieckz.net"/> ([gg.illwieckz.net](https://gg.illwieckz.net))
 
 Textures & Shaders:
 
-* Nicolas “Jex“ Jansens <jex@orodu.net>
-* Gordon “Godmil” Miller <godmil@gmail.com> (http://godmil.com/)
-* Randy “ydnar” Redding <ydnar@shaderlab.com> (http://www.shaderlab.com)
-* Jan “Stannum” Van der Weg (http://janvanderweg.com/)
-* Matthew “Lunaran” Breit (http://lunaran.com/)
-* Paul “MoP” Greveson (http://www.predictable-paul.com/)
-* Robin “OverFlow” Marshall (http://bobbin.vilkacis.net)
-* Simon “sock” O'Callaghan (http://www.simonoc.com/)
-* Yves “evil lair” Allaire (http://evillair.net)
+* Nicolas “Jex“ Jansens <hidden email="jex [ad] orodu.net"/>
+* Gordon “Godmil” Miller <hidden email="godmil [ad] mail.com"/> ([godmil.com](https://web.archive.org/web/20181110004551/http://www.godmil.com/))
+* Randy “ydnar” Redding <hidden email="ydnar [ad] shaderlab.com"/> ([shaderlab.com](https://www.shaderlab.com))
+* Jan “Stannum” Van der Weg ([janvanderweg.com](http://janvanderweg.com))
+* Matthew “Lunaran” Breit <hidden email="itslunaranyo [ad] gmail.com"/> ([lunaran.com](http://lunaran.com))
+* Paul “MoP” Greveson ([predictable-paul.com](https://www.predictable-paul.com))
+* Robin “OverFlow” Marshall ([bobbin.vilkacis.net](http://bobbin.vilkacis.net))
+* Simon “sock” O'Callaghan <hidden email="mememe [ad] simonoc.com"/> ([simonoc.com](https://web.archive.org/web/20201022181323/http://www.simonoc.com/pages/design.htm))
+* Yves “evil lair” Allaire ([evillair.net](https://evillair.net))
 * Chris “Amethyst” Matz
 * Louie “KnightBK“ Doulias
 * Mike “Vedacon” McInnerney
@@ -84,7 +57,7 @@ Textures & Shaders:
 
 Sound effects:
 
-* Tim “Timbo” Angus <tim@ngus.net>
+* Tim “Timbo” Angus <hidden email="tim [ad] ngus.net"/> ([timang.us](https://timang.us/))
 * Chris “Dolby” McCarthy
 
 Models:
@@ -94,16 +67,17 @@ Models:
 
 Special thanks:
 
-* Stijn “Ingar“ Buys <ingar@osirion.org> (http://ingar.intranifty.net)
-* Chris “Lakitu7” Schwarz <lakitu7@gmail.com>
-* Ben “benmachine” Millwood (http://benmachine.co.uk)
-* Ben “DASPRiD” Scholzen (http://www.dasprids.de)
+* Stijn “Ingar“ Buys <hidden email="ingar [ad] osirion.org"/> ([ingar.intranifty.net](http://ingar.intranifty.net))
+* Chris “Lakitu7” Schwarz <hidden email="lakitu7 [ad] gmail.com"/>
+* Ben “benmachine” Millwood ([benmachine.co.uk](https://web.archive.org/web/20211126235114/http://benmachine.co.uk/))
+* Ben “DASPRiD” Scholzen ([dasprids.de](https://web.archive.org/web/20230321214542/https://dasprids.de/))
 * Asa “Norfenstein” Kravets
 * Dan “kharnov” Floda
-* John “Rezyn” Ellis
+* John “Rezyn” Ellis
 * M. “Undeference” Kristall
 * Tony “tjw“ White
 * Tristan “Jhrx“ Blease
+* Team Reaction
 * cu-kai
 * Khalsa
 * Catalyc
@@ -117,13 +91,13 @@ Special thanks:
 * StalKermit
 * Roughrider
 * The MaF clan
+* ravyn
 
 
-Legal
------
+## Legal
 
-Changes by Thomas Debesse fall under the Internet Systems Consortium License:  
-http://directory.fsf.org/wiki/License:ISC
+Changes by Thomas Debesse fall under the Creative Commons Attribution 4.0 International License:  
+http://creativecommons.org/licenses/by/4.0/
 
 Assets by Tremulous contributors fall under the Creative Commons Attribution-ShareAlike 2.5 Generic License:  
 http://creativecommons.org/licenses/by-sa/2.5/
@@ -141,11 +115,10 @@ Textures from Matthew Breit are subject to the terms of this notice:
 You may: Use the included custom textures & shaders, or modifications thereof, provided you give note of such in an attached readme (and please let me know). Distribute this pak file and/or its contents by any electronic means, provided you leave the contents unaltered and include this text file, also unaltered. You may not: Commercially exploit this file or its contents in any way. Distribute this pak file and/or its contents on any hard media whatsoever, including but not limited to magazine coverdisks or level compilations, without prior consent of and negotiation with the author.
 
 
-History
--------
+## History
 
-* 2015-08-16:	Tremulous Resources 1.2 (Unvanquished community resource pack)
-* 2009-12-04:	Tremulous 1.2 Beta (Gameplay preview)
-* 2006-03-31:	Tremulous 1.1.0 (Standalone)
-* 2005-10-09:	Tremulous 1.0.2 (Quake Ⅲ Arena modification)
-* 2005-09-08:	Tremulous 1.0.1 (Quake Ⅲ Arena modification)
+* 2015-08-16: Tremulous Resources 1.2 (Unvanquished community resource pack)
+* 2009-12-04: Tremulous 1.2 Beta (Gameplay preview)
+* 2006-03-31: Tremulous 1.1.0 (Standalone)
+* 2005-10-09: Tremulous 1.0.2 (Quake Ⅲ Arena modification)
+* 2005-09-08: Tremulous 1.0.1 (Quake Ⅲ Arena modification)
