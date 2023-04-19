@@ -430,14 +430,6 @@ textures/niveus/cubelight_32_white
 	}
 }
 
-textures/atcs/eq2_grate_01
-{
-	qer_editorimage textures/atcs/eq2_grate_01
-	{
-		diffuseMap textures/atcs/eq2_grate_01
-	}
-}
-
 textures/transit/majestic_base_flat_light
 {
 	qer_editorimage textures/karith/base_flat_light
@@ -646,7 +638,7 @@ textures/niveus/trembru
 	}
 }
 
-textures/nexus5/barrel_rst_top
+textures/nexus6/barrel_rst_top
 {
 	qer_editorimage textures/niveus/barrel_rst_top
 	{
@@ -1126,7 +1118,7 @@ textures/arachnid2/cubelight_32_blue.blend
 	}
 }
 
-textures/atcs/cubelight_32_blue.blend
+textures/niveus/cubelight_32_blue.blend
 {
 	qer_editorimage textures/atcs/cubelight_32_blue.blend
 	{
@@ -1150,7 +1142,7 @@ textures/arachnid2/cubelight_32_blue
 	}
 }
 
-textures/atcs/cubelight_32_blue
+textures/niveus/cubelight_32_blue
 {
 	qer_editorimage textures/atcs/cubelight_32_blue
 	{
