@@ -117,8 +117,11 @@ You may: Use the included custom textures & shaders, or modifications thereof, p
 
 ## History
 
-* 2015-08-16: Tremulous Resources 1.2 (Unvanquished community resource pack)
-* 2009-12-04: Tremulous 1.2 Beta (Gameplay preview)
-* 2006-03-31: Tremulous 1.1.0 (Standalone)
-* 2005-10-09: Tremulous 1.0.2 (Quake Ⅲ Arena modification)
-* 2005-09-08: Tremulous 1.0.1 (Quake Ⅲ Arena modification)
+* `2023-04-21`: _Tremulous resources_ `1.2.2` (Unvanquished community resource dpk)
+* `2018-07-29`: _Tremulous resources_ `1.2.1` (Unvanquished community resource dpk)
+* `2015-08-16`: _Tremulous resources_ `1.2` (Unvanquished community resource pk3)
+* `2009-12-04`: _Tremulous_ `1.2 beta` (Tremulous gameplay preview)
+* `2006-03-31`: _Tremulous_ `1.1.0` (Tremulous standalone game)
+* `2005-10-09`: _Tremulous_ `1.0.2` (Quake Ⅲ Arena Tremulous mod)
+* `2005-09-08`: _Tremulous_ `1.0.1` (Quake Ⅲ Arena Tremulous mod)
+* `2005-08-11`: _Tremulous_ `1.0.0` (Quake Ⅲ Arena Tremulous mod)
