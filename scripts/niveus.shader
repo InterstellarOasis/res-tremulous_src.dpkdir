@@ -457,6 +457,7 @@ textures/niveus/glass_01_s
 textures/niveus/glass_02_s
 {
 	qer_editorimage textures/niveus/scratchglass
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	{
