@@ -9,7 +9,7 @@ This port is an Interstellar Oasis initiative: [github.com/InterstellarOasis/Int
 
 ## Illustration
 
-![Illustration](meta/tremulous/tremulous_web.jpg)
+![Illustration](meta/tremulous/tremulous.webp)
 
 
 ## How-to
