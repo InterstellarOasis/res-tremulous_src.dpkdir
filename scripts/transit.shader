@@ -2716,6 +2716,45 @@ textures/transit/evil8_floor_e8clangfloor05c
 	}
 }
 
+textures/transit/jher_flood_d_blood1
+{
+	qer_editorimage textures/shared_ambient_src/blood/jher_flood_blood1_d
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/shared_ambient_src/blood/jher_flood_blood1_d
+		blendfunc filter
+	}
+}
+
+textures/transit/jher_flood_d_blood3
+{
+	qer_editorimage textures/shared_ambient_src/blood/jher_flood_blood3_d
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/shared_ambient_src/blood/jher_flood_blood3_d
+		blendfunc filter
+	}
+}
+
+textures/transit/jher_flood_d_bwriting1
+{
+	qer_editorimage textures/shared_ambient_src/blood/jher_flood_blood_writing1_d
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/shared_ambient_src/blood/jher_flood_blood_writing1_d
+		blendfunc filter
+	}
+}
+
 textures/transit/shaderlab_terrain_dirt_rock_grass
 {
 	q3map_lightImage textures/transit/shaderlab_terrain_snow_1
@@ -2993,6 +3032,61 @@ textures/transit/stannum_movie
 	polygonoffset
 	{
 		map textures/transit/stannum_movie
+	}
+}
+
+textures/transit/stannum_blood1
+{
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood1_d
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	polygonoffset
+	{
+		map textures/shared_ambient_src/blood/stannum_blood1_d
+		blendfunc filter
+	}
+}
+
+textures/transit/stannum_blood2
+{
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood2_d
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	polygonoffset
+	{
+		map textures/shared_ambient_src/blood/stannum_blood2_d
+		blendfunc filter
+	}
+}
+
+textures/transit/stannum_blood3
+{
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood3_d
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	polygonoffset
+	{
+		map textures/shared_ambient_src/blood/stannum_blood3_d
+		blendfunc filter
+	}
+}
+
+textures/transit/stannum_blood4
+{
+	qer_editorimage textures/shared_ambient_src/blood/stannum_blood4_d
+	surfaceparm noimpact
+	surfaceparm nonsolid
+
+	tessSize 32
+	cull disable
+	deformVertexes wave 100 sin 0 1 .5 .5
+
+	polygonoffset
+	{
+		map textures/shared_ambient_src/blood/stannum_blood4_d
+		blendfunc filter
+		tcMod turb .3 .2 1 .05
+		tcMod scroll .01 .01
 	}
 }
 
