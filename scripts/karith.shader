@@ -985,16 +985,12 @@ textures/karith/trembru_st2
 	surfaceparm nomarks
 	q3map_surfacelight 1500
 	{
-		map textures/shared_ambient_src/soda-machines/trembru_d
-	}
-	{
-		map $lightmap
-		blendfunc filter
-		tcGen lightmap
-	}
-	{
-		map textures/shared_ambient_src/soda-machines/trembru_d
-		blendfunc add
+		diffuseMap textures/shared_ambient_src/soda-machines/trembru_off_d
+		heightMap textures/shared_ambient_src/soda-machines/trembru_h
+		normalMap textures/shared_ambient_src/soda-machines/trembru_n
+		normalFormat X Y Z
+		specularMap textures/shared_ambient_src/soda-machines/trembru_s
+		glowMap textures/shared_ambient_src/soda-machines/trembru_a
 	}
 }
 
