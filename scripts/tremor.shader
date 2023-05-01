@@ -242,6 +242,28 @@ textures/tremor/e6bsegrtflr256_nonsolid
 	}
 }
 
+textures/tremor/e6bsegrtflr256
+{
+	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm metalsteps
+	cull none
+
+	{
+		map textures/tremor/e6bsegrtflr256
+		depthwrite
+		alphafunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		tcGen lightmap
+		depthfunc equal
+	}
+}
+
 // Created by Louie "KnightBK" Doulias for Black Knights Productions, Prisoners of War Q3 Mod.
 // Please check out our mod site at http://www.og-world.com/bkp/
 textures/tremor/plainglass3
