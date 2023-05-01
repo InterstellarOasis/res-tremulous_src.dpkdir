@@ -1065,6 +1065,7 @@ textures/nexus6/slime_s
 textures/nexus6/e6bsegrtflr256_s
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nomarks

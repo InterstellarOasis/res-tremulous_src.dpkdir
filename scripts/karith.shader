@@ -595,6 +595,7 @@ textures/karith/e6redstrip_nonsolid
 textures/karith/e6bsegrtflr256_nonsolid
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -807,6 +808,7 @@ textures/karith/e8clangfloor05c2
 textures/karith/e6bsegrtflr256_s2
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps

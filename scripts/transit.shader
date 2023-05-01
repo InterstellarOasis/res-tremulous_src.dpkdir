@@ -1199,6 +1199,7 @@ textures/transit/evil6_floors_e6bsegrtflr128_s
 textures/transit/evil6_floors_e6bsegrtflr256_s
 {
 	qer_editorimage textures/transit/evil6_floors_e6bsegrtflr256
+	qer_trans .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps

@@ -1435,6 +1435,7 @@ textures/transit/stannum_object_boxq3_4
 textures/arachnid2/e6bsegrtflr256
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
 	{
 		diffuseMap textures/tremor/e6bsegrtflr256
 	}
@@ -1443,6 +1444,7 @@ textures/arachnid2/e6bsegrtflr256
 textures/karith/e6bsegrtflr256
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
 	{
 		diffuseMap textures/tremor/e6bsegrtflr256
 	}
@@ -1451,6 +1453,7 @@ textures/karith/e6bsegrtflr256
 textures/nexus6/e6bsegrtflr256
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
 	{
 		diffuseMap textures/tremor/e6bsegrtflr256
 	}

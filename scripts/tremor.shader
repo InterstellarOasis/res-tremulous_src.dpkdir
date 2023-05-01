@@ -222,6 +222,7 @@ textures/tremor/darkglass3
 textures/tremor/e6bsegrtflr256_nonsolid
 {
 	qer_editorimage textures/tremor/e6bsegrtflr256
+	qer_trans .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
