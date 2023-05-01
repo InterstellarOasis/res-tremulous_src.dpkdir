@@ -117,6 +117,7 @@ You may: Use the included custom textures & shaders, or modifications thereof, p
 
 ## History
 
+* `2023-05-01`: _Tremulous resources_ `1.2.3` (Unvanquished community resource dpk)
 * `2023-04-21`: _Tremulous resources_ `1.2.2` (Unvanquished community resource dpk)
 * `2018-07-29`: _Tremulous resources_ `1.2.1` (Unvanquished community resource dpk)
 * `2015-08-16`: _Tremulous resources_ `1.2` (Unvanquished community resource pk3)
